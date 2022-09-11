@@ -24,7 +24,7 @@ export const InicioWeb = () => {
         </div> 
         <div className="noOficialWrapp">
             <img className="logoSpider" src={ logoSpider }/>
-            <p className="no-oficial">Página web NO oficial de Spider-Man hecha con cariño hacia el personaje.</p>
+            <p className="no-oficial">Página web NO oficial de Spider-Man hecha con cariño hacia el personaje. Fuentes: Wikipedia.</p>
         </div>
     </div>
   )
