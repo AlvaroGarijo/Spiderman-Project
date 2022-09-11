@@ -1,26 +1,30 @@
 import React from 'react'
 import './styleNavegacion/InicioWeb.css'
+import logoSpider from '../../imagenes/imagenes de Logo/Spider-Logo.png'
 
 export const InicioWeb = () => {
   return (
     <div className="indexWeb">
-        <h1 className="titleIndex">Spiderman Project</h1>
         <div className="wrappIndex">
           <div className="squareIndex1">
-            <p className="paragraphIndex">Esta página está hecha para los fans de spiderman, con cariño hacia el personaje.</p>
+            <p className="paragraphIndex">Esta página está hecha para los fans de <a className='strongLink' href='#'>Spider-Man</a>, con cariño hacia el personaje.</p>
           </div>
           <div className="squareIndex2">
-            <ul>
-              <h3 className="titleIndexSquare2">¿Qué encontrarás?</h3>
-              <li><a href="#">El Personaje</a></li>
-              <li><a href="#">Cómics</a></li>
-              <li><a href="#">Actores</a></li>
-              <li><a href="#">Villanos</a></li>
-              <li><a href="#">Spider-Multiverse</a></li>
-              <li><a href="#">Spiderman en MARVEL</a></li>
+            <h3 className="titleIndexSquare2">¿Qué encontrarás?</h3>
+            <ul className="unorderListIndex">
+              <li className="listIndex"><a className="listIndexLink" href="#">El Personaje</a></li>
+              <li className="listIndex"><a className="listIndexLink"  href="#">Cómics</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="#">Actores</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="#">Villanos</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="#">Spider-Multiverse</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="#">Spiderman en MARVEL</a></li>
             </ul>
           </div>
-          
+         
+        </div> 
+        <div className="noOficialWrapp">
+            <img className="logoSpider" src={ logoSpider }/>
+            <p className="no-oficial">Página web NO oficial de Spider-Man hecha con cariño hacia el personaje.</p>
         </div>
     </div>
   )
