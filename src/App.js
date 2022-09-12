@@ -1,15 +1,15 @@
 import './App.css';
 import { Navbar } from './componentes/Navbar';
-import { InicioWeb } from './componentes/Navegacion/InicioWeb';
-import { Footer } from './componentes/Footer';
+import { RoutersApp } from './routes/RoutersApp';
+import { FooterApp } from './componentes/FooterApp';
 
 function App() {
   return (
    
       <div className="App">
         <Navbar/>
-        <InicioWeb/>
-        <Footer/>
+        <RoutersApp/>
+        <FooterApp/>
       </div>
    
   );

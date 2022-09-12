@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Footer.css'
 
-export const Footer = () => {
+export const FooterApp = () => {
   return (
     <div className='footer-container'>
       <div className='footer'>

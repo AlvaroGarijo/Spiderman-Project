@@ -8,22 +8,24 @@ export const Navbar = () => {
         <nav className="navbar navbar-expand-md bg-black">
             <div className="wrappNav">
               <div>
-                <a href='#'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>
+                <a href='/'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>
               </div>
               
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav  mb-2 mb-lg-0">
                   <li className="nav-item navbarButton">
-                    <a className="nav-link active" aria-current="page" href="#">Spider-Man</a>
+                    <a className="nav-link active" aria-current="page" href="/spiderman">Spider-Man</a>
                   </li>
                   <li className="nav-item navbarButton">
-                    <a className="nav-link" href="#">Cómics</a>
+                    <a className="nav-link" href="/comics">Cómics</a>
                   </li>
                   <li className="nav-item dropdown navbarButton">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Actores
                     </a>
                     <ul className="dropdown-menu">
+                      <li><a className="dropdown-item electro" href="/actores">Los 3 Spiders</a></li>
+                      <li><hr className="dropdown-divider"/></li>
                       <li><a className="dropdown-item electro" href="#">Tobey Maguire</a></li>
                       <li><a className="dropdown-item octopus" href="#">Andrew Garfield</a></li>
                       <li><a className="dropdown-item electro" href="#">Tom Holland</a></li>
@@ -34,6 +36,7 @@ export const Navbar = () => {
                       Villanos
                     </a>
                     <ul className="dropdown-menu">
+                    <li><a className="dropdown-item electro" href="/villanos">Todos los Villanos</a></li>
                       <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li>
                       <li><hr className="dropdown-divider"/></li>
                       <li><a className="dropdown-item dropVillanos" href="#">Electro</a></li>
@@ -61,6 +64,8 @@ export const Navbar = () => {
                       Spiders
                     </a>
                     <ul className="dropdown-menu">
+                    <li><a className="dropdown-item electro" href="/spiders">Spider-Verse</a></li>
+                    <li><hr className="dropdown-divider"/></li>
                       <li><a className="dropdown-item dropSpiders" href="#">Miles Morales</a></li>
                       <li><a className="dropdown-item dropSpiders" href="#">Gwen Stacey</a></li>
                       <li><a className="dropdown-item dropSpiders" href="#">Ezequiel Sims</a></li>
@@ -85,7 +90,7 @@ export const Navbar = () => {
                     </ul>
                   </li>
                   <li className="nav-item me-5 navbarButton">
-                    <a className="nav-link" href="#">MARVEL</a>
+                    <a className="nav-link" href="/marvel">MARVEL</a>
                   </li>
                 </ul>
                 <form className="d-flex" role="search">
