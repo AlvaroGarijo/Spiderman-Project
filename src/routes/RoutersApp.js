@@ -1,5 +1,7 @@
 import React from 'react'
 import { BrowserRouter,  Routes, Route} from 'react-router-dom';
+import { FooterApp } from '../componentes/FooterApp';
+import { Navbar } from '../componentes/Navbar';
 import { Actores } from '../componentes/Navegacion/Actores';
 import { Comics } from '../componentes/Navegacion/Comics';
 import { InicioWeb } from '../componentes/Navegacion/InicioWeb';
@@ -11,6 +13,7 @@ import { Villanos } from '../componentes/Navegacion/Villanos';
 export const RoutersApp = () => {
   return (
     <BrowserRouter>
+    <Navbar/>
       <Routes>
           <Route path="/" element= {<InicioWeb/>}/>
           <Route path="/spiderman" element={<SpidermanPage/>}/>
@@ -20,6 +23,7 @@ export const RoutersApp = () => {
           <Route path="/spiders" element={<Spiders/>}/>
           <Route path="/marvel" element={<Marvel/>}/>
       </Routes>
+      <FooterApp/>
     </BrowserRouter>
   )
 }

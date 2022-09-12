@@ -7,7 +7,7 @@ export const InicioWeb = () => {
     <div className="indexWeb">
         <div className="wrappIndex">
           <div className="squareIndex1">
-            <p className="paragraphIndex">Esta página está hecha para los fans de <a className='strongLink' href='#'>Spider-Man</a>, con cariño hacia el personaje.</p>
+            <p className="paragraphIndex">Esta página está hecha para los fans de <a className='strongLink' href='/spiderman'>Spider-Man</a>, con cariño hacia el personaje.</p>
           </div>
           <div className="squareIndex2">
             <h3 className="titleIndexSquare2">¿Qué encontrarás?</h3>

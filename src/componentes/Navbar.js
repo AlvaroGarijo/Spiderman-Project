@@ -5,7 +5,7 @@ import navbarLogo from '../imagenes/imagenes de Logo/navbarLogo.png'
 export const Navbar = () => {
   return (
       <>
-        <nav className="navbar navbar-expand-md bg-black">
+        <nav className="navbar navbar-expand-md bg-black mb-5">
             <div className="wrappNav">
               <div>
                 <a href='/'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>
