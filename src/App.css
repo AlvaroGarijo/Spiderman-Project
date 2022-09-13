@@ -7,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    background-image: url('./imagenes/imagen\ Fondo/fondoHome.jpg');
+    background-image: url('/public/assets/imagen\ Fondo/fondoHome.jpg');
     background-size: cover;
     /* background-color: #0E2C48; */
     min-height:100vh;

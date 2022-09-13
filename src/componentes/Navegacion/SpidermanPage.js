@@ -62,7 +62,10 @@ export const SpidermanPage = () => {
               industria cuyos ingresos excedieron los veinticinco mil millones USD en 2018.​ Su franquicia incluye producciones televisivas, cinematográficas, radiofónicas, literarias y de videojuegos. Los actores que han interpretado al personaje 
               en el cine son Tobey Maguire, Andrew Garfield y Tom Holland.
               </p>
+              
         </div>
+
+        
 
       </div>
     

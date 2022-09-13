@@ -1,6 +1,6 @@
 import React from 'react'
 import './styleNavegacion/InicioWeb.css'
-import logoSpider from '../../imagenes/imagenes de Logo/Spider-Logo.png'
+import logoSpider from '../../imagenes de Logo/Spider-Logo.png'
 
 export const InicioWeb = () => {
   return (
