@@ -10,5 +10,6 @@
     background-image: url('/public/assets/imagen\ Fondo/fondoHome.jpg');
     background-size: cover;
     /* background-color: #0E2C48; */
+    width: 100%;
     min-height:100vh;
 }

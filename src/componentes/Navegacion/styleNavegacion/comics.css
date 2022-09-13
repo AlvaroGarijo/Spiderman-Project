@@ -1,0 +1,53 @@
+.wrappComic {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 15px;
+    padding: 50px;
+    min-width: 80%;
+    background-color: #00182e;
+    border: 2px solid rgba(0, 0, 0, 0.256);
+    border-radius: 10px;
+}
+
+.titleComic{
+    color:white;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.amazingTitle{
+    font-size: 16px;
+    text-align: center;
+    color:white;
+    font-family: monospace;
+}
+
+.wrapperComic1{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperComic2{
+    margin-left: 50px;
+    background-color: rgba(255, 255, 255, 0.201);
+}
+
+
+.paragraphComic{
+    color: white;
+    padding: 25px;
+}
+.introGuia{
+    color: white;
+    text-align: end;
+    margin-right: 25px;
+}
+.linkGuia{
+    color: #FECA03;
+    font-style: italic;
+    text-decoration: none;
+}
+.linkGuia:hover{
+    color:#a90202;
+}

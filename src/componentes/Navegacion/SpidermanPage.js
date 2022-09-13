@@ -38,7 +38,7 @@ export const SpidermanPage = () => {
         
         </div>
         <div className='wrapp2'>
-          <p className='infoWikip'>Se trata de un personaje creado por los estadounidenses Stan Lee y Steve Ditko, e introducido en el cómic Amazing Fantasy n.° 15, 
+          <p className='infoWikip'>Se trata de un personaje creado por los estadounidenses Stan Lee y Steve Ditko, e introducido en el cómic Amazing Fantasy n° 15, 
               publicado por Marvel Comics en agosto de 1962.​ Se trata de un superhéroe que emplea sus habilidades sobrehumanas, reminiscentes de una araña, 
               para combatir a otros supervillanos que persiguen fines siniestros.
               <br/><br/>

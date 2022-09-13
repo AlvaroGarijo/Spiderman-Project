@@ -1,6 +1,6 @@
 import React from 'react'
 import './styleNavegacion/InicioWeb.css'
-import logoSpider from '../../imagenes de Logo/Spider-Logo.png'
+import logoSpider from '../../imagenes/Spider-Logo.png'
 
 export const InicioWeb = () => {
   return (
@@ -12,8 +12,8 @@ export const InicioWeb = () => {
           <div className="squareIndex2">
             <h3 className="titleIndexSquare2">¿Qué encontrarás?</h3>
             <ul className="unorderListIndex">
-              <li className="listIndex"><a className="listIndexLink" href="#">El Personaje</a></li>
-              <li className="listIndex"><a className="listIndexLink"  href="#">Cómics</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="/spiderman">El Personaje</a></li>
+              <li className="listIndex"><a className="listIndexLink"  href="/comic">Cómics</a></li>
               <li className="listIndex"><a className="listIndexLink" href="#">Actores</a></li>
               <li className="listIndex"><a className="listIndexLink" href="#">Villanos</a></li>
               <li className="listIndex"><a className="listIndexLink" href="#">Spider-Multiverse</a></li>

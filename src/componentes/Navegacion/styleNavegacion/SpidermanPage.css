@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-    width: 80%;
+    width: 85%;
     border-radius: 10px;
     padding: 50px;
     background-color: rgba(196, 196, 196, 0.254);
@@ -20,7 +20,7 @@
     display: flex;
     margin: 25px;
     padding:25px;
-    min-width: 80%;
+    width: 100%;
     background-color: #00182e;
     border: 2px solid rgba(0, 0, 0, 0.256);
     border-radius: 10px;
@@ -32,6 +32,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    width: 80%;
 }
 
 .imageSpider {
@@ -96,6 +97,7 @@
 }
 
 .infoWikip {
+    width: 100%;
     padding: 25px;
     text-align: justify;
     
