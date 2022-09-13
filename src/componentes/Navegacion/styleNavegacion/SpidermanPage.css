@@ -6,54 +6,97 @@
     margin-bottom: 50px;
     width: 80%;
     border-radius: 10px;
-    padding-bottom: 40px;
+    padding: 50px;
     background-color: rgba(196, 196, 196, 0.254);
 }
-.titleSpider{
+
+.titleSpider {
     margin-top: 20px;
     color: #FECA03;
     font-family: monospace;
 }
-.wrappSpider{
+
+.wrappSpider {
     display: flex;
+    margin: 25px;
+    padding:25px;
     min-width: 80%;
     background-color: #00182e;
     border: 2px solid rgba(0, 0, 0, 0.256);
     border-radius: 10px;
-   
+
 }
 
-.wrapp1{
+.wrapp1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.imageSpider {
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url('/public/assets/spiderman/SpidermanDibujoPersonaje.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    filter:drop-shadow(0 2px 3px rgb(146, 146, 241));
+}
+
+.dataSpider {
+    width: 90%;
+    padding: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.201);
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.titleData {
+    color: #FECA03;
+    font-style: italic;
+}
+
+.linksSpiderData {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.imageSpider{
-    width: 300px;
-    height: 350px;
-    margin:20px;
-    border-radius: 10px;
-    background-image: url('/public/assets/spiderman/SpidermanDibujoPersonaje.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.linkSpiderData{
+    text-decoration: none;
+    color:white;
+    margin-bottom: 10px;
 }
 
-.dataSpider{
-    width: 90%;
     
-    margin: 20px;
-    background-color: rgba(196, 196, 196, 0.942);
+.icon1{
+    color:rgb(92, 0, 0);
+    filter: drop-shadow(0 4px 8px gray);
+    
+}
+
+.linkSpiderData:hover{
+    color:#380c0c;
+    font-size: 18px;
+}
+
+.wrapp2 {
+    color: white;
+    margin: 25px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.201);
     border: 1px solid gray;
     border-radius: 10px;
 }
 
-.wrapp2{
-    margin:25px;
-    width: 80%;
-    background-color: rgba(196, 196, 196, 0.942);
-    border: 1px solid gray;
-    border-radius: 10px;
+.infoWikip {
+    padding: 25px;
+    text-align: justify;
+    
 }
