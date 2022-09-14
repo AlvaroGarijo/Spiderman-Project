@@ -6,7 +6,7 @@ export const Villanos = () => {
       <div>
         <div className='titleSpider'>
           <h1>Villanos</h1>
-          <PersonajesList publisher="villanos"/>
+          <PersonajesList publisher="Villanos"/>
         </div>
       </div>
   )

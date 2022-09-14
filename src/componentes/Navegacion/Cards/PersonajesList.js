@@ -7,7 +7,7 @@ import { spidermanData } from '../../../data/spidermanData';
 
 export const PersonajesList = ({publisher}) => {
 
-    const personajes= useMemo(()=> getPersonajesByPublisher( publisher ),[ publisher ])
+    const spidermanData = useMemo(()=> getPersonajesByPublisher( publisher ),[ publisher ])
 
         return (
             <div className="row rows-col-1 row-cols-md-3 g-3 animate__animated animate__fadeIn"> 

@@ -1,8 +1,7 @@
-import React from 'react'
 import { spidermanData } from "../data/spidermanData"
 
 export const getPersonajesByPublisher = (publisher) => {
-const validPublisher = ['villanos', 'spiders'];
+const validPublisher = ['Villanos', 'Spiders'];
 if( !validPublisher.includes(publisher)){
     throw new Error(`${publisher} is not a valid publisher`);
 }
