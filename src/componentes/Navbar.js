@@ -39,24 +39,26 @@ export const Navbar = () => {
                     <li><a className="dropdown-item electro" href="/villanos">Todos los Villanos</a></li>
                       <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Electro</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Dr. Octopus</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Duende Verde</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Venom</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Mysterio</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Sandman</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Lagarto</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Buitre</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Escorpión</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Rhino</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Hob-Goblin</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Kingpin</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Kraven "El Cazador"</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Shocker</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Black Cat</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Morbius</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Camaleón</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Chacal</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Electro</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Dr. Octopus</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Duende Verde</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Venom</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Carnage</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Mysterio</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Sandman</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Lagarto</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Buitre</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Escorpión</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Rhino</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Hob-Goblin</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Kingpin</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Kraven "El Cazador"</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Mr. Negativo</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Shocker</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Black Cat</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Morbius</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Camaleón</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Chacal</a></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown navbarButton">
@@ -66,25 +68,26 @@ export const Navbar = () => {
                     <ul className="dropdown-menu">
                     <li><a className="dropdown-item electro" href="/spiders">Spider-Verse</a></li>
                     <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Miles Morales</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Gwen Stacey</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Ezequiel Sims</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Madame Web</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Araña Escarlata</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Silk (Cindy Moon)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Girl (Anya Corazón)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Miguel O`hara (Spider-Man)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Man Superior (Eliot Tolliver)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Woman (Jessica Drew)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Woman (Mattie Franklin)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Girl (Mayday Parker)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Ham</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Man (Pavitr Prabhakar)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Man (Mangaverse)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Man J</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-Man Noir</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Spider-UK</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Peni Parker</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/MilesMorales">Miles Morales</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spiderGwen">Gwen Stacey</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/Ezequiel_Sims">Ezequiel Sims</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/MadameWeb">Madame Web</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/Scarlet_Spider">Araña Escarlata</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/Silk">Silk (Cindy Moon)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="personaje/Spider_girl">Spider-Girl (Anya Corazón)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/MiguelOhara">Miguel O`hara (Spider-Man)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/SpidermanSuperior">Spider-Man Superior (Eliot Tolliver)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/SpiderWomanJessica">Spider-Woman (Jessica Drew)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/SpiderwomanMattie">Spider-Woman (Mattie Franklin)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/SpidergirlMayday">Spider-Girl (Mayday Parker)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spiderHam">Spider-Ham</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spidermanPavitr">Spider-Man (Pavitr Prabhakar)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spidermanManga">Spider-Man (Mangaverse)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spidermanJ">Spider-Man J</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spidermanNoir">Spider-Man Noir</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spiderUK">Spider-UK</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/peniParker">Peni Parker</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/spiderPunk">Spider Punk</a></li>
                       <li><hr className="dropdown-divider"/></li>
                       <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li>
                     </ul>

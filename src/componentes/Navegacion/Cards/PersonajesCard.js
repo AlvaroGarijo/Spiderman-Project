@@ -1,5 +1,6 @@
 import React from 'react'
 import{ Link } from 'react-router-dom'
+import './styleCards/personajesCards.css'
 
 export const PersonajesCard = ({
  
@@ -18,10 +19,10 @@ export const PersonajesCard = ({
         <div className='col'>
             <div className='card'>
                 <div className='row no-gutters'>
-                    <div className='col-md-4'>
+                    <div className='col-md-5'>
                         <img src={imagePath} className='card-img' alt={personaje}/>
                     </div>
-                    <div className='col-8'>
+                    <div className='col-7'>
                         <div className='card-body'>
                             <h3 className='card-title'>{ personaje }</h3>
                             <p className='card-text'>{ alter_ego_personaje }</p>
@@ -32,9 +33,9 @@ export const PersonajesCard = ({
                              <p className='text-muted'>
                                 <small className="text-muted">{first_appearance}</small>
                           </p>
-
-                          <Link to={`/personaje/${id}`}> 
-                            Mas... 
+                            
+                          <Link className='linkTo' to={`/personaje/${id}`} > 
+                             Click para saber más
                           </Link>
                         </div>
                     </div>

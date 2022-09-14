@@ -5,7 +5,7 @@ export const Spiders = () => {
   return (
     <div>
         <div className='titleSpider'>
-          <h1>Spiders</h1>
+          <h1 className='text-center'>Spider-Verse</h1>
           <PersonajesList publisher="Spiders"/>
         </div>
       </div>

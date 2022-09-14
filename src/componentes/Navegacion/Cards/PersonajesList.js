@@ -10,7 +10,7 @@ export const PersonajesList = ({publisher}) => {
     const spidermanData = useMemo(()=> getPersonajesByPublisher( publisher ),[ publisher ])
 
         return (
-            <div className="row rows-col-1 row-cols-md-3 g-3 animate__animated animate__fadeIn"> 
+            <div className="row personajeList"> 
                         {
                             spidermanData.map(personajes => (
                                 <PersonajesCard key={personajes.id}

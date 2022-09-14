@@ -13,6 +13,26 @@ import { PersonajesSecundarios } from '../componentes/Navegacion/PersonajesSecun
 import { SpidermanPage } from '../componentes/Navegacion/SpidermanPage';
 import { Spiders } from '../componentes/Navegacion/Spiders';
 import { Villanos } from '../componentes/Navegacion/Villanos';
+import { EzequielSims } from '../componentes/personajes/EzequielSims';
+import { MadameWeb } from '../componentes/personajes/MadameWeb';
+import { MiguelOhara } from '../componentes/personajes/MiguelOhara';
+import { MilesMorales } from '../componentes/personajes/MilesMorales';
+import { PeniParker } from '../componentes/personajes/PeniParker';
+import { Scarlet_Spider } from '../componentes/personajes/Scarlet_Spider';
+import { Silk } from '../componentes/personajes/Silk';
+import { SpiderGirlAnya } from '../componentes/personajes/SpiderGirlAnya';
+import { SpidergirlMayday } from '../componentes/personajes/SpidergirlMayday';
+import { SpiderGwen } from '../componentes/personajes/SpiderGwen';
+import { SpiderHam } from '../componentes/personajes/SpiderHam';
+import { SpidermanJ } from '../componentes/personajes/SpidermanJ';
+import { SpidermanManga } from '../componentes/personajes/SpidermanManga';
+import { SpidermanNoir } from '../componentes/personajes/SpidermanNoir';
+import { SpidermanPavitr } from '../componentes/personajes/SpidermanPavitr';
+import { SpidermanSuperior } from '../componentes/personajes/SpidermanSuperior';
+import { SpidermanUK } from '../componentes/personajes/SpidermanUK';
+import { SpiderPunk } from '../componentes/personajes/SpiderPunk';
+import { SpiderWomanJessica } from '../componentes/personajes/SpiderWomanJessica';
+import { SpiderWomanMattie } from '../componentes/personajes/SpiderWomanMattie';
 
 export const RoutersApp = () => {
   return (
@@ -30,6 +50,28 @@ export const RoutersApp = () => {
           <Route path="/interesAmoroso" element={<InteresesAmorosos/>}/>
           <Route path="/personajesSecundarios" element={<PersonajesSecundarios/>}/>
           <Route path="/personajeApoyo" element={<PersonajeApoyo/>}/>  
+
+          {/* Rutas de los Personajes SpiderVerse*/}
+          <Route path="/personaje/MilesMorales" element={<MilesMorales/>}/> 
+          <Route path="/personaje/spiderGwen" element={<SpiderGwen/>}/> 
+          <Route path="/personaje/Ezequiel_Sims" element={<EzequielSims/>}/> 
+          <Route path="/personaje/MadameWeb" element={<MadameWeb/>}/>
+          <Route path="/personaje/Scarlet_Spider" element={<Scarlet_Spider/>}/>
+          <Route path="/personaje/Silk" element={<Silk/>}/>
+          <Route path="/personaje/Spider_girl" element={<SpiderGirlAnya/>}/>
+          <Route path="/personaje/MiguelOhara" element={<MiguelOhara/>}/>
+          <Route path="/personaje/SpidermanSuperior" element={<SpidermanSuperior/>}/>
+          <Route path="/personaje/SpiderWomanJessica" element={<SpiderWomanJessica/>}/>
+          <Route path="/personaje/SpiderwomanMattie" element={<SpiderWomanMattie/>}/>
+          <Route path="/personaje/SpidergirlMayday" element={<SpidergirlMayday/>}/>
+          <Route path="/personaje/spiderHam" element={<SpiderHam/>}/>
+          <Route path="/personaje/spidermanPavitr" element={<SpidermanPavitr/>}/>
+          <Route path="/personaje/spidermanManga" element={<SpidermanManga/>}/>
+          <Route path="/personaje/spidermanJ" element={<SpidermanJ/>}/>
+          <Route path="/personaje/spidermanNoir" element={<SpidermanNoir/>}/>
+          <Route path="/personaje/spiderUK" element={<SpidermanUK/>}/>
+          <Route path="/personaje/peniParker" element={<PeniParker/>}/>
+          <Route path="/personaje/spiderPunk" element={<SpiderPunk/>}/>
       </Routes>
     {/* <FooterApp/> */}
     </BrowserRouter>
