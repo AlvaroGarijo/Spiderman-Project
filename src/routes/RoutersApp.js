@@ -13,12 +13,31 @@ import { PersonajesSecundarios } from '../componentes/Navegacion/PersonajesSecun
 import { SpidermanPage } from '../componentes/Navegacion/SpidermanPage';
 import { Spiders } from '../componentes/Navegacion/Spiders';
 import { Villanos } from '../componentes/Navegacion/Villanos';
+import { BlackCat } from '../componentes/personajes/BlackCat';
+import { Buitre } from '../componentes/personajes/Buitre';
+import { Camaleon } from '../componentes/personajes/Camaleon';
+import { Carnage } from '../componentes/personajes/Carnage';
+import { Chacal } from '../componentes/personajes/Chacal';
+import { DrOctopus } from '../componentes/personajes/DrOctopus';
+import { DuendeVerde } from '../componentes/personajes/DuendeVerde';
+import { Electro } from '../componentes/personajes/Electro';
+import { Escorpion } from '../componentes/personajes/Escorpion';
 import { EzequielSims } from '../componentes/personajes/EzequielSims';
+import { HobGoblin } from '../componentes/personajes/HobGoblin';
+import { Kingpin } from '../componentes/personajes/Kingpin';
+import { Kraven } from '../componentes/personajes/Kraven';
+import { Lagarto } from '../componentes/personajes/Lagarto';
 import { MadameWeb } from '../componentes/personajes/MadameWeb';
 import { MiguelOhara } from '../componentes/personajes/MiguelOhara';
 import { MilesMorales } from '../componentes/personajes/MilesMorales';
+import { Morbius } from '../componentes/personajes/Morbius';
+import { MrNegativo } from '../componentes/personajes/MrNegativo';
+import { Mysterio } from '../componentes/personajes/Mysterio';
 import { PeniParker } from '../componentes/personajes/PeniParker';
+import { Rhino } from '../componentes/personajes/Rhino';
+import { Sandman } from '../componentes/personajes/Sandman';
 import { Scarlet_Spider } from '../componentes/personajes/Scarlet_Spider';
+import { Shocker } from '../componentes/personajes/Shocker';
 import { Silk } from '../componentes/personajes/Silk';
 import { SpiderGirlAnya } from '../componentes/personajes/SpiderGirlAnya';
 import { SpidergirlMayday } from '../componentes/personajes/SpidergirlMayday';
@@ -33,6 +52,7 @@ import { SpidermanUK } from '../componentes/personajes/SpidermanUK';
 import { SpiderPunk } from '../componentes/personajes/SpiderPunk';
 import { SpiderWomanJessica } from '../componentes/personajes/SpiderWomanJessica';
 import { SpiderWomanMattie } from '../componentes/personajes/SpiderWomanMattie';
+import { Venom } from '../componentes/personajes/Venom';
 
 export const RoutersApp = () => {
   return (
@@ -49,9 +69,35 @@ export const RoutersApp = () => {
           <Route path="/familia" element={<Familia/>}/> 
           <Route path="/interesAmoroso" element={<InteresesAmorosos/>}/>
           <Route path="/personajesSecundarios" element={<PersonajesSecundarios/>}/>
-          <Route path="/personajeApoyo" element={<PersonajeApoyo/>}/>  
+          <Route path="/personajeApoyo" element={<PersonajeApoyo/>}/> 
+
+
+          {/* Rutas de los Personajes Villanos*/}   
+
+          <Route path="/personaje/DuendeVerde" element={<DuendeVerde/>}/> 
+          <Route path="/personaje/Electro" element={<Electro/>}/>
+          <Route path="/personaje/Dr_Octopus" element={<DrOctopus/>}/>  
+          <Route path="/personaje/Venom" element={<Venom/>}/>  
+          <Route path="/personaje/carnage" element={<Carnage/>}/>  
+          <Route path="/personaje/Mysterio" element={<Mysterio/>}/>  
+          <Route path="/personaje/Sandman" element={<Sandman/>}/>  
+          <Route path="/personaje/Lagarto" element={<Lagarto/>}/>  
+          <Route path="/personaje/Buitre" element={<Buitre/>}/>  
+          <Route path="/personaje/Escorpion" element={<Escorpion/>}/>  
+          <Route path="/personaje/Rhino" element={<Rhino/>}/>  
+          <Route path="/personaje/HobGoblin" element={<HobGoblin/>}/>  
+          <Route path="/personaje/kingpin" element={<Kingpin/>}/>  
+          <Route path="/personaje/Kraven" element={<Kraven/>}/>  
+          <Route path="/personaje/mrNegativo" element={<MrNegativo/>}/>  
+          <Route path="/personaje/Shocker" element={<Shocker/>}/>  
+          <Route path="/personaje/Black_Cat" element={<BlackCat/>}/>  
+          <Route path="/personaje/Morbius" element={<Morbius/>}/>  
+          <Route path="/personaje/Camaleon" element={<Camaleon/>}/>  
+          <Route path="/personaje/Chacal" element={<Chacal/>}/>      
+
 
           {/* Rutas de los Personajes SpiderVerse*/}
+
           <Route path="/personaje/MilesMorales" element={<MilesMorales/>}/> 
           <Route path="/personaje/spiderGwen" element={<SpiderGwen/>}/> 
           <Route path="/personaje/Ezequiel_Sims" element={<EzequielSims/>}/> 

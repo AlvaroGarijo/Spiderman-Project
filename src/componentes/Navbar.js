@@ -39,26 +39,26 @@ export const Navbar = () => {
                     <li><a className="dropdown-item electro" href="/villanos">Todos los Villanos</a></li>
                       <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Electro</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Dr. Octopus</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Duende Verde</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Venom</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Carnage</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Mysterio</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Sandman</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Lagarto</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Buitre</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Escorpión</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Rhino</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Hob-Goblin</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Kingpin</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Kraven "El Cazador"</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Mr. Negativo</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Shocker</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Black Cat</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Morbius</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Camaleón</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="/personaje/">Chacal</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/DuendeVerde">Duende Verde</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Electro">Electro</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Dr_Octopus">Dr Octopus</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Venom">Venom</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/carnage">Carnage</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Mysterio">Mysterio</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Sandman">Sandman</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Lagarto">Lagarto</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Buitre">Buitre</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Escorpion">Escorpión</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Rhino">Rhino</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/HobGoblin">Hob-Goblin</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/kingpin">Kingpin</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Kraven">Kraven "El Cazador"</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/mrNegativo">Mr. Negativo</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Shocker">Shocker</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Black_Cat">Black Cat</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Morbius">Morbius</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Camaleon">Camaleón</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Chacal">Chacal</a></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown navbarButton">

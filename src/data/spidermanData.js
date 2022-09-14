@@ -104,7 +104,7 @@ export const spidermanData = [
         'characters':'Wilson Fisk'
     },
     {
-        'id': 'Kraven "El Cazador"',
+        'id': 'Kraven',
         'personaje':'Kraven "El Cazador"', 
         'publisher':'Villanos', 
         'alter_ego_personaje':'Sergei Kravinov',
