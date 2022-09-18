@@ -1,5 +1,6 @@
 export const spidermanData = [
     {
+        'numId': 1,
         'id': 'DuendeVerde',
         'personaje':'Duende Verde', 
         'publisher':'Villanos', 
