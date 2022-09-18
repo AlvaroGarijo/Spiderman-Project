@@ -1,7 +1,16 @@
+@font-face {
+    font-family: amazingSpider;
+    src: url('/public/assets/fonts/Amazing\ Spider\ Man\ slant.ttf');
+}
+
 .personajeList{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
+}
+
+.text-center{
+    font-family: amazingSpider;
 }

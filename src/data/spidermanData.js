@@ -1,6 +1,5 @@
 export const spidermanData = [
     {
-        'numId': 1,
         'id': 'DuendeVerde',
         'personaje':'Duende Verde', 
         'publisher':'Villanos', 
@@ -162,11 +161,17 @@ export const spidermanData = [
     },
     {
         'id': 'MilesMorales',
-        'personaje':'Miles Morales', 
+        'personaje':'Miles Morales',
+        'bornArea': 'Brooklyn',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Miles Morales',
-        'first_appearance':'?¿',
-        'characters':'Miles Morales'
+        'first_appearance':'#4 número de Ultimate Fallout (Agosto 2011)',
+        'characters':'Miles Morales',
+        'cause' : 'Picadura de araña',
+        'powers' : 'Fuerza, rapidez y reflejos proporcionales a una araña, capacidad de adherirse a casi cualquier superficie, factor de curación limitado que le permite sanar huesos rotos o graves heridas en los tejidos en unas horas. Sentido arácnido que le advierte del peligro.',
+        'adds': 'Puede camuflarse en cualquier superficie.',
+        'creators': 'Brian Michael Bendis y Sara Pichelli',
+        'alias' : 'Spidey, Spin'
     },
     {
         'id': 'spiderGwen',
@@ -175,6 +180,7 @@ export const spidermanData = [
         'alter_ego_personaje':'Gwen Stacey',
         'first_appearance':'?¿',
         'characters':'Gwen Stacey'
+        
     },
     {
         'id': 'Ezequiel_Sims',

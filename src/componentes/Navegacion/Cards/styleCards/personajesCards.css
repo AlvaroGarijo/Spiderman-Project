@@ -18,12 +18,17 @@
     height: 225px;
 }
 
-.card-body{
+.card-body {
     height: 250px;
 }
 
 .card-title {
     font-size: 20px;
+    color: #FECA03;
+}
+
+.card-text {
+    color: white;
 }
 
 .card-title,
@@ -33,6 +38,6 @@
 }
 
 a.linkTo {
-    text-align:left;
+    text-align: left;
     margin-left: 25px;
 }

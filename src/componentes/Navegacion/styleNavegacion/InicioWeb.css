@@ -1,3 +1,8 @@
+@font-face {
+    font-family: amazingSpider;
+    src: url('/public/assets/fonts/Amazing\ Spider\ Man\ slant.ttf');
+}
+
 .wrappIndex {
     display: flex;
     flex-wrap: nowrap;
@@ -27,12 +32,13 @@
     font-weight: bold;
     text-decoration: none;
     color: #0E2C48;
-    font-family: monospace;
+    font-family: amazingSpider;
     font-style: italic;
 }
 
 .strongLink:hover{
     color:#9c020ac5;
+    filter:drop-shadow(1px 1px 1px white);
 }
 
 .paragraphIndex {
@@ -46,7 +52,7 @@
 
 .titleIndexSquare2 {
     color: #FFC700;
-    font-family: monospace;
+    font-family: amazingSpider;
     padding: 20px;
 }
 
@@ -62,12 +68,13 @@
 
 .listIndexLink {
     text-decoration: none;
-    font-family: monospace;
+    font-family: amazingSpider;
     color: white;
 }
 
 .listIndexLink:hover {
-    color: #FFC700;
+    color: #c30d0d;
+    filter:drop-shadow(1px 1px 1px white);
 }
 
 .noOficialWrapp{

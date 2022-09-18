@@ -1,0 +1,113 @@
+@font-face {
+    font-family: amazingSpider;
+    src: url('/public/assets/fonts/Amazing\ Spider\ Man\ slant.ttf');
+}
+
+.wrappPerson {
+    width: 80%;
+    background-color: rgba(62, 62, 62, 0.511);
+    border: 2px solid rgba(254, 254, 254, 0.505);
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px rgb(237, 237, 237);
+}
+
+.personWrap1 {
+    display: flex;
+}
+
+.dataWrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dataControlSmall,
+.dataControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 25px;
+    background-color: #0E2C48;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px white;
+}
+
+.card-imgIndividual {
+    margin: 25px;
+    width: 350px;
+    height: 550px;
+    box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
+}
+
+.dataControlSmall {
+    width: 350px;
+    height: 320px;
+    overflow: auto;
+    padding-left: 10px;
+    padding: 20px;
+    justify-content: start;
+    align-items: flex-start;
+    
+}
+
+.listDataControl {
+    padding: 10px;
+    color: #FFC700;
+    list-style: none;
+}
+
+.listData{
+    padding: 5px;
+    margin-bottom: 6px;
+}
+
+.styleData{
+    color: white;
+}
+
+.titlePerson {
+    font-family: amazingSpider;
+    filter: drop-shadow(2px 2px 6px rgb(255, 55, 55));
+    text-align: center;
+    font-size: 40px;
+    color: #FDCC06;
+}
+
+.infoPerson {
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: justify;
+    font-size: 23px;
+    height: 800px;
+    overflow: auto;
+}
+
+.navegationPerson {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonNavigationSpiders,
+.buttonNavigation {
+    font-family: amazingSpider;
+    margin: 10px;
+    padding: 5px 15px;
+    color: #FDCC06;
+    border-radius: 5px;
+    border: 2px solid #FFC700;
+    background-color: #DD111B;
+}
+
+
+.buttonNavigation:hover,
+.buttonNavigationSpiders:hover  {
+    background: #FDCC06;
+    color: black;
+    border: 2px solid black;
+}
+
+.buttonNavigation:active {
+    background-color: #0E2C48;
+}

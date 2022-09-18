@@ -1,3 +1,8 @@
+@font-face {
+    font-family: amazingSpider;
+    src: url('/public/assets/fonts/Amazing\ Spider\ Man\ slant.ttf');
+}
+
 .wrappComic {
     display: flex;
     justify-content: center;
@@ -10,10 +15,17 @@
     border-radius: 10px;
 }
 
-.titleComic{
+.titleComics{
     color:white;
     margin-bottom: 20px;
-    font-style: italic;
+    font-family: amazingSpider;
+}
+
+.titleComic{
+    color:#FECA03;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
 }
 
 .amazingTitle{
@@ -45,9 +57,11 @@
 }
 .linkGuia{
     color: #FECA03;
+    font-family: amazingSpider;
     font-style: italic;
     text-decoration: none;
 }
 .linkGuia:hover{
     color:#a90202;
+    filter:drop-shadow(1px 1px 1px white);
 }

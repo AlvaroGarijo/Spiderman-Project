@@ -1,5 +1,6 @@
 import React from 'react'
 import { PersonajesList } from './Cards/PersonajesList'
+import '../Navegacion/Cards/styleCards/PersonajesList.css'
 
 export const Spiders = () => {
   return (

@@ -10,10 +10,10 @@ export const InicioWeb = () => {
             <p className="paragraphIndex">Esta página está hecha para los fans de <a className='strongLink' href='/spiderman'>Spider-Man</a>, con cariño hacia el personaje.</p>
           </div>
           <div className="squareIndex2">
-            <h3 className="titleIndexSquare2">¿Qué encontrarás?</h3>
+            <h3 className="titleIndexSquare2"> Lo que vas encontrar </h3>
             <ul className="unorderListIndex">
               <li className="listIndex"><a className="listIndexLink" href="/spiderman">El Personaje</a></li>
-              <li className="listIndex"><a className="listIndexLink"  href="/comic">Cómics</a></li>
+              <li className="listIndex"><a className="listIndexLink"  href="/comic">Comics</a></li>
               <li className="listIndex"><a className="listIndexLink" href="#">Actores</a></li>
               <li className="listIndex"><a className="listIndexLink" href="#">Villanos</a></li>
               <li className="listIndex"><a className="listIndexLink" href="#">Spider-Multiverse</a></li>
