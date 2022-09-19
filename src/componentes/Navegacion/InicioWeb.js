@@ -13,11 +13,12 @@ export const InicioWeb = () => {
             <h3 className="titleIndexSquare2"> Lo que vas encontrar </h3>
             <ul className="unorderListIndex">
               <li className="listIndex"><a className="listIndexLink" href="/spiderman">El Personaje</a></li>
-              <li className="listIndex"><a className="listIndexLink"  href="/comic">Comics</a></li>
-              <li className="listIndex"><a className="listIndexLink" href="#">Actores</a></li>
-              <li className="listIndex"><a className="listIndexLink" href="#">Villanos</a></li>
-              <li className="listIndex"><a className="listIndexLink" href="#">Spider-Multiverse</a></li>
-              <li className="listIndex"><a className="listIndexLink" href="#">Spiderman en MARVEL</a></li>
+              <li className="listIndex"><a className="listIndexLink"  href="/comics">Comics</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="/actores">Actores</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="/villanos">Villanos</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="/spiders">Spider-verse</a></li>
+              <li className="listIndex"><a className="listIndexLink" href="/marvel">Spiderman en MARVEL</a></li>
+              <li className='listIndex listIndexLink'> Y mucho mas . . .</li>
             </ul>
           </div>
          

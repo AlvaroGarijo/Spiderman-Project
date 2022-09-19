@@ -1,55 +1,83 @@
-import React from 'react'
-// import {getPersonajesByName} from '../selectors/getPersonajesByName'
-// import { useNavigate, useLocation } from 'react-router-dom'
-// import queryString from 'query-string'
-// import { useMemo } from 'react'
-// import { useForm } from '../hooks/useForm'
-
-
-
+import React from 'react';
+import queryString from "query-string";
+import { useMemo } from 'react';
+import { useForm } from '../../hooks/useForm';
+import { useLocation, useNavigate } from 'react-router-dom';
+import {getPersonajesByName} from '../../selectors/getPersonajesByName'
+import { BiSearchAlt } from "react-icons/bi";
+import {  GiSpiderMask } from "react-icons/gi";
+import { GiPumpkinMask } from "react-icons/gi";
+import './searchPersonajes.css';
+import { PersonajesCard } from '../Navegacion/Cards/PersonajesCard';
 
 
 export const SearchPersonaje = () => {
-    // const navigate = useNavigate();
-    // const location = useLocation();
-    // const {q = ''} = queryString.parse(location.search);
-  
-    // const [formValues, handleImputChange] = useForm({
-    //   searchText: q,
-    // })
-  
-    // const {searchText} = formValues;
-  
-    // const personajesFilted = useMemo( () => getPersonajesByName(q), [q] );
-  
-    // const handleSearch = (e) => {
-    //   e.preventDefault();
-    //   navigate(`?q=${searchText}`);
-    // }
 
+    const navegar = useNavigate();
+    const location = useLocation();
+    
+    const {q = ''} = queryString.parse(location.search);
+
+    const [formValues, handleInputChange] = useForm({searchText: q})
+
+    const {searchText} = formValues;
+
+    const personajeFilted = useMemo(()=> getPersonajesByName(q), [q] );
+
+    const handleSearch = (e) => {
+        e.preventDefault();
+        navegar(`?q=${searchText}`)
+    }
 
   return (
-  <div>Buscar</div>
-//     <form className="d-flex" role="search" onSubmit={handleSearch}>
-//                   <input className="form-control me-2" 
-//                           type="search"
-//                           placeholder="Buscar"
-//                           name='searchText'
-//                           autoComplete='off'
-//                           value={searchText}
-//                           onChange={handleImputChange} 
-//                           aria-label="Search"/>
+    <>
+        <div>
+            <h1 className='titleText'>Busqueda de Personajes</h1>
+            <div className='row searchWrapp'>
+                <div className='col-5'>
+                    <h4 className='searchPerson'>Buscador <BiSearchAlt/></h4>
+                    <hr/>
+                    <form onSubmit={handleSearch}>
+                        <input 
+                            type='text'
+                            placeholder='Buscar personaje'
+                            className='form-control'
+                            name='searchText'
+                            autoComplete='off'
+                            value={searchText}
+                            onChange={handleInputChange}
+                        />
+                        <hr/>
+                        <button className='nav-link navbarButton searchButton'
+                                type='submit'>
+                            Buscar
+                        </button>
+                    </form>
+                </div>
+                <div className='col-7'>
+                    <h4 className='resultPerson'> 
+                        <GiSpiderMask className='iconSpiderman'/> Personaje <GiPumpkinMask className='iconHall'/>
+                        
+                         
+                    </h4>
+                    <hr/>
+                    {
+                        (q === '')
+                            ? <div className='screenFail1'>Prueba otra vez . . .</div>
+                            : (personajeFilted.length === 0)
+                            && <div className='screenNoResults'>No hay resultados para: {q}</div>
+                    }
+                    {
+                        personajeFilted.map(personaje=> (
+                            <PersonajesCard key={ personaje.id} 
+                            { ...personaje }
+                            />
+                        ))
+                    }
+                </div>
+            </div>
 
-//                   <button className="navbarButton" type="submit">Buscar</button>
-//                 </form>
-
-//                     {
-//                       (q === '')
-//                         ? <div className='alert alert-info'> Busca un personaje</div> : (personajesFilted.length === 0)
-//                         && <div className='alert alert-danger'> No hay resultados: {q}</div>
-//                     }
-//                     {
-//                       personajesFilted.map(personaje => (<spidermanData key = {personaje.id}{...personaje}/>))
-//                     }
+        </div>
+    </>
  )
 }

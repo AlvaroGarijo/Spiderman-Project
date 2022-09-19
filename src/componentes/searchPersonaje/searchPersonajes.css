@@ -1,0 +1,55 @@
+@font-face {
+    font-family: amazingSpider;
+    src: url('/public/assets/fonts/Amazing\ Spider\ Man\ slant.ttf');
+}
+
+.searchWrapp {
+    padding: 50px;
+    background-color: #3C5368;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.titleText {
+    font-family: amazingSpider;
+    color: #FECA03;
+    margin: 50px;
+    filter: drop-shadow(2px 2px 7px black);
+}
+
+
+.searchButton:focus-visible {
+    font-size: x-large;
+    line-height: normal;
+}
+
+.searchPerson,
+.resultPerson {
+    font-family: amazingSpider;
+    color: #FECA03;
+    text-align: center;
+    filter: drop-shadow(2px 2px 7px rgb(252, 0, 0));
+}
+
+.iconSpiderman {
+    color: black;
+}
+
+.iconHall {
+    color: #de8100;
+}
+
+.screenNoResults,
+.screenFail1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: amazingSpider;
+    color: white;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #fb0000a2;
+    border: 1px solid black;
+    text-align: centerrgba(170, 170, 170, 0.443)
+}

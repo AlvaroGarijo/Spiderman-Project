@@ -1,6 +1,6 @@
 import React from 'react'
 import './styleNavegacion/SpidermanPage.css'
-import { GiSpiderMask } from 'react-icons/gi';
+
 
 
 
@@ -32,7 +32,7 @@ export const SpidermanPage = () => {
               <a className='linkSpiderData' href='/personajesSecundarios'>  Personajes Secundarios </a>
               <a className='linkSpiderData' href='/marvel'> Aliados en MARVEL </a>
               <a className='linkSpiderData' href='/villanos'> Villanos </a>
-              <a className='linkSpiderData' href='/spiders'> Continuidades Alternativas "Spider-Verse" </a>
+              <a className='linkSpiderData' href='/spiders'> Spider-Verse </a>
               <a className='linkSpiderData' href='/personajeApoyo'> Personajes de Apoyo </a>
           </div>
         
