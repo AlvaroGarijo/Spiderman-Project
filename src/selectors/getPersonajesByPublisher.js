@@ -1,7 +1,7 @@
 import { spidermanData } from "../data/spidermanData"
 
 export const getPersonajesByPublisher = (publisher) => {
-const validPublisher = ['Villanos', 'Spiders'];
+const validPublisher = ['Villanos', 'Spiders', 'Familia', 'Secundarios'];
 if( !validPublisher.includes(publisher)){
     throw new Error(`${publisher} is not a valid publisher`);
 }

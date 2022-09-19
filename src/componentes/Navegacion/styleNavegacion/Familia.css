@@ -1,5 +1,14 @@
+.familyWrapp{
+    margin-top:50px;
+}
 .titleFamily{
-    margin-top: 30px 30px;
+    margin-bottom: 30px;
     color: white;
     font-family: amazingSpider;
+    text-align: center;
+}
+.navegationFamily{
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
 }

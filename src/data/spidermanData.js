@@ -1,4 +1,7 @@
 export const spidermanData = [
+
+    // Publisher = Villanos
+
     {
         'id': 'DuendeVerde',
         'personaje':'Duende Verde', 
@@ -159,6 +162,7 @@ export const spidermanData = [
         'first_appearance':'?¿',
         'characters':'Miles Warren'
     },
+    // Publisher = Spiders
     {
         'id': 'MilesMorales',
         'personaje':'Miles Morales',
@@ -325,6 +329,164 @@ export const spidermanData = [
         'alter_ego_personaje':'Hobart Brown',
         'first_appearance':'?¿',
         'characters':'Hobart Brown'
+    },
+
+    // Publisher = Familia
+
+    {
+        'id': 'richardParker',
+        'personaje':'Richard Parker', 
+        'publisher':'Familia', 
+        'alter_ego_personaje':'Richard Parker (Padre)',
+        'first_appearance':'The Amazing Spider-Man Annual #5 (1968)',
+        'characters':'Richard Parker'
+    },
+    {
+        'id': 'maryFitzpatrick',
+        'personaje':'Mary Teresa Fitzpatrick', 
+        'publisher':'Familia', 
+        'alter_ego_personaje':'Mary Fitzpatrick (Madre)',
+        'first_appearance':'The Amazing Spider-Man Annual #5 (1968)',
+        'characters':'Mary Fitzpatrick'
+    },
+    {
+        'id': 'tioBen',
+        'personaje':'Benjamin Franklin Parker', 
+        'publisher':'Familia', 
+        'alter_ego_personaje':'Tío Ben',
+        'first_appearance':'Strange Tales #97 (enero de 1962)',
+        'characters':'Tío Ben'
+    },
+    {
+        'id': 'tiaMay',
+        'personaje':'May Reilly Parker Jameson', 
+        'publisher':'Familia', 
+        'alter_ego_personaje':'Tía May',
+        'first_appearance':'Amazing Fantasy #15 (agosto 1962)',
+        'characters':'Tía May'
+    },
+    {
+        'id': 'maryJane',
+        'personaje':'Mary Jane Watson', 
+        'publisher':'Familia', 
+        'alter_ego_personaje':'Mary Jane Watson (Cónyuje)',
+        'first_appearance':'The Amazing Spider-Man # 15 (agosto de 1964)',
+        'characters':'Mary Jane Watson'
+    },
+     {
+         'id': 'mayDayParker',
+         'personaje':'Mayday Parker', 
+         'publisher':'Familia', 
+         'alter_ego_personaje':'Mayday Parker (hija)',
+         'first_appearance':'What If #105 Vol.2 (1998)',
+         'characters':'Mayday Parker'
+     },
+    {
+        'id': 'benRichardParker',
+        'personaje':'Benjamin Richard Parker', 
+        'publisher':'Familia', 
+        'alter_ego_personaje':'Benjamin Richard Parker (hijo)',
+        'first_appearance':'Spider-Girl # 36 (el embarazo de M.J)',
+        'characters':''
+    },
+
+    // Publisher = Secundarios
+
+    {
+        'id': 'lizAllan',
+        'personaje':'Liz Allan', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Elisabeth Allan Osborn (Ex-novia)',
+        'first_appearance':'Amazing Fantasy # 15 (agosto de 1962)',
+        'characters':'Liz Allan'
+    },
+    {
+        'id': 'bettyBrant',
+        'personaje':'Betty Brant (ex Novia)', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Elisabeth Brant',
+        'first_appearance':'The Amazing Spider-Man #4 (septiembre de 1963)',
+        'characters':'Elisabeth Brant '
+    },
+    {
+        'id': 'ashleyKafka',
+        'personaje':'Dra. Ashley Kafka', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Ashley Kafka',
+        'first_appearance':'The Spectacular Spider-Man #178, julio de 1991)',
+        'characters':'Ashley Kafka'
+    },
+    {
+        'id': 'flashThompson',
+        'personaje':'Flash Thompson', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Flash Thompson',
+        'first_appearance':'Amazing Fantasy #15 (agosto de 1962)',
+        'characters':'Flash Thompson'
+    },
+    {
+        'id': 'jimmy6',
+        'personaje':'Giachomo "Jimmy-6" Fortunato', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Giachomo Fortunato',
+        'first_appearance':'Spider-Man #70 (mayo de 1996)',
+        'characters':'Giachomo Fortunato'
+    },
+    {
+        'id': 'harryOsborn',
+        'personaje':'Harry Osborn', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Harry Osborn',
+        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
+        'characters':'Harry Osborn'
+    },
+    {
+        'id': 'jeanDeWolf',
+        'personaje':'Jean DeWolf', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Jean DeWolf',
+        'first_appearance':'Marvel Team-Up #48 (agosto de 1976)',
+        'characters':'Jean DeWolf'
+    },
+    {
+        'id': 'randyRobertson',
+        'personaje':'Randy Robertson', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Randy Robertson',
+        'first_appearance':'The Amazing Spider-Man # 67 (diciembre de 1968)',
+        'characters':'Randy Robertson'
+    },
+    {
+        'id': 'harryOsborn',
+        'personaje':'Harry Osborn', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Harry Osborn',
+        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
+        'characters':'Harry Osborn'
+    },
+    {
+        'id': 'harryOsborn',
+        'personaje':'Harry Osborn', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Harry Osborn',
+        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
+        'characters':'Harry Osborn'
+    },
+    {
+        'id': 'harryOsborn',
+        'personaje':'Harry Osborn', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Harry Osborn',
+        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
+        'characters':'Harry Osborn'
+    },
+    {
+        'id': 'harryOsborn',
+        'personaje':'Harry Osborn', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Harry Osborn',
+        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
+        'characters':'Harry Osborn'
     },
 
 ]
