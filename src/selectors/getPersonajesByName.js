@@ -1,4 +1,5 @@
 import React from 'react'
+import {spidermanData} from '../data/spidermanData'
 
 export const getPersonajesByName = (name = '') => {
     if(name.length === 0){

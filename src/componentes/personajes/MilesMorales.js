@@ -36,8 +36,8 @@ export const MilesMorales = ({
                                 <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                             </ul>
                         </div>
-                        <div className='m-3'>
-                            <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spiders</button></a>
+                        <div className='buttonNavContainer'>
+                            <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
                         </div>
                         
                     </div>
@@ -61,9 +61,9 @@ export const MilesMorales = ({
                         <div className='navegationPerson'> 
                             {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
                             <br/> */}
-                            <a href="/personaje/spiderPunk"><button className='buttonNavigation'><FaArrowLeft/> Back </button></a>
+                            <a href="/personaje/spiderPunk"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                             <br/>
-                            <a href="/personaje/spiderGwen"><button className='buttonNavigation'> Next <FaArrowRight/></button></a>
+                            <a href="/personaje/spiderGwen"><button className='buttonNavigation'><FaArrowRight/></button></a>
                         </div>
                    </div>
                 </div>

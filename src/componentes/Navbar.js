@@ -3,6 +3,8 @@ import '../styles/Navbar.css'
 import navbarLogo from '../imagenes/navbarLogo.png'
 
 export const Navbar = () => {
+
+  
   return (
       <>
         <nav className="navbar navbar-expand-md bg-black mb-4">
@@ -37,7 +39,7 @@ export const Navbar = () => {
                     </a>
                     <ul className="dropdown-menu">
                     <li><a className="dropdown-item electro" href="/villanos">Todos los Villanos</a></li>
-                      <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li>
+                      {/* <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li> */}
                       <li><hr className="dropdown-divider"/></li>
                       <li><a className="dropdown-item dropVillanos" href="/personaje/DuendeVerde">Duende Verde</a></li>
                       <li><a className="dropdown-item dropVillanos" href="/personaje/Electro">Electro</a></li>
@@ -92,14 +94,14 @@ export const Navbar = () => {
                       <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li>
                     </ul>
                   </li>
-                  <li className="nav-item me-5 navbarButton">
-                    <a className="nav-link" href="/marvel">MARVEL</a>
+                  <li className="nav-item navbarButton">
+                    <a className="nav-link" href="/marvel">Marvel</a>
+                  </li>
+                  <li className="nav-item navbarButton">
+                    <a className="nav-link navPersonaje" href="/buscarPersonaje">Buscar Personajes</a>
                   </li>
                 </ul>
-                <form className="d-flex" role="search">
-                  <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-                  <button className="navbarButton" type="submit">Buscar</button>
-                </form>
+                
               </div>
             </div>
         </nav>

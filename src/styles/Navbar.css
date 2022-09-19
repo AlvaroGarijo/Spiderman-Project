@@ -41,6 +41,11 @@
     color: #FFC700;
 }
 
+.navPersonaje{
+    background-color: #FFC700;
+    color: #DD111B;
+}
+
 .nav-link:focus,
 .nav-link:focus-visible {
     color: rgb(0, 0, 0);

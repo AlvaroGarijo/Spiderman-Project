@@ -49,7 +49,7 @@
     padding: 20px;
     justify-content: start;
     align-items: flex-start;
-    
+
 }
 
 .listDataControl {
@@ -58,12 +58,12 @@
     list-style: none;
 }
 
-.listData{
+.listData {
     padding: 5px;
     margin-bottom: 6px;
 }
 
-.styleData{
+.styleData {
     color: white;
 }
 
@@ -86,12 +86,32 @@
 
 .navegationPerson {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 20px;
 }
 
-.buttonNavigationSpiders,
+.buttonNavContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttonNavigationSpiders {
+    height: 50px;
+    width: 350px;
+    background-color: #FFC700;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.buttonNavigationSpiders:hover {
+    background-color: #000000;
+    color: #FFC700;
+    border-color: #FFC700;
+}
+
 .buttonNavigation {
-    font-family: amazingSpider;
     margin: 10px;
     padding: 5px 15px;
     color: #FDCC06;
@@ -101,8 +121,7 @@
 }
 
 
-.buttonNavigation:hover,
-.buttonNavigationSpiders:hover  {
+.buttonNavigation:hover {
     background: #FDCC06;
     color: black;
     border: 2px solid black;

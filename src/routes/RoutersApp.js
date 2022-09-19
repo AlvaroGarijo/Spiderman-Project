@@ -53,6 +53,7 @@ import { SpiderPunk } from '../componentes/personajes/SpiderPunk';
 import { SpiderWomanJessica } from '../componentes/personajes/SpiderWomanJessica';
 import { SpiderWomanMattie } from '../componentes/personajes/SpiderWomanMattie';
 import { Venom } from '../componentes/personajes/Venom';
+import { SearchPersonaje } from '../componentes/searchPersonaje/SearchPersonaje';
 
 export const RoutersApp = () => {
   return (
@@ -66,6 +67,7 @@ export const RoutersApp = () => {
           <Route path="/villanos" element={<Villanos/>}/>
           <Route path="/spiders" element={<Spiders/>}/>
           <Route path="/marvel" element={<Marvel/>}/> 
+          <Route path="/buscarPersonaje" element={<SearchPersonaje/>}/> 
           <Route path="/familia" element={<Familia/>}/> 
           <Route path="/interesAmoroso" element={<InteresesAmorosos/>}/>
           <Route path="/personajesSecundarios" element={<PersonajesSecundarios/>}/>
