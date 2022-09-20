@@ -22,15 +22,15 @@ export const Navbar = () => {
                     <a className="nav-link" href="/comics">Cómics</a>
                   </li>
                   <li className="nav-item dropdown navbarButton">
-                    <a className="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Actores
+                    <a className="nav-link dropdown-toggle" href='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Películas
                     </a>
                     <ul className="dropdown-menu">
-                      <li><a className="dropdown-item electro" href="/actores">Los 3 Spiders</a></li>
-                      <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item electro" href="#">Tobey Maguire</a></li>
-                      <li><a className="dropdown-item octopus" href="#">Andrew Garfield</a></li>
-                      <li><a className="dropdown-item electro" href="#">Tom Holland</a></li>
+                      <li><a className="dropdown-item electro" href="/primeraTrilogiaTobey">Primera Trilogía (Tobey)</a></li>
+                      <li><a className="dropdown-item electro" href="/amazigSpiderAndrew">Amazing Spider-Man (Andrew)</a></li>
+                      <li><a className="dropdown-item electro" href="/spiderUCM_Tom">UCM Spider-Man (Tom)</a></li>
+                      <li><a className="dropdown-item electro" href="/spider_verse">Spider-Verse (Miles)</a></li>
+                      <li><a className="dropdown-item electro" href="/primerActor">Primer Actor (Nicholas)</a></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown navbarButton">

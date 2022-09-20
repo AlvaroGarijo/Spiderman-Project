@@ -36,7 +36,7 @@ export const SearchPersonaje = () => {
             <div className='row searchWrapp'>
                 <div className='col-5'>
                     <h4 className='searchPerson'>Buscador <BiSearchAlt/></h4>
-                    <hr/>
+                    <br/>
                     <form onSubmit={handleSearch}>
                         <input 
                             type='text'
@@ -47,7 +47,7 @@ export const SearchPersonaje = () => {
                             value={searchText}
                             onChange={handleInputChange}
                         />
-                        <hr/>
+                        <br/>
                         <button className='nav-link navbarButton searchButton'
                                 type='submit'>
                             Buscar
@@ -60,7 +60,7 @@ export const SearchPersonaje = () => {
                         
                          
                     </h4>
-                    <hr/>
+                    <br/>
                     {
                         (q === '')
                             ? <div className='screenFail1'>Prueba otra vez . . .</div>

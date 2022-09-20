@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter,  Routes, Route} from 'react-router-dom';
 import { FooterApp } from '../componentes/FooterApp';
 import { Navbar } from '../componentes/Navbar';
-import { Actores } from '../componentes/Navegacion/Actores';
+import { AmazigSpiderAndrew } from '../componentes/Navegacion/AmazigSpiderAndrew';
 import { Comics } from '../componentes/Navegacion/Comics';
 import { Familia } from '../componentes/Navegacion/Familia';
 import { InicioWeb } from '../componentes/Navegacion/InicioWeb';
@@ -10,8 +10,12 @@ import { InteresesAmorosos } from '../componentes/Navegacion/InteresesAmorosos';
 import { Marvel } from '../componentes/Navegacion/Marvel';
 import { PersonajeApoyo } from '../componentes/Navegacion/PersonajeApoyo';
 import { PersonajesSecundarios } from '../componentes/Navegacion/PersonajesSecundarios';
+import { PrimerActor } from '../componentes/Navegacion/PrimerActor';
+import { PrimeraTrilogiaTobey } from '../componentes/Navegacion/PrimeraTrilogiaTobey';
 import { SpidermanPage } from '../componentes/Navegacion/SpidermanPage';
 import { Spiders } from '../componentes/Navegacion/Spiders';
+import { SpiderUCM_Tom } from '../componentes/Navegacion/SpiderUCM_Tom';
+import { Spider_verse } from '../componentes/Navegacion/Spider_verse';
 import { Villanos } from '../componentes/Navegacion/Villanos';
 import { BlackCat } from '../componentes/personajes/BlackCat';
 import { Buitre } from '../componentes/personajes/Buitre';
@@ -63,13 +67,17 @@ export const RoutersApp = () => {
           <Route path="/" element= {<InicioWeb/>}/>
           <Route path="/spiderman" element={<SpidermanPage/>}/>
           <Route path="/comics" element={<Comics/>}/>
-          <Route path="/actores" element={<Actores/>}/>
+          <Route path="/primeraTrilogiaTobey" element={<PrimeraTrilogiaTobey/>}/>
+          <Route path="/amazigSpiderAndrew" element={<AmazigSpiderAndrew/>}/>
+          <Route path="/spiderUCM_Tom" element={<SpiderUCM_Tom/>}/>
+          <Route path="/spider_verse" element={<Spider_verse/>}/>
+          <Route path="/primerActor" element={<PrimerActor/>}/>
           <Route path="/villanos" element={<Villanos/>}/>
           <Route path="/spiders" element={<Spiders/>}/>
           <Route path="/marvel" element={<Marvel/>}/> 
           <Route path="/buscarPersonaje" element={<SearchPersonaje/>}/> 
           <Route path="/familia" element={<Familia/>}/> 
-          <Route path="/interesAmoroso" element={<InteresesAmorosos/>}/>
+          <Route path="/interesAmorosos" element={<InteresesAmorosos/>}/>
           <Route path="/personajesSecundarios" element={<PersonajesSecundarios/>}/>
           <Route path="/personajeApoyo" element={<PersonajeApoyo/>}/> 
 

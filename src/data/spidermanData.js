@@ -377,7 +377,7 @@ export const spidermanData = [
          'id': 'mayDayParker',
          'personaje':'Mayday Parker', 
          'publisher':'Familia', 
-         'alter_ego_personaje':'Mayday Parker (hija)',
+         'alter_ego_personaje':'Mayday Parker (hija) MC2- Tierra-982.',
          'first_appearance':'What If #105 Vol.2 (1998)',
          'characters':'Mayday Parker'
      },
@@ -385,7 +385,7 @@ export const spidermanData = [
         'id': 'benRichardParker',
         'personaje':'Benjamin Richard Parker', 
         'publisher':'Familia', 
-        'alter_ego_personaje':'Benjamin Richard Parker (hijo)',
+        'alter_ego_personaje':'Benjamin Richard Parker (hijo) MC2- Tierra-982.',
         'first_appearance':'Spider-Girl # 36 (el embarazo de M.J)',
         'characters':''
     },
@@ -402,7 +402,7 @@ export const spidermanData = [
     },
     {
         'id': 'bettyBrant',
-        'personaje':'Betty Brant (ex Novia)', 
+        'personaje':'Betty Brant', 
         'publisher':'Secundarios', 
         'alter_ego_personaje':'Elisabeth Brant',
         'first_appearance':'The Amazing Spider-Man #4 (septiembre de 1963)',
@@ -457,36 +457,92 @@ export const spidermanData = [
         'characters':'Randy Robertson'
     },
     {
-        'id': 'harryOsborn',
-        'personaje':'Harry Osborn', 
+        'id': 'blueBird',
+        'personaje':'Bluebird', 
         'publisher':'Secundarios', 
-        'alter_ego_personaje':'Harry Osborn',
-        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
-        'characters':'Harry Osborn'
+        'alter_ego_personaje':'Sally Avril',
+        'first_appearance':'Amazing Fantasy #15 (agosto de 1962)',
+        'characters':'Sally Avril'
     },
     {
-        'id': 'harryOsborn',
-        'personaje':'Harry Osborn', 
+        'id': 'vinGonzales',
+        'personaje':'Vincent Gonzales', 
         'publisher':'Secundarios', 
-        'alter_ego_personaje':'Harry Osborn',
-        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
-        'characters':'Harry Osborn'
+        'alter_ego_personaje':'Vincent Gonzales',
+        'first_appearance':'Spider-Man: Free Comic Book Day (junio de 2007)',
+        'characters':'Vincent Gonzales'
     },
     {
-        'id': 'harryOsborn',
-        'personaje':'Harry Osborn', 
+        'id': 'jjJameson',
+        'personaje':'J. Jonah Jameson', 
         'publisher':'Secundarios', 
-        'alter_ego_personaje':'Harry Osborn',
-        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
-        'characters':'Harry Osborn'
+        'alter_ego_personaje':'J. Jonah Jameson',
+        'first_appearance':'The Amazing Spider-Man n.º 1 (marzo de 1963)',
+        'characters':'J. Jonah Jameson'
     },
     {
-        'id': 'harryOsborn',
-        'personaje':'Harry Osborn', 
+        'id': 'gloryGrant',
+        'personaje':'Glory Grant', 
         'publisher':'Secundarios', 
-        'alter_ego_personaje':'Harry Osborn',
-        'first_appearance':'The Amazing Spider-Man #31 (diciembre de 1965)',
-        'characters':'Harry Osborn'
+        'alter_ego_personaje':'Glory Grant',
+        'first_appearance':'The Amazing Spider-Man #140 (enero 1975)',
+        'characters':'Glory Grant'
+    },
+    {
+        'id': 'robbieRobertson',
+        'personaje':'Joseph "Robbie" Robertson', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Robbie Robertson',
+        'first_appearance':'The Amazing Spider-Man # 51 (agosto de 1967)',
+        'characters':'Robbie Robertson'
+    },
+    {
+        'id': 'benUrich',
+        'personaje':'Benjamin "Ben" Urich', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Benjamin Urich',
+        'first_appearance':'Daredevil volumen 153 (julio de 1978)',
+        'characters':'Benjamin Urich'
+    },
+    {
+        'id': 'nedLeeds',
+        'personaje':'Edward Leeds (Hobgoblin)', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Edward "Ned" Leeds',
+        'first_appearance':'The Amazing Spider-Man #18 (noviembre de 1964)',
+        'characters':'Edward "Ned" Leeds'
+    },
+    {
+        'id': 'maxModell',
+        'personaje':'Max Modell', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Max Modell',
+        'first_appearance':'The Amazing Spider-Man #648',
+        'characters':'Max Modell'
+    },
+    {
+        'id': 'georgeStacy',
+        'personaje':'George Stacy', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'George Stacy',
+        'first_appearance':'The Amazing Spider-Man # 56 (Enero de 1968)',
+        'characters':'George Stacy'
+    },
+    {
+        'id': 'annaWatson',
+        'personaje':'Anna Watson', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Anna Watson',
+        'first_appearance':'Amazing Spider-Man #15 (agosto de 1964)',
+        'characters':'Anna Watson'
+    },
+    {
+        'id': 'walterHardy',
+        'personaje':'Walter Hardy', 
+        'publisher':'Secundarios', 
+        'alter_ego_personaje':'Walter Hardy',
+        'first_appearance':'The Amazing Spider-Man # 194 (julio de 1979)',
+        'characters':'Walter Hardy'
     },
 
 ]

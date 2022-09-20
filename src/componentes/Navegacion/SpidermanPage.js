@@ -28,7 +28,7 @@ export const SpidermanPage = () => {
          
           <div className='dataSpider linksSpiderData'>
               <a  className='linkSpiderData' href='/familia'>  Familia </a>
-              <a className='linkSpiderData' href='/interesAmoroso'>  Intereses Amorosos </a>
+              <a className='linkSpiderData' href='/interesAmorosos'>  Intereses Amorosos </a>
               <a className='linkSpiderData' href='/personajesSecundarios'>  Personajes Secundarios </a>
               <a className='linkSpiderData' href='/marvel'> Aliados en MARVEL </a>
               <a className='linkSpiderData' href='/villanos'> Villanos </a>
