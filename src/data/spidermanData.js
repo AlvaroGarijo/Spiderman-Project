@@ -135,7 +135,7 @@ export const spidermanData = [
         'personaje':'Black Cat', 
         'publisher':'Villanos', 
         'alter_ego_personaje':'Felicia Sara Hardy',
-        'first_appearance':'?¿',
+        'first_appearance':'Amazing Spider-Man #194 (1979)',
         'characters':'Felicia Sara Hardy'
     },
     {

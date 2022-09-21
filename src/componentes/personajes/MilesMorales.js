@@ -1,5 +1,5 @@
-import React from 'react'
-import '../personajes/personajesStyle/personajes.css'
+import React from 'react';
+import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
@@ -8,6 +8,7 @@ import { FaArrowRight } from 'react-icons/fa';
 export const MilesMorales = ({
 
     id = 'MilesMorales',
+    realName = 'Miles Morales',
     personaje = 'Miles Morales',
     bornArea = 'Brooklyn',
     cause = 'Picadura de araña',
@@ -26,7 +27,7 @@ export const MilesMorales = ({
                         <img src={imagePath} className='card-imgIndividual' alt='MilesMorales'/>
                         <div className='dataControlSmall'>
                             <ul className='listDataControl'>
-                                <li className='listData'>Nombre: <span className='styleData'>{ personaje }</span></li>
+                                <li className='listData'>Nombre: <span className='styleData'>{ realName }</span></li>
                                 <li className='listData'>Lugar de Nacimiento: <span className='styleData'>{ bornArea }</span></li>
                                 <li className='listData'>Causa de sus poderes: <span className='styleData'>{ cause }</span></li>
                                 <li className='listData'>Poderes: <span className='styleData'>{ powers }</span></li>
