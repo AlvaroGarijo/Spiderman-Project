@@ -62,8 +62,7 @@ export const Silk = ({
                     </div>
                 </div>
                 <div className='navegationPerson'> 
-                    {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                    <br/> */}
+                    
                     <a href="/personaje/Scarlet_Spider"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                     <br/>
                     <a href="/personaje/SpiderGirl"><button className='buttonNavigation'><FaArrowRight/></button></a>

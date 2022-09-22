@@ -8,7 +8,7 @@ export const SpiderWomanJessica = ({
     id = 'SpiderWomanJessica',
     realName = 'Jessica Drew',
     personaje = 'Spider Woman (Jessica Drew).',
-    bornArea = 'EEUU y U.',
+    bornArea = 'EEUU y UK',
     cause = 'Inyección de un suero experimental de sangre de araña.',
     powers = 'Fuerza, velocidad, resistencia, agilidad, reflejos y sentidos sobrehumanos, Vuelo limitado a distancias cortas, creación de feromonas, adherencia a superficies, descarga de energía desde sus manos. Inmunidad a radiación y venenos.',
     first_apperance= 'Marvel Spotlight #32 (febrero de 1977).',
@@ -58,8 +58,7 @@ export const SpiderWomanJessica = ({
                     </div>
                 </div>
                 <div className='navegationPerson'> 
-                    {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                    <br/> */}
+                   
                     <a href="/personaje/SpidermanSuperior"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                     <br/>
                     <a href="/personaje/SpiderWomanMattie"><button className='buttonNavigation'><FaArrowRight/></button></a>

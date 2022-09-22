@@ -59,9 +59,8 @@ export const MiguelOhara = ({
                     </div>
                 </div>
                 <div className='navegationPerson'> 
-                    {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                    <br/> */}
-                    <a href="/personaje/Spider_Girl"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    
+                    <a href="/personaje/SpiderGirl"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                     <br/>
                     <a href="/personaje/SpidermanSuperior"><button className='buttonNavigation'><FaArrowRight/></button></a>
                 </div>

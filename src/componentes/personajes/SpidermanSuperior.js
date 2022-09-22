@@ -57,8 +57,7 @@ export const SpidermanSuperior = ({
                     </div>
                 </div>
                 <div className='navegationPerson'> 
-                    {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                    <br/> */}
+                    
                     <a href="/personaje/MiguelOhara"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                     <br/>
                     <a href="/personaje/SpiderWomanJessica"><button className='buttonNavigation'><FaArrowRight/></button></a>

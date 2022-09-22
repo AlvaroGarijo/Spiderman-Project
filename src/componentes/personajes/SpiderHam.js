@@ -6,15 +6,15 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export const SpiderHam = ({
     id = 'SpiderHam',
-    realName = '',
-    personaje = '',
-    bornArea = '',
-    cause = '',
-    powers = '',
-    first_apperance= '',
-    adds = '',
-    creators= '',
-    alias = ''
+    realName = 'Peter Benjamin Porker.',
+    personaje = 'Spider Ham',
+    bornArea = 'Tierra-8311.',
+    cause = 'Mordedura de una cientifica que inventó un secador atómico y salió regular la cosa.',
+    powers = 'Fuerza, agilidad y durabilidad mejoradas, sentido arácnido precognitivo, cinta orgánica, capacidad de adherirse a las superficies.',
+    first_apperance= 'Marvel Tails, el espectacular Spider-Ham (noviembre de 1983).',
+    adds = '"Esto es asombroso! ¿Soy una araña con las limitaciones de un cerdo? ¿O un cerdo con la fuerza y ​​agilidad proporcionadas de una araña? Me he convertido en algo más grande que una araña o un cerdo... Me he convertido en una Araña - ¡Cerdo! " - Peter Porker, the Spectacular Spider-Ham # 15 (mayo de 1987).',
+    creators= '	Larry Hama, Tom DeFalco y Mark Amstrong.',
+    alias = 'Spider-Ham.'
 }) => {
     const imagePath= `/assets/personajes/${id}.png`;
     return (
@@ -44,21 +44,18 @@ export const SpiderHam = ({
                     <h3 className='titlePerson'>{personaje}</h3>
                     <div className='infoPersonWrap'>
                         <p className='infoPerson'>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p> 
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>                               
+                            <p>Spider-Ham ( Peter Porker ) es un superhéroe ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics . El personaje es un cerdo antropomórfico y es una versión de parodia animal de dibujos animados de Spider-Man . Fue creado por el editor Larry Hama , Tom DeFalco y Mark Armstrong. </p>
+                            <p>Apareció por primera vez en el cómic de humor de una sola toma Marvel Tails Starring Peter Porker, the Spectacular Spider-Ham (noviembre de 1983), al que luego siguió una serie bimensual en curso, Peter Porker, the Spectacular Spider-Ham , bajo Marvel's. Huella de Star Comics , con ambos títulos editados por Hama. El personaje existía en la Tierra-8311, que era un universo poblado por versiones de parodia antropomórficas de los superhéroes y supervillanos de Marvel.</p>
+                            <p>Peter Porker nació como una araña (simplemente llamado Peter). Residía en el laboratorio del sótano de May Porker, una científica de animales un poco tonta que había creado "el primer secador de pelo atómico del mundo", con la esperanza de que "la introducción de la fusión nuclear en los salones de belleza de Estados Unidos" "revolucionaría la industria del cuidado del cabello". </p>
+                            <p>Después de rociar su cabeza con agua y activar la secadora, May Porker se irradió accidentalmente y, en un ataque de delirio, mordió a Peter, quien luego se transformó en un cerdo antropomórfico muy parecido a la propia May Porker. Huyendo de la granja de Porker desorientado, Peter pronto se dio cuenta de que aún conservaba las habilidades de una araña:</p>
+                            <p>"¡Esto es asombroso! ¿Soy una araña con las limitaciones de un cerdo? ¿O un cerdo con la fuerza y ​​agilidad proporcionadas de una araña? Me he convertido en algo más grande que una araña o un cerdo... Me he convertido en una araña- ¡Jamón! " - Peter Porker, the Spectacular Spider-Ham # 15 (mayo de 1987)</p> 
+                            <p>Después de esta sorprendente serie de eventos, Peter (quien adoptó el apellido "Porker", el de su benefactora May Porker, quien después del accidente se sintonizó mentalmente con un estado en el que creía que era la tía amorosa de Peter) se dedicó a sí mismo y a su recién descubierto habilidades para luchar contra la injusticia y la parodia animal ocasional de los villanos establecidos de Marvel Comics. El genio científico de May Porker se transfirió a Peter, brindándole el conocimiento para diseñar sus guanteletes tejedores de telarañas para reemplazar su habilidad natural perdida.</p>
+                            <p>Spider-Ham aparece en la película animada Spider-Man: Into the Spider-Verse , con la voz de John Mulaney .</p>                             
                         </p>
                     </div>
                 </div>
                 <div className='navegationPerson'> 
-                    {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                    <br/> */}
+                    
                     <a href="/personaje/SpidergirlMayday"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                     <br/>
                     <a href="/personaje/spidermanPavitr"><button className='buttonNavigation'><FaArrowRight/></button></a>
