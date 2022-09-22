@@ -162,10 +162,22 @@ export const spidermanData = [
         'first_appearance':'?¿',
         'characters':'Miles Warren'
     },
+    {
+        'id': 'Morlun',
+        'personaje':'Morlun', 
+        'publisher':'Villanos', 
+        'alter_ego_personaje':'Morlun D`Snideed',
+        'first_appearance':'The Amazing Spider-Man vol. 2, Nº30 (2001)',
+        'characters':'Morlun D`Snideed'
+    },
+
+
+
     // Publisher = Spiders
     {
         'id': 'MilesMorales',
         'personaje':'Miles Morales',
+        'realName' : 'Miles Morales',
         'bornArea': 'Brooklyn',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Miles Morales',
@@ -180,74 +192,130 @@ export const spidermanData = [
     {
         'id': 'spiderGwen',
         'personaje':'Spider-Gwen', 
+        'realName': 'Gwen Stacy',
+        'bornArea' : 'Nueva York',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Gwen Stacey',
-        'first_appearance':'?¿',
-        'characters':'Gwen Stacey'
+        'first_appearance':' aparición	Borde del Spider-Verse #2(2014)',
+        'characters':'Gwen Stacey',
+        'cause' : 'Mordida por la araña radiactiva',
+        'powers' :'Sexto sentido de peligro, fuerza sobrehumana, velocidad, agilidad, resistencia y durabilidad, factor de curación, sentido arácnido, piel adherente.',
+        'adds' : 'Siendo la hija del capitán de policía, George Stacy, que se representa como teniendo habilidades de detección y el pensamiento analítico. Ella es inexperta en la lucha y sólo aprendió en la lucha de las películas de kung fu. Ella también está representado como experta en la batería.',
+        'creators': 'Jason Latour y Robbi Rodríguez',
+        'alias' : 'white Widow, Ghost Spider',
         
     },
     {
-        'id': 'Ezequiel_Sims',
-        'personaje':'Spider-Man: Ezequiel Sims', 
+        'id': 'Ezekiel_Sims',
+        'personaje':'Spider-Man: Ezekiel Sims',
+        'realName' : 'Ezekiel Sims',
+        'bornArea': 'Estados Unidos',
         'publisher':'Spiders', 
-        'alter_ego_personaje':'Ezequiel Sims',
-        'first_appearance':'?¿',
-        'characters':'Ezequiel Sims'
+        'alter_ego_personaje':'Ezekiel Sims',
+        'first_appearance':'Amazing Spiderman volumen 2, N.º 30 (2001)',
+        'characters':'Ezekiel Sims',
+        'cause' :'Ganó "ritualmente" poderes similares a los de Spider-Man.',
+        'powers' :'Agilidad, reflejos, fuerza, resistencia y equilibrio aumentados. Habilidad para adherirse y trepar en superficies verticales. Algún tipo de "sentido arácnido" alertándolo del peligro.',
+        'adds' : 'Ezekiel Sims fue un rico hombre de negocios y un hombre de negocios altamente calificado y propietario de una compañía con conexiones internacionales. Al igual que con Spider-Man, él es un formidable combatiente mano a mano aunque no ha tenido un entrenamiento formal.',
+        'creators': 'J. Michael Straczynski y John Romita Jr.',
+        'alias' : 'Ezekiel'
     },
     {
         'id': 'MadameWeb',
         'personaje':'Madame Web', 
+        'realName' : 'Cassandra Webb',
+        'bornArea' : 'Salem, Oregón',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Cassandra Web',
-        'first_appearance':'?¿',
-        'characters':'Cassandra Web'
+        'first_appearance':'The Amazing Spider-Man #210 (noviembre de 1980)',
+        'characters':'Cassandra Web',
+        'cause' : 'Mutante precognitiva',
+        'powers' : 'Poder intelecto, Telepatía, Presencia, Proyección Astral',
+        'adds' : 'Era una mujer paralítica, ciega, telepática, clarividente, y mutante precognitiva',
+        'creators': 'Denny O`Neil, John Romita, Jr.',
+        'alias' : 'Abuela Vendada, Joven Vendada, Chica Vendada'
     },
     {
         'id': 'Scarlet_Spider',
         'personaje':'Araña Escarlata', 
+        'realName': 'Kaine Parker',
+        'bornArea': 'Estados Unidos',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Ben Reilly, Kaine Parker',
-        'first_appearance':'?¿',
-        'characters':'Ben Reilly, Kaine Parker'
+        'first_appearance':'Web of Spider-Man #119 (1994)',
+        'characters':'Ben Reilly, Kaine Parker',
+        'cause' : 'Clon Spiderman',
+        'powers' : 'Mayor fuerza, velocidad y agilidad, telarañas orgánicas.visión nocturna, marca de Kaine, comunicación con artrópodos, dos aguijones retráctiles, con su traje:invisibilidad e inmunidad a ataques sónicos.',
+        'adds' : 'Kaine no ha tenido ningún entrenamiento formal, pero aun así es un combatiente formidable mano a mano, y utiliza un tipo inusual de técnica muy similar al estilo de Spider-Man, aunque Kaine no tiene reparos al combatir con un estilo más brutal.',
+        'creators': 'Terry Kavanagh y Steven Butler',
+        'alias' : 'La Tarántula, Kaine Parker, La Araña Escarlata'
     },
     {
         'id': 'Silk',
-        'personaje':'Silk (Cindy Moon)', 
+        'personaje':'Silk (Cindy Moon)',
+        'realName': 'Cynthia "Cindy" Moon', 
+        'bornArea' :'Estados Unidos.',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Cindy Moon',
-        'first_appearance':'?¿',
-        'characters':'Cindy Moon'
+        'first_appearance':'Amazing Spider-Man Vol 3 #1 (como Cindy Moon) abril de 2014',
+        'characters':'Cindy Moon',
+        'cause' :'Mordida por una araña alterada genéticamente.',
+        'powers' :'fisiología arácnida, agilidad superhumana, sentido arácnido, trepa muros, garras retractiles.',
+        'adds' :'Tiene memoria eidética. Fue picada por el mismo tipo de araña que Peter Parker.',
+        'creators' :'Dan Slott y Humberto Ramos.',
+        'alias' :'Spider-Bride.'
     },
     {
-        'id': 'Spider_girl',
-        'personaje':'Spider-Girl (Anya Corazón)', 
+        'id': 'SpiderGirl',
+        'personaje':'Spider-Girl (Anya Corazón)',
+        'realName' : 'Anya Sofia Corazón', 
+        'bornArea' : 'Estados Unidos',
         'publisher':'Spiders', 
         'alter_ego_personaje':'Anya Corazón',
-        'first_appearance':'?¿',
-        'characters':'Anya Corazón'
+        'first_appearance':'Amazing Fantasy #1 (agosto de 2004)',
+        'characters':'Anya Corazón',
+        'cause' : 'Un ritual es realizado en ella al darle un tatuaje con forma de araña que le dota de poderes de araña.',
+        'powers' : 'fuerza mejorada, velocidad, reflejos/reacciones, agilidad, coordinación, equilibrio y resistencia.',
+        'adds' : 'Araña junta cuerdas con discos que son aproximadamente del tamaño de su palma y que tienen ocho patas rojas capaces de agarrarse a los objetos.',
+        'creators': '	Fiona Avery (guionista), Mark Brooks (artista).',
+        'alias' : 'Araña, Spider-girl, "Chica Araña"'
     },
     {
         'id': 'MiguelOhara',
-        'personaje':'Spider-Man: Miguel O`hara', 
+        'personaje':'Spider-Man: 2099', 
+        'realName' : 'Miguel O`hara',
+        'bornArea' : 'Mexico',
         'publisher':'Spiders', 
-        'alter_ego_personaje':'Cindy Moon',
-        'first_appearance':'?¿',
-        'characters':'Cindy Moon'
+        'alter_ego_personaje':'Miguel O`hara',
+        'first_appearance':'The Amazing Spider-Man núm. 365 (agosto de 1992)',
+        'characters':'Miguel O`hara',
+        'cause' : 'Explosión Accidental en laboratorio',
+        'powers' : 'Fuerza y agilidad proporcionales a las de las arañas, garras en las yemas de los dedos, antebrazos que generan telarañas, visión mejorada, colmillos que pueden inocular veneno paralizante',
+        'adds' : 'Es muy sensible a la luz directa y no posee sentido arácnido pero ha podido desarrollar algo similar.',
+        'creators': '	Peter David y Rick Leonardi',
+        'alias' : 'Miggi'
     },
     {
         'id': 'SpidermanSuperior',
-        'personaje':'Spider-Man Superior: Elliot Tolliver', 
+        'personaje':'Spider-Man Superior', 
+        'realName' : 'Otto Octavius.',
+        'bornArea' : 'Schenectady, Nueva York.',
         'publisher':'Spiders', 
-        'alter_ego_personaje':'Elliot Tolliver',
-        'first_appearance':'?¿',
-        'characters':'Elliot Tolliver'
+        'alter_ego_personaje':'Otto Octavius/ Peter Parker',
+        'first_appearance':'Amazing Spider-Man Vol 1 698 (Enero de 2013, como Spider-Man)',
+        'characters':'Otto Octavius/ Peter Parker',
+        'cause' : 'Otto Octavius dentro del cuerpo de Peter Parker.',
+        'powers' : 'Fisiología arácnida, fuerza, resistencia, velocidad sobrehumanas, factor de curación, reflejos mejorados, agilidad, trepamuros, habilidad de salto, sentido arácnido, equilibrio perfecto.',
+        'adds' : 'Usando un Octobot cambia mentes, Otto Octavius trasplanto su mente en el cuerpo de Spider-Man.',
+        'creators': '	Dan Slott, Ryan Stegman y Humberto Ramos.',
+        'alias' : 'Superior Spiderman.'
     },
     {
         'id': 'SpiderWomanJessica',
         'personaje':'Spider-Woman: Jessica Drew', 
         'publisher':'Spiders', 
         'alter_ego_personaje':'Jessica Drew',
-        'first_appearance':'?¿',
+        'first_appearance':'Marvel Spotlight #32 (febrero de 1977)',
         'characters':'Jessica Drew'
     },
     {

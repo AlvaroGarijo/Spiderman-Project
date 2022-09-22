@@ -26,7 +26,7 @@ import { DrOctopus } from '../componentes/personajes/DrOctopus';
 import { DuendeVerde } from '../componentes/personajes/DuendeVerde';
 import { Electro } from '../componentes/personajes/Electro';
 import { Escorpion } from '../componentes/personajes/Escorpion';
-import { EzequielSims } from '../componentes/personajes/EzequielSims';
+import { EzekielSims } from '../componentes/personajes/EzekielSims';
 import { HobGoblin } from '../componentes/personajes/HobGoblin';
 import { Kingpin } from '../componentes/personajes/Kingpin';
 import { Kraven } from '../componentes/personajes/Kraven';
@@ -35,6 +35,7 @@ import { MadameWeb } from '../componentes/personajes/MadameWeb';
 import { MiguelOhara } from '../componentes/personajes/MiguelOhara';
 import { MilesMorales } from '../componentes/personajes/MilesMorales';
 import { Morbius } from '../componentes/personajes/Morbius';
+import { Morlun } from '../componentes/personajes/Morlun';
 import { MrNegativo } from '../componentes/personajes/MrNegativo';
 import { Mysterio } from '../componentes/personajes/Mysterio';
 import { PeniParker } from '../componentes/personajes/PeniParker';
@@ -103,18 +104,20 @@ export const RoutersApp = () => {
           <Route path="/personaje/Black_Cat" element={<BlackCat/>}/>  
           <Route path="/personaje/Morbius" element={<Morbius/>}/>  
           <Route path="/personaje/Camaleon" element={<Camaleon/>}/>  
-          <Route path="/personaje/Chacal" element={<Chacal/>}/>      
+          <Route path="/personaje/Chacal" element={<Chacal/>}/>
+          <Route path="/personaje/Morlun" element={<Morlun/>}/>      
+      
 
 
           {/* Rutas de los Personajes SpiderVerse*/}
 
           <Route path="/personaje/MilesMorales" element={<MilesMorales/>}/> 
           <Route path="/personaje/spiderGwen" element={<SpiderGwen/>}/> 
-          <Route path="/personaje/Ezequiel_Sims" element={<EzequielSims/>}/> 
+          <Route path="/personaje/Ezekiel_Sims" element={<EzekielSims/>}/> 
           <Route path="/personaje/MadameWeb" element={<MadameWeb/>}/>
           <Route path="/personaje/Scarlet_Spider" element={<Scarlet_Spider/>}/>
           <Route path="/personaje/Silk" element={<Silk/>}/>
-          <Route path="/personaje/Spider_girl" element={<SpiderGirlAnya/>}/>
+          <Route path="/personaje/SpiderGirl" element={<SpiderGirlAnya/>}/>
           <Route path="/personaje/MiguelOhara" element={<MiguelOhara/>}/>
           <Route path="/personaje/SpidermanSuperior" element={<SpidermanSuperior/>}/>
           <Route path="/personaje/SpiderWomanJessica" element={<SpiderWomanJessica/>}/>

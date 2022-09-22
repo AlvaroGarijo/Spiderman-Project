@@ -4,8 +4,8 @@ import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
 
-export const EzequielSims = ({
-    id = 'Ezequiel_Sims',
+export const Morlun = ({
+    id = 'Morlun',
     realName = '',
     personaje = '',
     bornArea = '',
@@ -21,7 +21,7 @@ export const EzequielSims = ({
         <div className='wrappPerson'>
         <div className='personWrap1'>
             <div className='imgWrap'>
-                <img src={imagePath} className='card-imgIndividual' alt='Ezequiel Sims'/>
+                <img src={imagePath} className='card-imgIndividual' alt='Silk'/>
                 <div className='dataControlSmall'>
                     <ul className='listDataControl'>
                         <li className='listData'>Nombre: <span className='styleData'>{ realName }</span></li>
@@ -35,7 +35,7 @@ export const EzequielSims = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Villains</button></a>
                 </div>
                 
             </div>
@@ -59,12 +59,12 @@ export const EzequielSims = ({
                 <div className='navegationPerson'> 
                     {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
                     <br/> */}
-                    <a href="/personaje/spiderGwen"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/Chacal"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                     <br/>
-                    <a href="/personaje/MadameWeb"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/DuendeVerde"><button className='buttonNavigation'><FaArrowRight/></button></a>
                 </div>
         </div>
         </div>
     </div>
-  )
+    )
 }

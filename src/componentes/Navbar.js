@@ -61,6 +61,7 @@ export const Navbar = () => {
                       <li><a className="dropdown-item dropVillanos" href="/personaje/Morbius">Morbius</a></li>
                       <li><a className="dropdown-item dropVillanos" href="/personaje/Camaleon">Camaleón</a></li>
                       <li><a className="dropdown-item dropVillanos" href="/personaje/Chacal">Chacal</a></li>
+                      <li><a className="dropdown-item dropVillanos" href="/personaje/Morlun">Morlun</a></li>
                     </ul>
                   </li>
                   <li className="nav-item dropdown navbarButton">
@@ -72,13 +73,13 @@ export const Navbar = () => {
                     <li><hr className="dropdown-divider"/></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/MilesMorales">Miles Morales</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/spiderGwen">Gwen Stacey</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="/personaje/Ezequiel_Sims">Ezequiel Sims</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/Ezekiel_Sims">Ezekiel Sims</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/MadameWeb">Madame Web</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/Scarlet_Spider">Araña Escarlata</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/Silk">Silk (Cindy Moon)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="personaje/Spider_girl">Spider-Girl (Anya Corazón)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="personaje/SpiderGirl">Spider-Girl (Anya Corazón)</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/MiguelOhara">Miguel O`hara (Spider-Man)</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="/personaje/SpidermanSuperior">Spider-Man Superior (Eliot Tolliver)</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/SpidermanSuperior">Spider-Man Superior</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/SpiderWomanJessica">Spider-Woman (Jessica Drew)</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/SpiderwomanMattie">Spider-Woman (Mattie Franklin)</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/SpidergirlMayday">Spider-Girl (Mayday Parker)</a></li>
