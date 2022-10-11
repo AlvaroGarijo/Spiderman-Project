@@ -35,7 +35,7 @@ export const PersonajesCard = ({
                           </p>
                             
                           <Link className='linkTo' to={`/personaje/${id}`} > 
-                             Click para saber más
+                             <button className='buttonCard'>Click me</button>
                           </Link>
                         </div>
                     </div>

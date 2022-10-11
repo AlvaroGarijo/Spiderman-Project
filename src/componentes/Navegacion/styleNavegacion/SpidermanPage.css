@@ -11,7 +11,7 @@
     margin-bottom: 50px;
     width: 85%;
     border-radius: 10px;
-    padding: 50px;
+    padding: 25px;
     background-color: rgba(196, 196, 196, 0.254);
 }
 
@@ -40,11 +40,11 @@
 }
 
 .imageSpider {
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 550px;
     margin: 20px;
     border-radius: 10px;
-    background-image: url('/public/assets/spiderman/SpidermanDibujoPersonaje.png');
+    background-image: url('/public/assets/spiderman/spiderman-comic.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -53,8 +53,8 @@
 
 .dataSpider {
     width: 100%;
-    height: 320px;
-    overflow: auto;
+    /* height: 320px;
+    overflow: auto; */
     padding: 20px;
     color: white;
     background-color: rgba(255, 255, 255, 0.201);
@@ -103,10 +103,10 @@
 
 .infoWikip {
     width: 100%;
-    height: 900px;
+    /* height: 900px; */
     padding: 25px;
     text-align: justify;
-    font-size: 22px;
-    overflow: auto;
+    font-size: 19px;
+    /* overflow: auto; */
     
 }

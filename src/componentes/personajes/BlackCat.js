@@ -60,8 +60,7 @@ export const BlackCat = ({
                             </div>
                         </div>
                         <div className='navegationPerson'> 
-                            {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                            <br/> */}
+                           
                             <a href="/personaje/Shocker"><button className='buttonNavigation'><FaArrowLeft/></button></a>
                             <br/>
                             <a href="/personaje/Morbius"><button className='buttonNavigation'><FaArrowRight/></button></a>

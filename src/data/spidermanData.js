@@ -1,30 +1,54 @@
 export const spidermanData = [
 
-    // Publisher = Villanos
+    // Publisher = Villanos,
 
     {
         'id': 'DuendeVerde',
         'personaje': 'Duende Verde',
+        'realName': 'Norman Obsborn',
+        'bornArea': 'New Haven, Connecticut',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Norman Osborn',
-        'first_appearance': '?¿',
-        'characters': 'Norman Osborn'
+        'first_appearance': 'The Amazing Spider-Man #14 (julio de 1964)',
+        'characters': 'Norman Osborn',
+        'cause': 'Debido a la "Fórmula Duende", Norman y la mayoría de los sucesores de la persona Duende poseen fuerza sobrehumana ',
+        'powers': 'Fuerza sobrehumana, resistencia, durabilidad, agilidad y reflejos debido a la ingesta de la Fórmula Duende.',
+        'adds': 'Factor de curación regenerativa, intelecto a nivel de genio, habilidad en combate cuerpo a cuerpo y artes marciales utiliza armas con temática de Duende y un planeador Duende que tiene una variedad de armas ofensivas como parafernalia.',
+        'creators': 'Stan Lee y Steve Ditko',
+        'alias': 'El Rey Duende, El Caballero Duende, El Duende Rojo'
     },
+
     {
         'id': 'Electro',
         'personaje': 'Electro',
+        'realName': 'Maxwell "Max" Dillon',
+        'bornArea': 'Estados Unidos',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Max Dilon',
-        'first_appearance': '?¿',
-        'characters': 'Max Dilon'
+        'first_appearance': 'The Amazing Spider-Man #9 (febrero de 1964)',
+        'characters': 'Max Dilon',
+        'cause': 'Un extraño accidente de rayos causó un cambio mutagénico que lo transformó en un condensador eléctrico vivo.',
+        'powers': 'Genera y almacena hasta 1.000.000 de voltios de energía eléctrica, manipulación mental de dispositivos eléctricos, habilidad de cabalgar la electricidad, vuelo por la electricidad.',
+        'adds': 'Electro puede anular cualquier dispositivo accionado eléctricamente y manipularlo según sus órdenes mentales.',
+        'creators': 'Stan Lee y Steve Ditko',
+        'alias': 'Electro, Max, Dillon'
     },
+    
     {
         'id': 'Dr_Octopus',
         'personaje': 'Dr.Octopus',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Otto Octavius',
         'first_appearance': '?¿',
-        'characters': 'Otto Octavius'
+        'characters': 'Otto Octavius',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
+    
     },
     {
         'id': 'Venom',
@@ -32,95 +56,177 @@ export const spidermanData = [
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Eddie Brock',
         'first_appearance': '?¿',
-        'characters': 'Eddie Brock'
+        'characters': 'Eddie Brock',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'carnage',
         'personaje': 'Carnage, Matanza',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Cletus Kasady',
         'first_appearance': '?¿',
-        'characters': 'Cletus Kasady'
+        'characters': 'Cletus Kasady',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Mysterio',
         'personaje': 'Mysterio',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Quentin Beck',
         'first_appearance': '?¿',
-        'characters': 'Quentin Beck'
+        'characters': 'Quentin Beck',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Sandman',
         'personaje': 'Sandman',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Flint Marco',
         'first_appearance': '?¿',
-        'characters': 'Flint Marco'
+        'characters': 'Flint Marco',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Lagarto',
         'personaje': 'Lagarto',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Curtis Connors',
         'first_appearance': '?¿',
-        'characters': 'Curtis Connors'
+        'characters': 'Curtis Connors',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Buitre',
         'personaje': 'Buitre',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Adrian Toomes',
         'first_appearance': '?¿',
-        'characters': 'Adrian Toomes'
+        'characters': 'Adrian Toomes',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Escorpion',
         'personaje': 'Escorpión',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'McDonald "Mac" Gargan',
         'first_appearance': '?¿',
-        'characters': 'McDonald "Mac" Gargan'
+        'characters': 'McDonald "Mac" Gargan',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Rhino',
         'personaje': 'Rhino',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Alexei Mikhailovich Sytsevich',
         'first_appearance': '?¿',
-        'characters': 'Alexei Mikhailovich Sytsevich'
+        'characters': 'Alexei Mikhailovich Sytsevich',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'HobGoblin',
         'personaje': 'HobGoblin',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Roderick y Daniel kingsley, Ned Leeds',
         'first_appearance': '?¿',
-        'characters': 'Roderick y Daniel kingsley, Ned Leeds'
+        'characters': 'Roderick y Daniel kingsley, Ned Leeds',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'kingpin',
         'personaje': 'Kingpin',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Wilson Fisk',
         'first_appearance': '?¿',
-        'characters': 'Wilson Fisk'
+        'characters': 'Wilson Fisk',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Kraven',
         'personaje': 'Kraven "El Cazador"',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Sergei Kravinov',
         'first_appearance': '?¿',
-        'characters': 'Sergei Kravinov'
+        'characters': 'Sergei Kravinov',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'mrNegativo',
         'personaje': 'Mr. Negativo',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Martin Li',
         'first_appearance': '?¿',
-        'characters': 'Martin Li'
+        'characters': 'Martin Li',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Shocker',
@@ -128,48 +234,90 @@ export const spidermanData = [
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Herman Schultz',
         'first_appearance': '?¿',
-        'characters': 'Herman Schultz'
+        'characters': 'Herman Schultz',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Black_Cat',
         'personaje': 'Black Cat',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Felicia Sara Hardy',
         'first_appearance': 'Amazing Spider-Man #194 (1979)',
-        'characters': 'Felicia Sara Hardy'
+        'characters': 'Felicia Sara Hardy',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Morbius',
         'personaje': 'Morbius',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Michael Morgan Morbius',
         'first_appearance': '?¿',
-        'characters': 'Michael Morgan Morbius'
+        'characters': 'Michael Morgan Morbius',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Camaleon',
         'personaje': 'Camaleón',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Dmitri Smerdyakov',
         'first_appearance': '?¿',
-        'characters': 'Dmitri Smerdyakov'
+        'characters': 'Dmitri Smerdyakov',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
     {
         'id': 'Chacal',
         'personaje': 'Chacal',
+        'realName': '',
+        'bornArea': '',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Miles Warren',
         'first_appearance': '?¿',
-        'characters': 'Miles Warren'
+        'characters': 'Miles Warren',
+        'cause': '',
+        'powers': '',
+        'adds': '',
+        'creators': '',
+        'alias': ''
     },
+
     {
         'id': 'Morlun',
         'personaje': 'Morlun',
+        'realName': 'Morlun D`Snideed',
+        'bornArea': 'Tierra 616',
         'publisher': 'Villanos',
         'alter_ego_personaje': 'Morlun D`Snideed',
         'first_appearance': 'The Amazing Spider-Man vol. 2, Nº30 (2001)',
-        'characters': 'Morlun D`Snideed'
+        'characters': 'Morlun D`Snideed',
+        'cause': 'Es una entidad de Tierra-001 que caza todos los tótems de araña para viajar a los muchos multiversos de Marvel Comics.',
+        'powers': 'Fuerza, velocidad, resistencia y reflejos sobrehumanos. Drena la fuerza vital de sus víctimas.',
+        'adds': 'Morlun atormenta a Spider-Man por apariciones repentinas y misteriosas, advirtiéndole que lo va a asesinar.',
+        'creators': 'J. Michael Straczynski y John Romita Jr.',
+        'alias': 'Devorador de tótems'
     },
+    
 
 
 
@@ -302,7 +450,7 @@ export const spidermanData = [
         'bornArea': 'Schenectady, Nueva York.',
         'publisher': 'Spiders',
         'alter_ego_personaje': 'Otto Octavius/ Peter Parker',
-        'first_appearance': 'Amazing Spider-Man Vol 1 698 (Enero de 2013, como Spider-Man)',
+        'first_appearance': 'Amazing Spider-Man Vol 1 698 (Enero de 2013)',
         'characters': 'Otto Octavius/ Peter Parker',
         'cause': 'Otto Octavius dentro del cuerpo de Peter Parker.',
         'powers': 'Fisiología arácnida, fuerza, resistencia, velocidad sobrehumanas, factor de curación, reflejos mejorados, agilidad, trepamuros, habilidad de salto, sentido arácnido, equilibrio perfecto.',

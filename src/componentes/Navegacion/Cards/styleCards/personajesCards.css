@@ -39,7 +39,22 @@
     text-align: end;
 }
 
+.linkTo{
+    display: flex;
+    justify-content: right;
+}
+
 a.linkTo {
-    text-align: left;
-    margin-left: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.buttonCard{
+    background-color:#FECA03;
+    border: none;
+    border-radius: 5px;
+
+}
+.buttonCard:hover{
+    background-color: #DD111B;
 }
