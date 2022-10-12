@@ -56,12 +56,13 @@ return (
                         <p>Tras la conclusión de la historia de The Superior Spider-Man que devuelve al verdadero Spider-Man, Electro ingresa al Bar sin nombre y es presentado a los sirvientes de Hobgoblin por su amigo y cantinero Deke. Los villanos comienzan a bromear sobre el sombrío Electro. Uno menciona cómo Thor lo lanzó al espacio. Otro sobre cómo "Spider-Man" lo hizo parte de los Seis Superiores. Y otra más acerca de cómo Electro fue sacado por el Punisher a pesar de la falta de poderes de este último. Electro se enoja y comienza a chispear, pero el cantinero controla la situación comentando lo malo que es el Castigador y con cumplidos como sacar a tantos villanos de la Balsa, lo que le valió el respeto de Crossbones y el Conde Nefaria. Esto no detiene a los demás, sin embargo. Decidido a ser respetado, Electro regresa a la Balsa, listo para otra escapada a pesar de que el Duende Verde ha hecho lo mismo recientemente y el hecho de que fue rebautizado como Spider-Island II. Él envía una mancha de electricidad, pero crece excesivamente grande y Electro no puede apagarlo. Finalmente agota todo su poder, pero cuando esto sucede, se desmaya y muchos de los villanos que intentó escapar ahora están muertos. Jurando venganza, Electro pronto se da cuenta de lo que le causó esto: experimentos realizados por "Spider-Man". Electro más tarde visita a su amiga Francine Frye y mantiene su distancia debido a sus poderes incontrolables. Francine comienza a besar a Electro solo para terminar muriendo por electrocución.</p> 
                     </div>
                 </div>
-            </div>
+            
             <div className='navegationPerson'> 
-                <a href="/personaje/DuendeVerde"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                <a href="/personaje/DuendeVerde"><button className='buttonNavigation'><FaArrowLeft/> Duende Verde</button></a>
                 <br/>
-                <a href="/personaje/Dr_Octopus"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                <a href="/personaje/Dr_Octopus"><button className='buttonNavigation'> Dr. Octopus <FaArrowRight/></button></a>
             </div>
+        </div>
         </div>
         </div>
     </div>
