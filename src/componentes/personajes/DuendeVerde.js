@@ -35,7 +35,7 @@ export const DuendeVerde = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Villains</button></a>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
 
             </div>

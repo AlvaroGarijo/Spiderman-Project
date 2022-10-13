@@ -35,7 +35,7 @@ export const SpiderPunk = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -55,14 +55,12 @@ export const SpiderPunk = ({
                             <p> Spider-Punk informa al resto del grupo de Superior Spider-Man las malas noticias cuando Octavia Otto de Earth-1104 descubrió que Solus vive de nuevo. Cuando el grupo de Miles Morales se une al grupo de Superior Spider-Man para luchar contra los herederos, Spider-Punk se da cuenta de que Jennix se volvió loca y Verna está desaparecida. </p>                               
                         </p>
                     </div>
-                </div>
                 <div className='navegationPerson'> 
-                    {/* <a href="/spiders"><button className='buttonNavigationSpiders'>Spiders</button></a>
-                    <br/> */}
-                    <a href="/personaje/peniParker"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/peniParker"><button className='buttonNavigation'><FaArrowLeft/> Peni Parker</button></a>
                     <br/>
-                    <a href="/personaje/MilesMorales"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/MilesMorales"><button className='buttonNavigation'>Miles Morales <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>          

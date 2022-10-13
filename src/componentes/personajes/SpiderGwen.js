@@ -35,7 +35,7 @@ export const SpiderGwen = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -57,12 +57,13 @@ export const SpiderGwen = ({
                             <p>Las consecuencias de la historia tratan sobre los efectos de la pérdida de poder de Gwen y su necesidad de isótopos para recuperar su poder.</p>                               
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
-                    <a href="/personaje/MilesMorales"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/MilesMorales"><button className='buttonNavigation'><FaArrowLeft/> Miles Morales</button></a>
                     <br/>
-                    <a href="/personaje/Ezekiel_Sims"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/Ezekiel_Sims"><button className='buttonNavigation'>Ezekiel Sims <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

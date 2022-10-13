@@ -35,7 +35,7 @@ export const Scarlet_Spider = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -55,12 +55,13 @@ export const Scarlet_Spider = ({
                             <p> Ahí kaine se convierte en una araña gigante y el padre de los Inerithors va a detener a Kaine, entonces Kaine lo atraviesa con sus aguijones que posee en las patas. Después de esto mata a Solus. Molesto, Morlun va a matar a Kaine pero Solus le dice que lo necesitan vivo, Morlun le dice que solo necesitan su sangre para un ritual entonces presuntamente mata a Kaine, después de que las arañas acabaran con los inheritors. Spider-man dice que ya han perdido muchos héroes. En el final de The Amazing Spider-man Número 15, Kaine sale de la araña gigante.</p>                               
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
-                    <a href="/personaje/MadameWeb"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/MadameWeb"><button className='buttonNavigation'><FaArrowLeft/> Madame Web</button></a>
                     <br/>
-                    <a href="/personaje/Silk"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/Silk"><button className='buttonNavigation'>Silk <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

@@ -35,7 +35,7 @@ export const Morlun = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Villains</button></a>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 
             </div>
@@ -72,12 +72,13 @@ export const Morlun = ({
                                                       
                         </div>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
-                    <a href="/personaje/Chacal"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/Chacal"><button className='buttonNavigation'><FaArrowLeft/> Chacal</button></a>
                     <br/>
-                    <a href="/personaje/DuendeVerde"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/DuendeVerde"><button className='buttonNavigation'>Duende Verde <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

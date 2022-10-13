@@ -35,7 +35,7 @@ export const SpiderWomanJessica = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -56,13 +56,14 @@ export const SpiderWomanJessica = ({
                             <p>No podía abandonar la sensación de libertad que le producía ser Spiderwoman, de modo que trató de evitar que el conocimiento de la existencia de la heroína se propagase. Finalmente, sin embargo, en asociación con el criminólogo Scott McDowell, se dio a conocer públicamente como cazadora de recompensas.</p>                               
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
                    
-                    <a href="/personaje/SpidermanSuperior"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/SpidermanSuperior"><button className='buttonNavigation'><FaArrowLeft/> Spiderman Superior</button></a>
                     <br/>
-                    <a href="/personaje/SpiderWomanMattie"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/SpiderWomanMattie"><button className='buttonNavigation'>Spider Woman (Mattie)<FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

@@ -39,14 +39,14 @@ export const BlackCat = ({
                             </ul>
                         </div>
                         <div className='buttonNavContainer'>
-                                <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Villains</button></a>
+                                <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                         </div>
                     </div>
                     <div className='dataWrap'>
                         <div className='dataControl'>
                             <h3 className='titlePerson'>{personaje}</h3>
                             <div className='infoPersonWrap'>
-                                <p className='infoPerson'>
+                                <div className='infoPerson'>
                                     <p>Felicia Hardy nació en Queens, Nueva York. Su padre, Walter, pretendía ser un vendedor ambulante, pero era un gato ladrón de fama mundial que, antes de su arresto, la alentó a que nunca se conformara con el segundo mejor. Si amaba el baloncesto, debería trabajar para convertirse en jugadora de baloncesto y no solo en animadora.</p>
                                     <p>En Spider-Man / Black Cat: The Evil that Men Do, Hardy decidió utilizar sus nuevas habilidades para seguir los pasos de su padre. Después de acumular una fortuna en artículos robados, Felicia adoptó su identidad de disfraz.</p>
                                     <p>Primero se viste con el disfraz de Gata Negra para sacar a su padre de la cárcel. En la misma noche, ella se encuentra con Spider-Man. Su padre muere y ella simula su propia muerte</p>
@@ -56,14 +56,20 @@ export const BlackCat = ({
                                     <p>Gata Negra usa sus habilidades para robar el objeto primero y protegerlo de todas las partes. Ella le da el detonador a Spider-Man y se convierte en el objetivo de la venganza del Doctor Octopus. Aunque Spider-Man arranca sus apéndices mecánicos, Octopus aún puede controlarlos mentalmente y mantener a la Gata Negra quieta mientras sus hombres abren fuego. </p>
                                     <p>Spider-Man apenas la lleva al hospital a tiempo y mientras operan con las docenas de heridas de bala y cuchillo, Peter se da cuenta de lo mucho que se preocupa por Felicia</p>
                                     <p>Después de que ella se recupera, comienzan una relación y pronto Peter le revela su identidad. Felicia tiene dificultades para aceptar el hecho de que Peter es solo un hombre debajo de la máscara y no puede entender su necesidad de una vida civil. Peter está herido, pero continúa la relación ya que era la primera vez que no necesitaba ocultar su vida como Spider-Man de alguien.</p>                               
-                                </p>
+                                    <p>Inicialmente, la Gata Negra no tenía habilidades sobrehumanas. Más tarde, una prueba inducida por Kingpin le dio la capacidad psiónica de afectar los campos de probabilidad; esencialmente, ella podría producir "mala suerte" para sus enemigos. ​El poder de "mala suerte" implica que bajo estrés ella inconscientemente puede causar a cualquier persona en su vecindad inmediata que perciba como una amenaza para ser susceptible a accidentes extraños, como pistolas que se atascan y explotan, o tropezar con objetos. Esta habilidad también tuvo el efecto secundario de eventualmente causar problemas para cualquiera que pase largos períodos de tiempo a su alrededor.</p>
+                                    <p>El Doctor Strange eventualmente manipuló sus poderes que le quitaron brevemente sus habilidades de mala suerte, junto con el efecto secundario no deseado. Sin embargo, esta manipulación mágica temporalmente la dotó de habilidades felinas, dándole visión nocturna, garras retráctiles en las puntas de sus dedos, velocidad sobrehumana, fuerza, agilidad y resistencia, proporcionales a un gato. Sus poderes de "mala suerte" fueron finalmente restaurados por Doc Tramma a través del uso de la cibernética.</p>
+                                    <p>La Gata Negra tiene reflejos, agilidad y resistencia de un acróbata de nivel olímpico. Ella es físicamente muy fuerte y atlética y tiene una gran resistencia física. Es una excelente luchadora callejera capaz de enfrentarse a varios asaltantes armados e incapacitarlos sin que ella misma sea herida. Ella está entrenada en varios estilos de artes marciales. Hardy es una fotógrafa talentosa; mientras sale con Spider-Man toma fotos del héroe que él admite que son mejores que su propio trabajo.</p>
+                                    <p>Ella también ha adquirido varios dispositivos del Tinkerer que aumentan su agilidad y aumentan su fuerza. Ella usa aretes que interactúan con los centros de equilibrio de su cerebro para otorgarle una mayor agilidad. Ella tiene lentes de contacto que le permiten ver en varios rangos del espectro electromagnético, como el infrarrojo y el ultravioleta. Su traje contiene micro servosque aumentan su fuerza por encima de los niveles humanos normales. Los guantes de su vestimenta contienen microfilamentos de acero, que forman garras retráctiles en las puntas de los dedos cuando flexiona los dedos (provocando un aumento magnético que condensa los filamentos en garras polarizadas) que le permiten rasgar la mayoría de las superficies y escalar fácilmente las paredes. Usando este equipo, el Gato Negro ha sido capaz de vencer a los enemigos que tienen habilidades sobrehumanas.</p>
+                                    <p>La Gata Negra tiene un dispositivo de gancho de agarre en miniatura escondido en la "piel" de cada guante, diseñado por su padre Walter Hardy, que le permite columpiarse de los edificios de una manera similar a Spider-Man, aunque no tan rápido. También puede utilizar el cable de este dispositivo como cuerda floja, dispositivo de escala de pared, línea de oscilación o como arma en combate.</p>
+                                </div>
                             </div>
-                        </div>
+                        
                         <div className='navegationPerson'> 
                            
-                            <a href="/personaje/Shocker"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                            <a href="/personaje/Shocker"><button className='buttonNavigation'><FaArrowLeft/> Shocker</button></a>
                             <br/>
-                            <a href="/personaje/Morbius"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                            <a href="/personaje/Morbius"><button className='buttonNavigation'>Morbius <FaArrowRight/></button></a>
+                        </div>
                         </div>
                    </div>
                 </div>

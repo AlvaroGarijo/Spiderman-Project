@@ -35,7 +35,7 @@ export const SpiderHam = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -53,13 +53,14 @@ export const SpiderHam = ({
                             <p>Spider-Ham aparece en la película animada Spider-Man: Into the Spider-Verse , con la voz de John Mulaney .</p>                             
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
                     
-                    <a href="/personaje/SpidergirlMayday"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/SpidergirlMayday"><button className='buttonNavigation'><FaArrowLeft/> Spider Girl (Mayday)</button></a>
                     <br/>
-                    <a href="/personaje/spidermanPavitr"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/spidermanPavitr"><button className='buttonNavigation'>Spiderman (Pavitr) <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

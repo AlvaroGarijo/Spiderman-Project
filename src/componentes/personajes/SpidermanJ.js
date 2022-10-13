@@ -35,7 +35,7 @@ export const SpidermanJ = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -55,13 +55,14 @@ export const SpidermanJ = ({
                             <p>El manga fue traducido al inglés en Spider-Man Family , comenzando en el número 1, volumen 2, tankōbon de tamaño inglés , llamados " Digests " por Marvel Comics. El primer volumen se llamó "Caballeros japoneses" y el segundo se llamó "Daze japonés".</p>                               
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
                 
-                    <a href="/personaje/spidermanManga"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/spidermanManga"><button className='buttonNavigation'><FaArrowLeft/> Spiderman Manga</button></a>
                     <br/>
-                    <a href="/personaje/spidermanNoir"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/spidermanNoir"><button className='buttonNavigation'>Spiderman Noir <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>         

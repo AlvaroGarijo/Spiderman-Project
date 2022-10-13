@@ -35,7 +35,7 @@ export const MadameWeb = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -62,12 +62,13 @@ export const MadameWeb = ({
                             </ul>
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
-                    <a href="/personaje/Ezekiel_Sims"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/Ezekiel_Sims"><button className='buttonNavigation'><FaArrowLeft/> Ezekiel Sims</button></a>
                     <br/>
-                    <a href="/personaje/Scarlet_Spider"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/Scarlet_Spider"><button className='buttonNavigation'>Scarlet Spider<FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

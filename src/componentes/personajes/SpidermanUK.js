@@ -35,7 +35,7 @@ export const SpidermanUK = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -55,13 +55,14 @@ export const SpidermanUK = ({
                             <p>Después de que Gwen Stacy se reúna con los otros héroes basados ​​en arañas después de su visita a Oscorp , son interrumpidos por la llegada de Sinister Six (que consiste en Doctor Octopus , Electro ,Kraven the Hunter , Sandman , Scorpion y Vulture ). Los Seis Siniestros derrotan a los Spider-Men y se los llevan al alcalde Norman Osborn , quien dice que quiere ayudarlos. Esto hace que Spider-UK y los otros Spider-Men permanezcan alrededor de Oscorp por un tiempo. Spider-UK y los otros Spider-Men se unen a Spider-Woman of Earth-65 y Arachnia's Spider-Man para derrotar a Norman Osborn y los Sinister Six.</p>                               
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
                     
-                    <a href="/personaje/spidermanNoir"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/spidermanNoir"><button className='buttonNavigation'><FaArrowLeft/> Spiderman Noir</button></a>
                     <br/>
-                    <a href="/personaje/peniParker"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/peniParker"><button className='buttonNavigation'>Peni Parker <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>           

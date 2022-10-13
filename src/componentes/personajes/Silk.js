@@ -35,7 +35,7 @@ export const Silk = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -60,13 +60,12 @@ export const Silk = ({
                             <p>Cuando Spider-Man y Electro están siendo afectados por la fuerza electromagnética de la máquina, Silk los saca de su rango de alcance y luego se envuelve junto a ellos en un capullo hecho de telaraña que los protege de la enorme explosión. Luego del incidente, Cindy se reúne con Nataile Long y es contratada como reportera interna en Fact Channel, trabajo que Moon acepta para encontrar a su familia con los recursos informativos que posee el estudio.</p>
                         </p>
                     </div>
-                </div>
                 <div className='navegationPerson'> 
-                    
-                    <a href="/personaje/Scarlet_Spider"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/Scarlet_Spider"><button className='buttonNavigation'><FaArrowLeft/> Scarlet Spider</button></a>
                     <br/>
-                    <a href="/personaje/SpiderGirl"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/SpiderGirl"><button className='buttonNavigation'>Spider Girl <FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>

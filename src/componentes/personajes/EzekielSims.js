@@ -35,7 +35,7 @@ export const EzekielSims = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Go to Spider-Verse</button></a>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
             </div>
@@ -58,12 +58,13 @@ export const EzekielSims = ({
                             <p>También se revela que Ezequiel había mantenido a Silk a salvo en su guarida para evitar que Morlun se enterara. Años más tarde, Spider-Man aprende sobre Silk y la libera del búnker de Ezequiel, lo que le permite comenzar una nueva vida y una nueva carrera. Esto termina provocando la caza multiversal de todas las arañas, ya que los herederos ahora son conscientes de la existencia de Silk como la "Novia".</p>
                         </p>
                     </div>
-                </div>
+                
                 <div className='navegationPerson'> 
-                    <a href="/personaje/spiderGwen"><button className='buttonNavigation'><FaArrowLeft/></button></a>
+                    <a href="/personaje/spiderGwen"><button className='buttonNavigation'><FaArrowLeft/> Spider Gwen</button></a>
                     <br/>
-                    <a href="/personaje/MadameWeb"><button className='buttonNavigation'><FaArrowRight/></button></a>
+                    <a href="/personaje/MadameWeb"><button className='buttonNavigation'>Madame Web<FaArrowRight/></button></a>
                 </div>
+        </div>
         </div>
         </div>
     </div>
