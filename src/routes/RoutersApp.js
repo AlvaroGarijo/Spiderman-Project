@@ -2,20 +2,20 @@ import React from 'react'
 import { BrowserRouter,  Routes, Route} from 'react-router-dom';
 import { FooterApp } from '../componentes/FooterApp';
 import { Navbar } from '../componentes/Navbar';
-import { AmazigSpiderAndrew } from '../componentes/Navegacion/AmazigSpiderAndrew';
+// import { AmazigSpiderAndrew } from '../componentes/Navegacion/AmazigSpiderAndrew';
 import { Comics } from '../componentes/Navegacion/Comics';
 import { Familia } from '../componentes/Navegacion/Familia';
 import { InicioWeb } from '../componentes/Navegacion/InicioWeb';
 import { InteresesAmorosos } from '../componentes/Navegacion/InteresesAmorosos';
-import { Marvel } from '../componentes/Navegacion/Marvel';
+// import { Marvel } from '../componentes/Navegacion/Marvel';
 import { PersonajeApoyo } from '../componentes/Navegacion/PersonajeApoyo';
 import { PersonajesSecundarios } from '../componentes/Navegacion/PersonajesSecundarios';
-import { PrimerActor } from '../componentes/Navegacion/PrimerActor';
-import { PrimeraTrilogiaTobey } from '../componentes/Navegacion/PrimeraTrilogiaTobey';
+// import { PrimerActor } from '../componentes/Navegacion/PrimerActor';
+// import { PrimeraTrilogiaTobey } from '../componentes/Navegacion/PrimeraTrilogiaTobey';
 import { SpidermanPage } from '../componentes/Navegacion/SpidermanPage';
 import { Spiders } from '../componentes/Navegacion/Spiders';
-import { SpiderUCM_Tom } from '../componentes/Navegacion/SpiderUCM_Tom';
-import { Spider_verse } from '../componentes/Navegacion/Spider_verse';
+// import { SpiderUCM_Tom } from '../componentes/Navegacion/SpiderUCM_Tom';
+// import { Spider_verse } from '../componentes/Navegacion/Spider_verse';
 import { Villanos } from '../componentes/Navegacion/Villanos';
 import { BlackCat } from '../componentes/personajes/BlackCat';
 import { Buitre } from '../componentes/personajes/Buitre';
@@ -41,7 +41,7 @@ import { Mysterio } from '../componentes/personajes/Mysterio';
 import { PeniParker } from '../componentes/personajes/PeniParker';
 import { Rhino } from '../componentes/personajes/Rhino';
 import { Sandman } from '../componentes/personajes/Sandman';
-import { Scarlet_Spider } from '../componentes/personajes/Scarlet_Spider';
+import { ScarletSpider } from '../componentes/personajes/ScarletSpider';
 import { Shocker } from '../componentes/personajes/Shocker';
 import { Silk } from '../componentes/personajes/Silk';
 import { SpiderGirlAnya } from '../componentes/personajes/SpiderGirlAnya';
@@ -68,14 +68,14 @@ export const RoutersApp = () => {
           <Route path="/" element= {<InicioWeb/>}/>
           <Route path="/spiderman" element={<SpidermanPage/>}/>
           <Route path="/comics" element={<Comics/>}/>
-          <Route path="/primeraTrilogiaTobey" element={<PrimeraTrilogiaTobey/>}/>
-          <Route path="/amazigSpiderAndrew" element={<AmazigSpiderAndrew/>}/>
-          <Route path="/spiderUCM_Tom" element={<SpiderUCM_Tom/>}/>
-          <Route path="/spider_verse" element={<Spider_verse/>}/>
-          <Route path="/primerActor" element={<PrimerActor/>}/>
+          {/* <Route path="/primeraTrilogiaTobey" element={<PrimeraTrilogiaTobey/>}/>
+          <Route path="/amazigSpiderAndrew" element={<AmazigSpiderAndrew/>}/> */}
+          {/* <Route path="/spiderUCM_Tom" element={<SpiderUCM_Tom/>}/> */}
+          {/* <Route path="/spider_verse" element={<Spider_verse/>}/> */}
+          {/* <Route path="/primerActor" element={<PrimerActor/>}/> */}
           <Route path="/villanos" element={<Villanos/>}/>
           <Route path="/spiders" element={<Spiders/>}/>
-          <Route path="/marvel" element={<Marvel/>}/> 
+          {/* <Route path="/marvel" element={<Marvel/>}/>  */}
           <Route path="/buscarPersonaje" element={<SearchPersonaje/>}/> 
           <Route path="/familia" element={<Familia/>}/> 
           <Route path="/interesAmorosos" element={<InteresesAmorosos/>}/>
@@ -115,7 +115,7 @@ export const RoutersApp = () => {
           <Route path="/personaje/spiderGwen" element={<SpiderGwen/>}/> 
           <Route path="/personaje/Ezekiel_Sims" element={<EzekielSims/>}/> 
           <Route path="/personaje/MadameWeb" element={<MadameWeb/>}/>
-          <Route path="/personaje/Scarlet_Spider" element={<Scarlet_Spider/>}/>
+          <Route path="/personaje/ScarletSpider" element={<ScarletSpider/>}/>
           <Route path="/personaje/Silk" element={<Silk/>}/>
           <Route path="/personaje/SpiderGirl" element={<SpiderGirlAnya/>}/>
           <Route path="/personaje/MiguelOhara" element={<MiguelOhara/>}/>
@@ -132,7 +132,7 @@ export const RoutersApp = () => {
           <Route path="/personaje/peniParker" element={<PeniParker/>}/>
           <Route path="/personaje/spiderPunk" element={<SpiderPunk/>}/>
       </Routes>
-    {/* <FooterApp/> */}
+    <FooterApp/>
     </BrowserRouter>
   )
 }

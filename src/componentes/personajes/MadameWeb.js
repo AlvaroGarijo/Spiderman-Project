@@ -66,7 +66,7 @@ export const MadameWeb = ({
                 <div className='navegationPerson'> 
                     <a href="/personaje/Ezekiel_Sims"><button className='buttonNavigation'><FaArrowLeft/> Ezekiel Sims</button></a>
                     <br/>
-                    <a href="/personaje/Scarlet_Spider"><button className='buttonNavigation'>Scarlet Spider<FaArrowRight/></button></a>
+                    <a href="/personaje/ScarletSpider"><button className='buttonNavigation'>Scarlet Spider<FaArrowRight/></button></a>
                 </div>
         </div>
         </div>

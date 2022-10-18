@@ -1,15 +1,15 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.App{
+.App {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     background-image: url('/public/assets/imagen\ Fondo/fondoHome.jpg');
     background-size: cover;
-    /* background-color: #0E2C48; */
+    position: absolute;
     width: 100%;
-    min-height:100vh;
+    min-height: 100vh;
 }

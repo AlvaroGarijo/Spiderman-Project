@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Navbar.css'
+import './styles/Navbar.css'
 import navbarLogo from '../imagenes/navbarLogo.png'
 
 export const Navbar = () => {
@@ -21,7 +21,7 @@ export const Navbar = () => {
                   <li className="nav-item navbarButton">
                     <a className="nav-link" href="/comics">Cómics</a>
                   </li>
-                  <li className="nav-item dropdown navbarButton">
+                  {/* <li className="nav-item dropdown navbarButton">
                     <a className="nav-link dropdown-toggle" href='#' role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Películas
                     </a>
@@ -32,9 +32,9 @@ export const Navbar = () => {
                       <li><a className="dropdown-item electro" href="/spider_verse">Spider-Verse (Miles)</a></li>
                       <li><a className="dropdown-item electro" href="/primerActor">Primer Actor (Nicholas)</a></li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="nav-item dropdown navbarButton">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="villanos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Villanos
                     </a>
                     <ul className="dropdown-menu">
@@ -65,7 +65,7 @@ export const Navbar = () => {
                     </ul>
                   </li>
                   <li className="nav-item dropdown navbarButton">
-                    <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="spider" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Spiders
                     </a>
                     <ul className="dropdown-menu">
@@ -75,7 +75,7 @@ export const Navbar = () => {
                       <li><a className="dropdown-item dropSpiders" href="/personaje/spiderGwen">Gwen Stacey</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/Ezekiel_Sims">Ezekiel Sims</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/MadameWeb">Madame Web</a></li>
-                      <li><a className="dropdown-item dropSpiders" href="/personaje/Scarlet_Spider">Araña Escarlata</a></li>
+                      <li><a className="dropdown-item dropSpiders" href="/personaje/ScarletSpider">Araña Escarlata</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/Silk">Silk (Cindy Moon)</a></li>
                       <li><a className="dropdown-item dropSpiders" href="personaje/SpiderGirl">Spider-Girl (Anya Corazón)</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/MiguelOhara">Miguel O`hara (Spider-Man)</a></li>
@@ -92,12 +92,12 @@ export const Navbar = () => {
                       <li><a className="dropdown-item dropSpiders" href="/personaje/peniParker">Peni Parker</a></li>
                       <li><a className="dropdown-item dropSpiders" href="/personaje/spiderPunk">Spider Punk</a></li>
                       <li><hr className="dropdown-divider"/></li>
-                      <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li>
+                      {/* <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li> */}
                     </ul>
                   </li>
-                  <li className="nav-item navbarButton">
+                  {/* <li className="nav-item navbarButton">
                     <a className="nav-link" href="/marvel">Marvel</a>
-                  </li>
+                  </li> */}
                   <li className="nav-item navbarButton">
                     <a className="nav-link navPersonaje" href="/buscarPersonaje">Buscar Personajes</a>
                   </li>

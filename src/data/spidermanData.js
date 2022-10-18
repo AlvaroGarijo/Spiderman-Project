@@ -388,7 +388,7 @@ export const spidermanData = [
         'alias': 'Abuela Vendada, Joven Vendada, Chica Vendada'
     },
     {
-        'id': 'Scarlet_Spider',
+        'id': 'ScarletSpider',
         'personaje': 'Araña Escarlata',
         'realName': 'Kaine Parker',
         'bornArea': 'Estados Unidos',

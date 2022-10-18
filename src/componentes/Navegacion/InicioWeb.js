@@ -14,17 +14,17 @@ export const InicioWeb = () => {
             <ul className="unorderListIndex">
               <li className="listIndex"><a className="listIndexLink" href="/spiderman">El Personaje</a></li>
               <li className="listIndex"><a className="listIndexLink"  href="/comics">Comics</a></li>
-              <li className="listIndex"><a className="listIndexLink" href="/actores">Actores</a></li>
+              {/* <li className="listIndex"><a className="listIndexLink" href="/actores">Actores</a></li> */}
               <li className="listIndex"><a className="listIndexLink" href="/villanos">Villanos</a></li>
               <li className="listIndex"><a className="listIndexLink" href="/spiders">Spider-verse</a></li>
-              <li className="listIndex"><a className="listIndexLink" href="/marvel">Spiderman en MARVEL</a></li>
-              <li className='listIndex listIndexLink'> Y mucho mas . . .</li>
+              {/* <li className="listIndex"><a className="listIndexLink" href="/marvel">Spiderman en MARVEL</a></li>
+              <li className='listIndex listIndexLink'> Y mucho mas . . .</li> */}
             </ul>
           </div>
          
         </div> 
         <div className="noOficialWrapp">
-            <img className="logoSpider" src={ logoSpider }/>
+            <img className="logoSpider" src={ logoSpider } alt='logo'/>
             <p className="no-oficial">Página web NO oficial de Spider-Man hecha con cariño hacia el personaje. Fuentes: Wikipedia y spider-man.fandom.com</p>
         </div>
     </div>

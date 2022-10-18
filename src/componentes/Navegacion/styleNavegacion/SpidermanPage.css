@@ -23,8 +23,8 @@
 
 .wrappSpider {
     display: flex;
-    margin: 25px;
-    padding:25px;
+    margin: 15px;
+    padding:15px;
     width: 100%;
     background-color: #00182e;
     border: 2px solid rgba(0, 0, 0, 0.256);
@@ -60,7 +60,7 @@
     background-color: rgba(255, 255, 255, 0.201);
     border: 1px solid gray;
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     margin-top: 25px;
 }
 
@@ -92,8 +92,8 @@
 
 .wrapp2 {
     color: white;
-    margin: 25px;
-    padding: 25px;
+    margin: 15px;
+    padding: 15px;
     width: 120%;
     background-color: rgba(255, 255, 255, 0.201);
     border: 1px solid gray;

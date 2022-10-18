@@ -4,8 +4,8 @@ import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
 
-export const Scarlet_Spider = ({
-    id = 'Scarlet_Spider',
+export const ScarletSpider = ({
+    id = 'ScarletSpider',
     realName = 'Kaine Parker',
     personaje = 'Scarlet Spider',
     bornArea = 'Estados Unidos',
