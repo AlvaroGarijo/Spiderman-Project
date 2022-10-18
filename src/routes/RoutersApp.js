@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter,  Routes, Route} from 'react-router-dom';
+import { BuildPage } from '../componentes/BuildPage/BuildPage';
 import { FooterApp } from '../componentes/FooterApp';
 import { Navbar } from '../componentes/Navbar';
 // import { AmazigSpiderAndrew } from '../componentes/Navegacion/AmazigSpiderAndrew';
@@ -17,6 +18,7 @@ import { Spiders } from '../componentes/Navegacion/Spiders';
 // import { SpiderUCM_Tom } from '../componentes/Navegacion/SpiderUCM_Tom';
 // import { Spider_verse } from '../componentes/Navegacion/Spider_verse';
 import { Villanos } from '../componentes/Navegacion/Villanos';
+import { BenRichardParker } from '../componentes/personajes/BenRichardParker';
 import { BlackCat } from '../componentes/personajes/BlackCat';
 import { Buitre } from '../componentes/personajes/Buitre';
 import { Camaleon } from '../componentes/personajes/Camaleon';
@@ -32,6 +34,9 @@ import { Kingpin } from '../componentes/personajes/Kingpin';
 import { Kraven } from '../componentes/personajes/Kraven';
 import { Lagarto } from '../componentes/personajes/Lagarto';
 import { MadameWeb } from '../componentes/personajes/MadameWeb';
+import { MaryFitzpatrick } from '../componentes/personajes/MaryFitzpatrick';
+import { MaryJane } from '../componentes/personajes/MaryJane';
+import { MayDayParker } from '../componentes/personajes/MayDayParker';
 import { MiguelOhara } from '../componentes/personajes/MiguelOhara';
 import { MilesMorales } from '../componentes/personajes/MilesMorales';
 import { Morbius } from '../componentes/personajes/Morbius';
@@ -40,6 +45,7 @@ import { MrNegativo } from '../componentes/personajes/MrNegativo';
 import { Mysterio } from '../componentes/personajes/Mysterio';
 import { PeniParker } from '../componentes/personajes/PeniParker';
 import { Rhino } from '../componentes/personajes/Rhino';
+import { RichardParker } from '../componentes/personajes/RichardParker';
 import { Sandman } from '../componentes/personajes/Sandman';
 import { ScarletSpider } from '../componentes/personajes/ScarletSpider';
 import { Shocker } from '../componentes/personajes/Shocker';
@@ -57,6 +63,7 @@ import { SpidermanUK } from '../componentes/personajes/SpidermanUK';
 import { SpiderPunk } from '../componentes/personajes/SpiderPunk';
 import { SpiderWomanJessica } from '../componentes/personajes/SpiderWomanJessica';
 import { SpiderWomanMattie } from '../componentes/personajes/SpiderWomanMattie';
+import { TiaMay } from '../componentes/personajes/TiaMay';
 import { Venom } from '../componentes/personajes/Venom';
 import { SearchPersonaje } from '../componentes/searchPersonaje/SearchPersonaje';
 
@@ -81,7 +88,7 @@ export const RoutersApp = () => {
           <Route path="/interesAmorosos" element={<InteresesAmorosos/>}/>
           <Route path="/personajesSecundarios" element={<PersonajesSecundarios/>}/>
           <Route path="/personajeApoyo" element={<PersonajeApoyo/>}/> 
-
+          <Route path="/enConstruccion" element={<BuildPage/>}/> 
 
           {/* Rutas de los Personajes Villanos*/}   
 
@@ -131,7 +138,18 @@ export const RoutersApp = () => {
           <Route path="/personaje/spiderUK" element={<SpidermanUK/>}/>
           <Route path="/personaje/peniParker" element={<PeniParker/>}/>
           <Route path="/personaje/spiderPunk" element={<SpiderPunk/>}/>
+
+             {/* Rutas de los Personajes Familia*/}
+
+             <Route path="/personaje/richardParker" element={<RichardParker/>}/>
+             <Route path="/personaje/maryFitzpatrick" element={<MaryFitzpatrick/>}/>
+             <Route path="/personaje/tioBen" element={<MaryFitzpatrick/>}/>
+             <Route path="/personaje/tiaMay" element={<TiaMay/>}/>
+             <Route path="/personaje/maryJane" element={<MaryJane/>}/>
+             <Route path="/personaje/mayDayParker" element={<MayDayParker/>}/>
+             <Route path="/personaje/benRichardParker" element={<BenRichardParker/>}/>
       </Routes>
+      <br/><br/><br/>
     <FooterApp/>
     </BrowserRouter>
   )

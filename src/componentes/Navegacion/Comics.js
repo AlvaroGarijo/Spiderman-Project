@@ -31,7 +31,7 @@ export const Comics = () => {
               bajo el Nº 1 del volumen 2 (enero de 1999), pero en el 40º aniversario de Spider-Man, esta nueva entrega, volvió a la antigua numeración, continuando bajo el número de publicación nº 500 en el número diciembre de 2003.
             </p>
 
-            <p className='introGuia'>Podéis encontrar todos los volumenes de Spiderman en la <a className='linkGuia' target='_blank' href='https://www.whakoom.com/guemar/lists/spider-man_-_guia_de_lectura_definitiva_4868'>Guia Definitiva</a> con más de 600 Volúmenes de Spideay ordenado por colecciones</p>
+            <p className='introGuia'>Podéis encontrar todos los volumenes de Spiderman en la <a className='linkGuia' target='_blank' href='https://www.whakoom.com/guemar/lists/spider-man_-_guia_de_lectura_definitiva_4868'>Guia Definitiva</a> con más de 600 Volúmenes de Spidey ordenado por colecciones</p>
           </div>
       </div>
     </div>

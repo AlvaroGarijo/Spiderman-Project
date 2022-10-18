@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react'
 import { PersonajesCard } from './PersonajesCard'
 import { getPersonajesByPublisher } from '../../../selectors/getPersonajesByPublisher';
-import { spidermanData } from '../../../data/spidermanData';
+
 
 
 

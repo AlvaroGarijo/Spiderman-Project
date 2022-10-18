@@ -1,0 +1,37 @@
+.buildWrapp {
+    background-color: rgba(165, 165, 165, 0.834);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgConstruction {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 3px rgb(0, 0, 0);
+}
+
+.paraWrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(43, 43, 43, 0.514);
+    border-radius: 8px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.buildParagraph {
+    margin: auto;
+    font-size: 30px;
+    color: white;
+
+}
+
+.iconBuild{
+    color:rgb(202, 202, 29);
+}

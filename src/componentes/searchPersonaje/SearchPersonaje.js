@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import queryString from "query-string";
 import { useMemo } from 'react';
 import { useForm } from '../../hooks/useForm';
@@ -28,6 +28,7 @@ export const SearchPersonaje = () => {
         e.preventDefault();
         navegar(`?q=${searchText}`)
     }
+    
 
   return (
     <>
