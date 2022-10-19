@@ -8,6 +8,8 @@ export const PersonajesSecundarios = () => {
     <>
       <div className='secondaryWrapp'>
         <h2 className='titleSecondary'>Personajes Secundarios</h2>
+        <br/>
+        <h3 className='titleSecondary'>---La informacion de esta zona esta en desarrollo---</h3>
         <PersonajesList publisher='Secundarios'/>
         <div className='navegationSecondary'>
             <a href="/spiderman"><button className='buttonNavigation'><TbArrowBackUp/></button></a>

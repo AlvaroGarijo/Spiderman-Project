@@ -8,7 +8,7 @@ export const BuildPage = () => {
     <div className='buildWrapp'>
         <img className='imgConstruction' src={spidergif} alt='Construcción'/>
         <div className='paraWrapp'>
-            <p className='buildParagraph'><MdBuild className='iconBuild'/> Estamos en fase de construcción disculpa las molestias <MdBuild className='iconBuild'/></p>
+            <p className='buildParagraph'><MdBuild className='iconBuild'/> Estamos en fase de desarrollo, disculpa las molestias <MdBuild className='iconBuild'/></p>
         </div>
     </div>
   )

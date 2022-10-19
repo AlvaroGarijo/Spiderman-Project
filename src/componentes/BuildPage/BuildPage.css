@@ -26,9 +26,11 @@
 }
 
 .buildParagraph {
+    font-family: amazingSpider ;
     margin: auto;
-    font-size: 30px;
-    color: white;
+    font-size: 20px;
+    color: rgb(184, 0, 0);
+    filter:drop-shadow(2px 2px 2px rgb(221, 221, 9));
 
 }
 

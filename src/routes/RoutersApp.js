@@ -18,8 +18,13 @@ import { Spiders } from '../componentes/Navegacion/Spiders';
 // import { SpiderUCM_Tom } from '../componentes/Navegacion/SpiderUCM_Tom';
 // import { Spider_verse } from '../componentes/Navegacion/Spider_verse';
 import { Villanos } from '../componentes/Navegacion/Villanos';
+import { AnnaWatson } from '../componentes/personajes/AnnaWatson';
+import { AshleyKafka } from '../componentes/personajes/AshleyKafka';
 import { BenRichardParker } from '../componentes/personajes/BenRichardParker';
+import { BenUrich } from '../componentes/personajes/BenUrich';
+import { BettyBrant } from '../componentes/personajes/BettyBrant';
 import { BlackCat } from '../componentes/personajes/BlackCat';
+import { BlueBird } from '../componentes/personajes/BlueBird';
 import { Buitre } from '../componentes/personajes/Buitre';
 import { Camaleon } from '../componentes/personajes/Camaleon';
 import { Carnage } from '../componentes/personajes/Carnage';
@@ -29,13 +34,22 @@ import { DuendeVerde } from '../componentes/personajes/DuendeVerde';
 import { Electro } from '../componentes/personajes/Electro';
 import { Escorpion } from '../componentes/personajes/Escorpion';
 import { EzekielSims } from '../componentes/personajes/EzekielSims';
+import { FlashThompson } from '../componentes/personajes/FlashThompson';
+import { GeorgeStacy } from '../componentes/personajes/GeorgeStacy';
+import { GloryGrant } from '../componentes/personajes/GloryGrant';
+import { HarryOsborn } from '../componentes/personajes/HarryOsborn';
 import { HobGoblin } from '../componentes/personajes/HobGoblin';
+import { JeanDeWolf } from '../componentes/personajes/JeanDeWolf';
+import { Jimmy6 } from '../componentes/personajes/Jimmy6';
+import { JJJameson } from '../componentes/personajes/JJJameson';
 import { Kingpin } from '../componentes/personajes/Kingpin';
 import { Kraven } from '../componentes/personajes/Kraven';
 import { Lagarto } from '../componentes/personajes/Lagarto';
+import { LizAllan } from '../componentes/personajes/LizAllan';
 import { MadameWeb } from '../componentes/personajes/MadameWeb';
 import { MaryFitzpatrick } from '../componentes/personajes/MaryFitzpatrick';
 import { MaryJane } from '../componentes/personajes/MaryJane';
+import { MaxModell } from '../componentes/personajes/MaxModell';
 import { MayDayParker } from '../componentes/personajes/MayDayParker';
 import { MiguelOhara } from '../componentes/personajes/MiguelOhara';
 import { MilesMorales } from '../componentes/personajes/MilesMorales';
@@ -43,9 +57,12 @@ import { Morbius } from '../componentes/personajes/Morbius';
 import { Morlun } from '../componentes/personajes/Morlun';
 import { MrNegativo } from '../componentes/personajes/MrNegativo';
 import { Mysterio } from '../componentes/personajes/Mysterio';
+import { NedLeeds } from '../componentes/personajes/NedLeeds';
 import { PeniParker } from '../componentes/personajes/PeniParker';
+import { RandyRobertson } from '../componentes/personajes/RandyRobertson';
 import { Rhino } from '../componentes/personajes/Rhino';
 import { RichardParker } from '../componentes/personajes/RichardParker';
+import { RobbieRobertson } from '../componentes/personajes/RobbieRobertson';
 import { Sandman } from '../componentes/personajes/Sandman';
 import { ScarletSpider } from '../componentes/personajes/ScarletSpider';
 import { Shocker } from '../componentes/personajes/Shocker';
@@ -65,6 +82,8 @@ import { SpiderWomanJessica } from '../componentes/personajes/SpiderWomanJessica
 import { SpiderWomanMattie } from '../componentes/personajes/SpiderWomanMattie';
 import { TiaMay } from '../componentes/personajes/TiaMay';
 import { Venom } from '../componentes/personajes/Venom';
+import { VinGonzales } from '../componentes/personajes/VinGonzales';
+import { WalterHardy } from '../componentes/personajes/WalterHardy';
 import { SearchPersonaje } from '../componentes/searchPersonaje/SearchPersonaje';
 
 export const RoutersApp = () => {
@@ -139,15 +158,38 @@ export const RoutersApp = () => {
           <Route path="/personaje/peniParker" element={<PeniParker/>}/>
           <Route path="/personaje/spiderPunk" element={<SpiderPunk/>}/>
 
-             {/* Rutas de los Personajes Familia*/}
+            {/* Rutas de los Personajes Familia*/}
 
-             <Route path="/personaje/richardParker" element={<RichardParker/>}/>
-             <Route path="/personaje/maryFitzpatrick" element={<MaryFitzpatrick/>}/>
-             <Route path="/personaje/tioBen" element={<MaryFitzpatrick/>}/>
-             <Route path="/personaje/tiaMay" element={<TiaMay/>}/>
-             <Route path="/personaje/maryJane" element={<MaryJane/>}/>
-             <Route path="/personaje/mayDayParker" element={<MayDayParker/>}/>
-             <Route path="/personaje/benRichardParker" element={<BenRichardParker/>}/>
+          <Route path="/personaje/richardParker" element={<RichardParker/>}/>
+          <Route path="/personaje/maryFitzpatrick" element={<MaryFitzpatrick/>}/>
+          <Route path="/personaje/tioBen" element={<MaryFitzpatrick/>}/>
+          <Route path="/personaje/tiaMay" element={<TiaMay/>}/>
+          <Route path="/personaje/maryJane" element={<MaryJane/>}/>
+          <Route path="/personaje/mayDayParker" element={<MayDayParker/>}/>
+          <Route path="/personaje/benRichardParker" element={<BenRichardParker/>}/>
+
+            {/* Rutas de los Personajes Personajes Secundarios */} 
+
+            <Route path="/personaje/lizAllan" element={<LizAllan/>}/>
+            <Route path="/personaje/bettyBrant" element={<BettyBrant/>}/>
+            <Route path="/personaje/ashleyKafka" element={<AshleyKafka/>}/>
+            <Route path="/personaje/flashThompson" element={<FlashThompson/>}/>
+            <Route path="/personaje/jimmy6" element={<Jimmy6/>}/>
+            <Route path="/personaje/harryOsborn" element={<HarryOsborn/>}/>
+            <Route path="/personaje/jeanDeWolf" element={<JeanDeWolf/>}/>
+            <Route path="/personaje/randyRobertson" element={<RandyRobertson/>}/>
+            <Route path="/personaje/blueBird" element={<BlueBird/>}/>
+            <Route path="/personaje/vinGonzales" element={<VinGonzales/>}/>
+            <Route path="/personaje/jjJameson" element={<JJJameson/>}/>
+            <Route path="/personaje/gloryGrant" element={<GloryGrant/>}/>
+            <Route path="/personaje/robbieRobertson" element={<RobbieRobertson/>}/>
+            <Route path="/personaje/benUrich" element={<BenUrich/>}/>
+            <Route path="/personaje/nedLeeds" element={<NedLeeds/>}/>
+            <Route path="/personaje/maxModell" element={<MaxModell/>}/>
+            <Route path="/personaje/georgeStacy" element={<GeorgeStacy/>}/>
+            <Route path="/personaje/annaWatson" element={<AnnaWatson/>}/>
+            <Route path="/personaje/walterHardy" element={<WalterHardy/>}/>
+
       </Routes>
       <br/><br/><br/>
     <FooterApp/>
