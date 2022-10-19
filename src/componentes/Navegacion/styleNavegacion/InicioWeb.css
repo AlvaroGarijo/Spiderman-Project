@@ -3,12 +3,20 @@
     src: url('/public/assets/fonts/Amazing\ Spider\ Man\ slant.ttf');
 }
 
+.indexWeb {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: left;
+
+}
+
 .wrappIndex {
     display: flex;
     flex-wrap: nowrap;
     margin-top: 50px;
-    margin-right: 370px;
     border-radius: 5px;
+    margin-right: 300px;
     border: 1px solid rgba(181, 181, 181, 0.349);
     box-shadow: 0px 0px 8px 0px rgb(139, 159, 214);
     padding: 20px;
@@ -29,7 +37,7 @@
     width: 420px;
 }
 
-.strongLink{
+.strongLink {
     font-weight: bold;
     text-decoration: none;
     color: #0E2C48;
@@ -37,9 +45,9 @@
     font-style: italic;
 }
 
-.strongLink:hover{
-    color:#9c020ac5;
-    filter:drop-shadow(1px 1px 1px white);
+.strongLink:hover {
+    color: #9c020ac5;
+    filter: drop-shadow(1px 1px 1px white);
 }
 
 .paragraphIndex {
@@ -76,10 +84,10 @@
 
 .listIndexLink:hover {
     color: #c30d0d;
-    filter:drop-shadow(1px 1px 1px white);
+    filter: drop-shadow(1px 1px 1px white);
 }
 
-.noOficialWrapp{
+.noOficialWrapp {
     display: flex;
     width: 450px;
     border-radius: 5px;
@@ -87,7 +95,7 @@
     margin-top: 100px;
 }
 
-.logoSpider{
+.logoSpider {
     margin-right: 20px;
     border-radius: 50px;
     width: 40px;
@@ -95,6 +103,95 @@
     bottom: 0;
 }
 
-.no-oficial{
+.no-oficial {
     color: rgba(188, 188, 188, 0.304);
+}
+
+
+
+
+
+    /* ------MEDIAS QUERY----- */
+
+
+
+/* MEDIA QUERY DESKTOP */
+
+@media only screen and (max-width: 1200px){
+    .wrappIndex{
+        margin-right: 70px;
+        width: 800px;
+    }
+}
+/* MEDIA QUERY TABLET */
+
+@media only screen and (max-width: 900px) {
+    
+    .indexWeb{
+        display: flex;
+        align-items: center;
+    }
+    .wrappIndex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .squareIndex1,
+    .squareIndex2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 200px;
+       
+    }
+
+    .listIndexLink,
+    .titleIndexSquare2{
+        font-size: 14px;
+        margin:0;
+        margin-top:10px;
+    }
+
+    .paragraphIndex{
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .noOficialWrapp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+
+    .no-oficial{
+        width: 200px;
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
+    
+    /* MEDIA QUERY MOBILE */
+
+
+@media only screen and (max-width: 500px) {
+    .indexWeb{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrappIndex{
+        margin:0;
+    }
+
+    .noOficialWrapp{
+        width: 70px;
+    }
 }
