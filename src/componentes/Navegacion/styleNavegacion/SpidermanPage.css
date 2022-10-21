@@ -111,7 +111,29 @@
     
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .imageSpider{
+        width: 275px;
+        height: 390px;
+    }
 
+    .dataSpider{
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .linkSpiderData{
+        text-align: center;
+    }
+
+    .wrapp2{
+        width: 120%;
+        margin:5px;
+        padding:15px;
+    }
+    .infoWikip{
+        font-size: 14px;
+        padding:0px;
+    }
 }
 
 
@@ -126,7 +148,7 @@
 
     .imageSpider{
         width: 100%;
-        height: 250px;
+        height: 350px;
         margin:5px;
     }
 
@@ -134,7 +156,6 @@
         font-size: 12px;
         margin-top: 10px;
         margin-bottom: 10px;
-    
     }
 
     .linkSpiderData{
