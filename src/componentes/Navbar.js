@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
       <>
         <nav className="navbar navbar-expand-lg">
-            <div className="container-fluid sticky-bottom">
+            <div className="container-fluid">
               <a href='/'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>
               <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
                   <ul className="navbar-nav">
