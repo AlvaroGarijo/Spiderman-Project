@@ -117,7 +117,7 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 767px) {
     .logoNavbar {
         margin-left: 10px;
         width: 100px;
@@ -137,7 +137,9 @@
     ul.navbar-nav {
         width: 120px;
     }
-
+    .navbar{
+        margin-bottom: 20px;
+    }
     .navbar-nav {
         width: 90px;
         margin-top: 170px;
