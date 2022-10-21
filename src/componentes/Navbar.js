@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
       <>
         <nav className="navbar navbar-expand-lg">
-            <div className="container-fluid">
+            <div className="container-fluid sticky-bottom">
               <a href='/'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>
               <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
                   <ul className="navbar-nav">
@@ -62,7 +62,7 @@ export const Navbar = () => {
                             <li><a className="dropdown-item dropSpiders" href="/personaje/MadameWeb">Madame Web</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/ScarletSpider">Araña Escarlata</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/Silk">Silk (Cindy Moon)</a></li>
-                            <li><a className="dropdown-item dropSpiders" href="personaje/SpiderGirl">Spider-Girl (Anya Corazón)</a></li>
+                            <li><a className="dropdown-item dropSpiders" href="/personaje/SpiderGirl">Spider-Girl (Anya Corazón)</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/MiguelOhara">Miguel O`hara (Spider-Man)</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/SpidermanSuperior">Spider-Man Superior</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/SpiderWomanJessica">Spider-Woman (Jessica Drew)</a></li>
@@ -76,7 +76,7 @@ export const Navbar = () => {
                             <li><a className="dropdown-item dropSpiders" href="/personaje/spiderUK">Spider-UK</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/peniParker">Peni Parker</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/spiderPunk">Spider Punk</a></li>
-                            <li><hr className="dropdown-divider"/></li>
+                            {/* <li><hr className="dropdown-divider"/></li> */}
                             {/* <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li> */}
                           </ul>
                       </li>

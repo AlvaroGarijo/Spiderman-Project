@@ -89,21 +89,62 @@
         width: 130px;
     }
 
+    .container-fluid{
+        padding:0px !important;
+    }
+
     .navbar-nav {
+        width: 150px;
+        position:relative;
         margin-top: 170px;
         z-index: 1;
+    }
+    a.nav-link{
+        font-size: 12px;
+    }
+
+    .dropdown-item{
+        font-size: 12px;
     }
 }
 
 @media only screen and (max-width: 319px) {
     .logoNavbar {
+        margin-left: 10px;
         width: 100px;
+        z-index: 1;
     }
+
+    .container-fluid{
+        padding:0px !important;
+    }
+
     .navbar-toggler{
-        margin-right: 0;
+        margin-right: 30px;
+    }
+
+    ul .navbar-nav{
+        position: absolute;
     }
     .navbar-nav {
+        width: 120px;
         margin-top: 170px;
-        z-index: 1;
+        z-index: 2;
+    }
+    .dropdown-menu.show{
+        margin-top: 100px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+
+    }
+    a.nav-link{
+        font-size: 12px;
+    }
+
+    .dropdown-item{
+        font-size: 12px;
     }
 }
