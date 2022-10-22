@@ -34,7 +34,7 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -54,7 +54,9 @@ return (
                         <p>Antes de su regeneración, Miles Warren es un genio en los campos de bioquímica, genética y clonación, y es un talentoso gimnasta y artista marcial. Más tarde, el Chacal unió sus genes con la genética de un chacal, con la fuerza, la velocidad y la agilidad amplificadas a niveles sobrehumanos. El Chacal no se ve afectado por la purga mental mundial de la identidad de Spider-Man.</p>
                     </div>
                 </div>
-    
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Camaleon"><button className='buttonNavigation'><FaArrowLeft/> Camaleón</button></a>
                     <br/>

@@ -34,7 +34,7 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -59,7 +59,9 @@ return (
                         <p>En sus apariciones de 2010 en The Amazing Spider-Man, el escritor Fred Van Lente puso más énfasis en sus habilidades de disfraz que en sus poderes sobrehumanos. En este retrato, Cameleón secuestra a la gente y brutalmente los mata arrojándolos en un baño de ácido. Al escucharlos suplicar por sus vidas, él altera su tono para que suene exactamente igual y toma una impresión facial para convertirlo en una máscara. Este Camaleón más escalofriante también busca reparar la vida de sus "rostros", tratando de rectificar los problemas de sus vidas, mientras se presenta como parte de una visión heroica distorsionada de sí mismo.</p>  
                     </div>
                 </div>
-    
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Morbius"><button className='buttonNavigation'><FaArrowLeft/> Morbius</button></a>
                     <br/>

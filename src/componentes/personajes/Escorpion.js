@@ -34,7 +34,7 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -55,7 +55,9 @@ return (
                         <p>Escorpión trabaja temporalmente para Roxxon y los ayuda en su "terapia de rehabilitación" falsa. Roxxon actualiza los poderes y el disfraz del Escorpión y promete que volverá con sus enemigos. Spider-Man convence a Escorpión de que solo lo están usando. Escorpión luego enciende Roxxon y luego es derrotado por Spider-Man. Gargan reaparece luego de la Guerra Secreta que organizó Nick Fury contra Latveria. Él es uno de los supervillanos que recibió la tecnología mejorada de la dictadora Latveriana, Lucia von Bardas y enviado para atacar a los héroes involucrados en la Guerra Secreta de Fury. Las tecnologías de los villanos son secuestradas por von Bardas, proporcionándole poder, potencialmente a costa de la vida de los villanos, pero los héroes reunidos derrotan a von Bardas y capturan a Escorpión y los demás.</p> 
                     </div>
                 </div>
-    
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Buitre"><button className='buttonNavigation'><FaArrowLeft/> Buitre</button></a>
                     <br/>

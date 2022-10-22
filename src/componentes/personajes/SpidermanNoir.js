@@ -34,7 +34,7 @@ export const SpidermanNoir = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -55,9 +55,10 @@ export const SpidermanNoir = ({
                             <p> Llega al universo de Miles Morales junto con Spider-Ham y Peni Parker debido al súper colisionador de Kingpin .antes de unirse a sus compañeros Spider-People para regresar a sus respectivas dimensiones de origen. En el camino, le gusta un cubo de Rubik y se lo lleva para vendérselo a la gente de su mundo.</p>                               
                         </p>
                     </div>
-                
+            <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
-            
                     <a href="/personaje/spidermanJ"><button className='buttonNavigation'><FaArrowLeft/> Spiderman J</button></a>
                     <br/>
                     <a href="/personaje/spiderUK"><button className='buttonNavigation'>Spiderman UK<FaArrowRight/></button></a>

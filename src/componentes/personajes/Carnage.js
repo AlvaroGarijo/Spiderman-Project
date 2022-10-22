@@ -34,7 +34,7 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -69,7 +69,9 @@ return (
                             </ul>
                     </div>
                 </div>
-    
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Venom"><button className='buttonNavigation'><FaArrowLeft/> Venom</button></a>
                     <br/>

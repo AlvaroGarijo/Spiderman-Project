@@ -34,7 +34,7 @@ export const PeniParker = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -54,7 +54,9 @@ export const PeniParker = ({
                             <p>Cuando May vuela para arreglar el problema manualmente, también la consume a ella. SP//dr se enfrenta a VEN#m, pero el traje mecánico negro la domina hasta que usa sus tiradores web mejorados para derrotarlo. Sin embargo, es demasiado tarde para salvar a su tía May y Addy, que han desaparecido del interior del traje. Después de la batalla, Peni y Ben tienen una conversación sincera, pero Spider-Ham reaparece para reclutar a Peni para ayudar a derrotar a los Herederos una vez más durante los eventos de Spider-Geddon </p>                              
                         </p>
                     </div>
-                
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/spiderUK"><button className='buttonNavigation'><FaArrowLeft/> Spider UK</button></a>
                     <br/>

@@ -25,8 +25,10 @@
 }
 
 .card-title {
-    font-size: 20px;
-    color: #FECA03;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #feca03;
 }
 
 .card-text {
@@ -57,4 +59,38 @@ a.linkTo {
 }
 .buttonCard:hover{
     background-color: #DD111B;
+}
+
+@media only screen and (max-width: 767px) {
+    .cardFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 300px;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        padding-top:0 ;
+    }
+    .cardWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 270px;
+    }
+    .card-title,
+    .card-text,
+    .text-muted{
+        text-align: center;
+    }
+    .buttonCard{
+        margin: auto;
+        width: 250px;
+        height: 40px;
+    }
 }

@@ -34,7 +34,7 @@ export const SpidermanPavitr = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -55,9 +55,10 @@ export const SpidermanPavitr = ({
                             <p>Durante la historia de Spider-Verse , que presentaba a Spider-Men de varias realidades alternativas, se vio a Pavitr Prabhakar luchando contra un misterioso nuevo villano llamado Karn, a quien confundió con un demonio. Superior Spider-Man ( la mente del Doctor Octopus en el cuerpo de Peter Parker) logró salvarlo y lo reclutó en su ejército de arañas.</p>
                         </p>
                     </div>
-                
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
-                
                     <a href="/personaje/SpiderHam"><button className='buttonNavigation'><FaArrowLeft/> Spider Ham</button></a>
                     <br/>
                     <a href="/personaje/spidermanManga"><button className='buttonNavigation'>Spiderman Manga <FaArrowRight/></button></a>

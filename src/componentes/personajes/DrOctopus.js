@@ -34,7 +34,8 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <br/>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -54,6 +55,10 @@ return (
                         <p>El Doctor Octopus exhibió la capacidad de activar los brazos mecánicos de forma remota, y los utilizó para liberarse de la prisión. Su batalla resultante con el Hombre Araña dio como resultado la muerte del capitán de policía, George Stacy. El Doctor Octopus más tarde libró una guerra de bandas con Hammerhead, trató de casarse con May Parker con el fin de adquirir una isla con una planta atómica que recientemente había heredado sin saberlo. El Doctor Octopus escapó de la muerte cuando la isla fue destruida, y comenzó una vida como una persona sin hogar. Él luchó al lado del "fantasma" de Hammerhead, y fue capaz de volver a su forma humana y derrotarlo después de una alianza temporal con el Hombre Araña</p>
                         <p>Posteriormente el Doctor Octopus más tarde trató de secuestrar a un submarino atómico. También trató de envenenar la ciudad de Nueva York con tinta de imprenta, y luchó contra Punisher y el Hombre Araña. Enseguida, se enfrentaron al Búho y su banda. Lograron desactivar correctamente el reactor nuclear, en un laboratorio antes de la fusión. Más tarde, mostró síntomas de que el Sr. Fantástico es diagnosticado con un trastorno de personalidad múltiple. El Doctor Octopus fue llevado al Battleworld de Beyonder, donde batalló una horda de héroes y se presentó contra el Doctor Doom por el liderazgo del grupo de villanos. Él fue capaz de derrotar a los X-Men hasta que Magneto vino en ayuda de los mutantes.</p>
                     </div>
+                </div>
+
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
     
                 <div className='navegationPerson'> 

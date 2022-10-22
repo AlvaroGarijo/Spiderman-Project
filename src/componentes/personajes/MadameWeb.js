@@ -34,7 +34,7 @@ export const MadameWeb = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -62,7 +62,9 @@ export const MadameWeb = ({
                             </ul>
                         </p>
                     </div>
-                
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Ezekiel_Sims"><button className='buttonNavigation'><FaArrowLeft/> Ezekiel Sims</button></a>
                     <br/>

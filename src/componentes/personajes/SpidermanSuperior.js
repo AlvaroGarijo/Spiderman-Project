@@ -34,7 +34,7 @@ export const SpidermanSuperior = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -55,9 +55,10 @@ export const SpidermanSuperior = ({
                             <p>Poco después la prensa recibe a Spider-Man como un héroe y Jameson lo reconoce como tal, mientras el fantasma de Peter no puede creer lo que ve, Otto crea una mejora de sus Octobots llamándolos Spider-Bots para que vigilen la ciudad por él y le informen de crímenes.</p>                               
                         </p>
                     </div>
-                
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
-                    
                     <a href="/personaje/MiguelOhara"><button className='buttonNavigation'><FaArrowLeft/> Miguel O`hara</button></a>
                     <br/>
                     <a href="/personaje/SpiderWomanJessica"><button className='buttonNavigation'>Spider Woman (Jessica)<FaArrowRight/></button></a>

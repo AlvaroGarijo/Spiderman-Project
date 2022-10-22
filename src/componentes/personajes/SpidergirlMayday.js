@@ -34,7 +34,7 @@ export const SpidergirlMayday = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -58,7 +58,9 @@ export const SpidergirlMayday = ({
                     </div>
                 
                 <div className='navegationPerson'> 
-                   
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                     <a href="/personaje/SpiderwomanMattie"><button className='buttonNavigation'><FaArrowLeft/> Spider Woman (Mattie)</button></a>
                     <br/>
                     <a href="/personaje/SpiderHam"><button className='buttonNavigation'>Spider Ham <FaArrowRight/></button></a>

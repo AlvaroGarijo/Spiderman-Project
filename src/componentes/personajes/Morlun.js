@@ -34,7 +34,7 @@ export const Morlun = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 
@@ -72,7 +72,9 @@ export const Morlun = ({
                                                       
                         </div>
                     </div>
-                
+                 <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Chacal"><button className='buttonNavigation'><FaArrowLeft/> Chacal</button></a>
                     <br/>

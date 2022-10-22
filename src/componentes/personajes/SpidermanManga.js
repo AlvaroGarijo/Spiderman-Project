@@ -34,7 +34,7 @@ export const SpidermanManga = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -55,9 +55,10 @@ export const SpidermanManga = ({
                             <p>Jesse Schedeen de IGNexplicó que a pesar de que "los fanáticos del Mangaverse Spider-Man estarán encantados de ver que regresa Peter Parker", expresó que Kaare Andrews no regresó como desafortunado y también expresó su decepción con los nuevos escritores. Sintió que Young "hace un gran esfuerzo para enviar a Peter en un viaje para confrontar su herencia, solo para que al final no importe mucho". También lo comparó como Avatar: The Last Airbender -lite que estar verdaderamente inspirado en el manga. Mientras tanto, el escritor de cómics Nick Lowe elogió su trabajo calificándolo de "genial".</p>                               
                         </p>
                     </div>
-                
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
-                
                     <a href="/personaje/spidermanPavitr"><button className='buttonNavigation'><FaArrowLeft/> Spiderman (Pavitr)</button></a>
                     <br/>
                     <a href="/personaje/spidermanJ"><button className='buttonNavigation'>Spiderman J <FaArrowRight/></button></a>

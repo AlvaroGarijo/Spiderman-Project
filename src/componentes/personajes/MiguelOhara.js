@@ -34,7 +34,7 @@ export const MiguelOhara = ({
                         <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                     </ul>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-none d-sm-block'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 
@@ -57,6 +57,9 @@ export const MiguelOhara = ({
                             <p> Miguel intenta cambiar su historia cuando se entera que Horizon Lab's explotará y se convertirá en la malvada Alchemax, pero Superior Spider-Man se interpone y la historia sigue igual. Tyler se recupera en el futuro y destruye la máquina del tiempo dejando atrapado a Miguel en la Era Heroica.</p>                               
                         </p>
                     </div>
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/SpiderGirl"><button className='buttonNavigation'><FaArrowLeft/> Spider Girl</button></a>
                     <br/>

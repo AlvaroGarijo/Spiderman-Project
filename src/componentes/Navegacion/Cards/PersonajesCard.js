@@ -19,10 +19,10 @@ export const PersonajesCard = ({
         <div className='col'>
             <div className='card'>
                 <div className='row no-gutters'>
-                    <div className='col-md-5'>
+                    <div className='col-md-5 cardWrapper'>
                         <img src={imagePath} className='card-img' alt={personaje}/>
                     </div>
-                    <div className='col-7'>
+                    <div className='col-md-7'>
                         <div className='card-body'>
                             <h3 className='card-title'>{ personaje }</h3>
                             <p className='card-text'>{ alter_ego_personaje }</p>

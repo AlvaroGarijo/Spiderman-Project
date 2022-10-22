@@ -34,7 +34,7 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -67,7 +67,9 @@ return (
                         <p>Debido a un defecto en la ceremonia que lo resucitó, Kraven recibió "la falta de vida... la maldición eterna", como descubrió cuando su hija lo apuñaló en el corazón. Según Kraven, ahora solo puede morir por mano de Spider-Man. Sin embargo, esta maldición aparentemente se rompió cuando Kaine mató temporalmente a Kraven al detener su corazón y luego reiniciarlo con el mismo movimiento.</p> 
                     </div>
                 </div>
-    
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Kingpin"><button className='buttonNavigation'><FaArrowLeft/> Kingpin</button></a>
                     <br/>

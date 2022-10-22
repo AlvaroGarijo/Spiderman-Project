@@ -34,7 +34,7 @@ return (
                     <li className='listData'>Alias: <span className='styleData'>{ alias }</span></li>
                 </ul>
             </div>
-            <div className='buttonNavContainer'>
+            <div className='buttonNavContainer d-none d-sm-block'>
                 <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
             </div>
 
@@ -62,7 +62,9 @@ return (
                         <p>Mysterio se está preparando para cimentar su victoria destruyendo el portal y atrapando a Spider-Man en el universo Ultimate para siempre. Pero incapaz de resistir la tentación de ver cómo le está yendo a su enemigo, mantiene el portal abierto el tiempo suficiente para que Peter y los Ultimates lo capturen. A pesar de sus mejores esfuerzos para despistarlos con sus peores temores, Mysterio es derrotado rápidamente. Fury decide mantenerlo prisionero en el universo Ultimate debido a su conocimiento de la identidad secreta de Peter.</p>
                     </div>
                 </div>
-    
+                <div className='buttonNavContainer'>
+                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/Carnage"><button className='buttonNavigation'><FaArrowLeft/> Carnage</button></a>
                     <br/>
