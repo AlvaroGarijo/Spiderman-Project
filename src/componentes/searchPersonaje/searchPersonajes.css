@@ -57,11 +57,12 @@
     .searchWrapp{
         width: 750px;
         margin: auto;
+        padding: 0px;
     }
 }
 @media only screen and (max-width: 767px) {
     .titleText{
-        font-size: 15px;
+        font-size: 20px;
         margin:30px;
         text-align: center;
     }
@@ -72,6 +73,7 @@
         align-items: center;
         margin: auto;
         width: 300px;
+        padding: 0;
     }
     .searchPersonWrap{
         display: flex;
@@ -80,6 +82,7 @@
         margin-bottom: 40px;
     }
     .searchPerson{
+        margin-top: 30px;
         text-align: center;
     
     }
@@ -94,5 +97,6 @@
     .findPersonWrap{
         text-align: center;
     }
+
     
 }

@@ -56,11 +56,10 @@ export const SpidergirlMayday = ({
                             <p>Al ayudarla a superar una fuerza que estaba destinada a superar sola, impide que Spider-Girl descubra si ella es o no la verdadera May; principalmente porque May es mitad latina por parte de su padre y Araña solo está pasando por el trauma que pasó sin pensar en lo que podría pasar con May y su escuela. Araña también tiene un motivo oculto: al asumir el cuerpo y el poder de Spider-Girl, espera tomar por sorpresa a Black Tarantula, un adversario y antiguo amante, y derrotarlo. Araña completa con éxito la fusión y asume temporalmente el control del cuerpo de May, dejando a May y un tercero,( La tía May ) atrapada dentro del cuerpo de Araña.</p>                               
                         </p>
                     </div>
-                
-                <div className='navegationPerson'> 
                 <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
+                <div className='navegationPerson'>
                     <a href="/personaje/SpiderwomanMattie"><button className='buttonNavigation'><FaArrowLeft/> Spider Woman (Mattie)</button></a>
                     <br/>
                     <a href="/personaje/SpiderHam"><button className='buttonNavigation'>Spider Ham <FaArrowRight/></button></a>
