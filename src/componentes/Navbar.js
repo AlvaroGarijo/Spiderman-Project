@@ -18,13 +18,19 @@ export const Navbar = () => {
                     <li className="nav-item navbarButton">
                       <a className="nav-link" href="/comics">Cómics</a>
                     </li>
-                    <li className="nav-item dropdown navbarButton">
-                      <a className="nav-link dropdown-toggle"  id="dropdownMenuButton" href="villanos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li className="nav-item navbarButton">
+                      <a className="nav-link" href="/villanos">Villanos</a>
+                    </li>
+                    <li className="nav-item navbarButton">
+                      <a className="nav-link" href="/spiders">Spiders</a>
+                    </li>
+                    {/* <li className="nav-item dropdown navbarButton">
+                      <a className="nav-link dropdown-toggle"  id="dropdownMenuButton" href="/villanos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                        Villanos
                       </a>
                         <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
                         <li><a className="dropdown-item allVillains" href="/villanos">Todos los Villanos</a></li>
-                          {/* <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li> */}
+                          <li><a className="dropdown-item dropVillanos" href="#">Los 6 Siniestros</a></li>
                          
                           <li><a className="dropdown-item dropVillanos" href="/personaje/DuendeVerde">Duende Verde</a></li>
                           <li><a className="dropdown-item dropVillanos" href="/personaje/Electro">Electro</a></li>
@@ -48,12 +54,14 @@ export const Navbar = () => {
                           <li><a className="dropdown-item dropVillanos" href="/personaje/Chacal">Chacal</a></li>
                           <li><a className="dropdown-item dropVillanos" href="/personaje/Morlun">Morlun</a></li>
                         </ul>
-                      </li>
-                      <li className="nav-item dropdown navbarButton">
-                        <a className="nav-link dropdown-toggle" href="spider" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      </li> */}
+
+
+                     {/* <li className="nav-item dropdown navbarButton">
+                        <a className="nav-link dropdown-toggle" href="/spider" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                          Spiders
                         </a>
-                          <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                           <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
                           <li><a className="dropdown-item spiderVerse" href="/spiders">Spider-Verse</a></li>
       
                             <li><a className="dropdown-item dropSpiders" href="/personaje/MilesMorales">Miles Morales</a></li>
@@ -76,10 +84,10 @@ export const Navbar = () => {
                             <li><a className="dropdown-item dropSpiders" href="/personaje/spiderUK">Spider-UK</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/peniParker">Peni Parker</a></li>
                             <li><a className="dropdown-item dropSpiders" href="/personaje/spiderPunk">Spider Punk</a></li>
-                            {/* <li><hr className="dropdown-divider"/></li> */}
-                            {/* <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li> */}
-                          </ul>
-                      </li>
+                            <li><hr className="dropdown-divider"/></li> 
+                             <li><a className="dropdown-item dropSpiders" href="#">Simbiontes</a></li>
+                          </ul> 
+                      </li>*/}
                       <li className="nav-item navbarButton navbarButtonSearch">
                         <a className="nav-link navPersonaje" href="/buscarPersonaje">Buscar Personajes</a>
                       </li>

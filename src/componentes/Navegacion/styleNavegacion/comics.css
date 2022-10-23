@@ -105,7 +105,8 @@
     }
 
     .introGuia{
-        text-align: center;
+        text-align: justify;
+        margin:0px;
     }
 
 }
