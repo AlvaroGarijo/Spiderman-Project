@@ -29,8 +29,8 @@
     font-family: amazingSpider ;
     margin: auto;
     font-size: 20px;
-    color: rgb(184, 0, 0);
-    filter:drop-shadow(2px 2px 2px rgb(221, 221, 9));
+    color: rgb(0, 0, 0);
+    filter:drop-shadow(2px 2px 2px #FFC700);
 
 }
 

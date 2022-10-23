@@ -694,7 +694,7 @@ export const spidermanData = [
         'id': 'lizAllan',
         'personaje': 'Liz Allan',
         'publisher': 'Secundarios',
-        'alter_ego_personaje': 'Elisabeth Allan Osborn (Ex-novia)',
+        'alter_ego_personaje': 'Elisabeth Allan Osborn',
         'first_appearance': 'Amazing Fantasy # 15 (agosto de 1962)',
         'characters': 'Liz Allan'
     },

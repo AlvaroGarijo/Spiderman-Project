@@ -60,7 +60,7 @@ export const SearchPersonaje = () => {
                         
                          
                     </h4>
-                    <br/>
+                   
                     {
                         (q === '')
                             ? <div className='screenFail1'>Prueba otra vez . . .</div>

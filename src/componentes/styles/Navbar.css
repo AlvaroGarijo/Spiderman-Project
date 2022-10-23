@@ -3,7 +3,7 @@
     height: 100px;
     flex-wrap: nowrap;
     background-color: rgb(0, 0, 0);
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 
 }
 
@@ -29,9 +29,9 @@
     margin-right: 30px;
 }
 
-.navbar-dark .navbar-toggler{
-    color:none;
-    border:1px solid;
+.navbar-dark .navbar-toggler {
+    color: none;
+    border: 1px solid;
 }
 
 #navbarSupportedContent {
@@ -42,26 +42,28 @@
 
 .navbarButton {
     margin-right: 10px;
-    background-color: #DD111B;
+    background-color: #000000;
     border: 1px solid #FFC700;
     border-radius: 3px;
     color: #FFC700;
 }
 
 .navbarButton:hover {
-    border: 1px solid #DD111B;
-    color: #DD111B;
+    color: #FFC700;
     background-color: #FFC700;
 }
-
 
 .nav-link {
     color: #FFC700;
 }
 
+.nav-link:hover {
+    color: #000000;
+}
+
 .navPersonaje {
     background-color: #FFC700;
-    color: #DD111B;
+    color: #080808;
 }
 
 .nav-link:focus,
@@ -69,25 +71,34 @@
     color: rgb(0, 0, 0);
 }
 
-.nav-link:hover {
-    color: #DD111B;
-}
-
-
-.dropdown-menu,
-.dropdown-item {
-    background-color: #DD111B;
+.dropdown-menu{
+    border: 1px solid white;
+    background-color: #000000;
     color: #FFC700;
 }
 
-.dropdown-divider {
-    color: black;
+.dropdown-item{
+    height: 40px;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+    background-color: #000000;
+    color: #FFC700;
 }
+
 
 .dropVillanos:hover,
 .dropSpiders:hover {
     background-color: #FFC700;
     color: black;
+}
+
+.allVillains,
+.spiderVerse {
+    background-color: #080808;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 
 /* --- MEDIAS QUERY --- */
@@ -108,6 +119,33 @@
         z-index: 1;
     }
 
+    .dropdown-menu {
+        background-color: #080808;
+    }
+
+    .navbarButton {
+        width: 170px;
+        margin-right: 10px;
+        background-color: #000000;
+        border: 1px solid #FFC700;
+        border-radius: 3px;
+        color: #FFC700;
+        padding-left: 5px;
+    }
+
+    .navbarButtonSearch {
+        background-color: #FFC700;
+        padding-left: 5px;
+    }
+
+    .navPersonaje {
+        background-color: #FFC700;
+    }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
     a.nav-link {
         font-size: 16px;
     }
@@ -115,6 +153,24 @@
     .dropdown-item {
         font-size: 16px;
     }
+
+    .dropdown-item.dropVillanos,
+    .dropdown-item.dropSpiders {
+        border-top: 1px solid rgb(230, 230, 230);
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+        font-size: 12px;
+    }
+
+    .allVillains,
+    .spiderVerse {
+        background-color: #080808;
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -128,39 +184,79 @@
         padding: 0px !important;
     }
 
+    .navbarButton {
+        width: 115px;
+        margin-right: 10px;
+        background-color: #000000;
+        border: 1px solid #FFC700;
+        border-radius: 3px;
+        color: #FFC700;
+        padding-left: 5px;
+    }
+
+    .navbarButtonSearch {
+        background-color: #FFC700;
+        padding-left: 5px;
+    }
+
+    .navPersonaje {
+        background-color: #FFC700;
+    }
+
     .navbar-toggler {
         margin-right: 30px;
         font-size: 0.85rem;
-        padding:5px;
+        padding: 5px;
     }
 
     ul.navbar-nav {
         width: 120px;
     }
-    .navbar{
+
+    .navbar {
         margin-bottom: 20px;
     }
+
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+        background-color: #080808;
+        border: 1px solid white;
+    }
+
     .navbar-nav {
-        width: 90px;
+        width: 100px;
         margin-top: 170px;
         z-index: 2;
     }
 
-    .dropdown-menu.show {
-        margin-top: 100px;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        flex-wrap: wrap;
+    .dropdown-item {
+        font-size: 14px;
 
+    }
 
+    .nav-link {
+        padding: 5px;
     }
 
     a.nav-link {
         font-size: 12px;
     }
 
-    .dropdown-item {
+    .dropdown-item.dropVillanos,
+    .dropdown-item.dropSpiders {
+        border-top: 1px solid rgb(230, 230, 230);
+        width: 200px;
+        background-color: rgb(2, 2, 2);
         font-size: 12px;
     }
+
+    .allVillains,
+    .spiderVerse {
+        background-color: #080808;
+        color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
 }
