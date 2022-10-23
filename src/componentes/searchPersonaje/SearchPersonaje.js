@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import queryString from "query-string";
 import { useMemo } from 'react';
 import { useForm } from '../../hooks/useForm';
@@ -35,7 +34,7 @@ export const SearchPersonaje = () => {
         <div>
             <h1 className='titleText'>Busqueda de Personajes</h1>
             <div className='row searchWrapp'>
-                <div className='col-5'>
+                <div className='col-sm-12 col-md-5 searchPersonWrap'>
                     <h4 className='searchPerson'>Buscador <BiSearchAlt/></h4>
                     <br/>
                     <form onSubmit={handleSearch}>
@@ -55,7 +54,7 @@ export const SearchPersonaje = () => {
                         </button>
                     </form>
                 </div>
-                <div className='col-7'>
+                <div className='col-sm-12 col-md-7 findPersonWrap'>
                     <h4 className='resultPerson'> 
                         <GiSpiderMask className='iconSpiderman'/> Personaje <GiPumpkinMask className='iconHall'/>
                         

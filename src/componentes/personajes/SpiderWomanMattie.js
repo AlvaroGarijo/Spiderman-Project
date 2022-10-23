@@ -53,8 +53,8 @@ export const SpiderWomanMattie = ({
                             <p>Mientras que en una primera cita, Mattie se deslizó una droga de violación de fecha. Ya que en ese momento ella ha perdido completamente el poder de resistencia a las toxinas que absorbió Jessica Drew, se ha quedado sin sentido. Un pequeño narcotraficante la explota para producir una droga llamada Hormona somatotrópica Mutante, y la utiliza para la prostitución. Con el fin de mantenerla prisionera, él regularmente la administra con drogas psicoactivas. La investigadora privada Jessica Jones, con la ayuda de Jessica Drew, rescata a Mattie y la devuelve a Jonah y Marla. Mattie recibe asesoramiento para superar su dependencia de las drogas con las que estaba sedada.</p>                              
                         </p>
                     </div>
-                <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/SpiderWomanJessica"><button className='buttonNavigation'><FaArrowLeft/> Spider Woman (Jessica)</button></a>

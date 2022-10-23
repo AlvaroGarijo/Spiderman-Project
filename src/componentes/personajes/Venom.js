@@ -84,7 +84,7 @@ return (
                         <p>Se muestra que el simbionte Venom forma alas gigantes de dragón en forma de red cuando estaba en contacto con Knull.</p>
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

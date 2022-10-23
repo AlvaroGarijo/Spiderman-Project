@@ -63,7 +63,7 @@ export const BlackCat = ({
                                     <p>La Gata Negra tiene un dispositivo de gancho de agarre en miniatura escondido en la "piel" de cada guante, diseñado por su padre Walter Hardy, que le permite columpiarse de los edificios de una manera similar a Spider-Man, aunque no tan rápido. También puede utilizar el cable de este dispositivo como cuerda floja, dispositivo de escala de pared, línea de oscilación o como arma en combate.</p>
                                 </div>
                             </div>
-                        <div className='buttonNavContainer'>
+                        <div className='buttonNavContainer d-block d-sm-none'>
                             <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                         </div>
                         <div className='navegationPerson'> 

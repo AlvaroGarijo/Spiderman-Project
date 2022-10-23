@@ -55,8 +55,8 @@ export const SpidermanSuperior = ({
                             <p>Poco después la prensa recibe a Spider-Man como un héroe y Jameson lo reconoce como tal, mientras el fantasma de Peter no puede creer lo que ve, Otto crea una mejora de sus Octobots llamándolos Spider-Bots para que vigilen la ciudad por él y le informen de crímenes.</p>                               
                         </p>
                     </div>
-                <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/MiguelOhara"><button className='buttonNavigation'><FaArrowLeft/> Miguel O`hara</button></a>

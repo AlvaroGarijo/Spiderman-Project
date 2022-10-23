@@ -57,7 +57,7 @@ return (
                     </div>
                 </div>
 
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
     

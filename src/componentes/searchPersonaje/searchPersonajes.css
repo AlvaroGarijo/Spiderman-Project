@@ -51,5 +51,48 @@
     border-radius: 4px;
     background-color: #fb0000a2;
     border: 1px solid black;
-    text-align: centerrgba(170, 170, 170, 0.443)
+    text-align: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .searchWrapp{
+        width: 750px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .titleText{
+        font-size: 15px;
+        margin:30px;
+        text-align: center;
+    }
+
+    .searchWrapp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+    }
+    .searchPersonWrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .searchPerson{
+        text-align: center;
+    
+    }
+
+    .form-control{
+        width: 250px;
+    }
+
+    .searchButton{
+        width: 250px;
+    }
+    .findPersonWrap{
+        text-align: center;
+    }
+    
 }

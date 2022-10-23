@@ -58,8 +58,8 @@ export const SpidergirlMayday = ({
                     </div>
                 
                 <div className='navegationPerson'> 
-                <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                     <a href="/personaje/SpiderwomanMattie"><button className='buttonNavigation'><FaArrowLeft/> Spider Woman (Mattie)</button></a>
                     <br/>

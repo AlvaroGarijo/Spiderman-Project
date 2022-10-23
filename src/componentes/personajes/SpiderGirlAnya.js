@@ -55,8 +55,8 @@ export const SpiderGirlAnya = ({
                             <p>En Televisón, Anya Corazon hace su debut animado en Spider-Man, con la voz de Melanie Minichino. Esta versión es un personaje central junto a Peter Parker, Miles Morales, Gwen Stacy (con quien es la mejor amiga) y Harry Osborn. Presentada en la primera temporada, se la representa como una de las mejores estudiantes de Horizon High antes de asumir el alias de Spider-Girl en la segunda temporada.</p>                               
                         </p>
                     </div>
-                    <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                    <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'>      
                     <a href="/personaje/Silk"><button className='buttonNavigation'><FaArrowLeft/> Silk</button></a>

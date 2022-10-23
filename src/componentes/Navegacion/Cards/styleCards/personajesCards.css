@@ -74,7 +74,7 @@ a.linkTo {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 200px;
+        height: 70%;
         padding-top:0 ;
     }
     .cardWrapper{

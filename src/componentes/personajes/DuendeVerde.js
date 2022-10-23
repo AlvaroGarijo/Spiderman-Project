@@ -58,7 +58,7 @@ export const DuendeVerde = ({
                             <p>Después de regresar de entre los muertos, Norman comienza a tratar de convencer al público de que nunca fue el Duende Verde, por lo que tiene un asociado llamado Doctor Angst. Ingeniero genético de un nuevo Duende Verde, uno de ellos servilmente dedicado a él, para ayudarlo en su caso. Norman usa al Duende como guardaespaldas, para atormentar a Spider-Man, y en trucos (como el secuestro de Normie Osborn por rescate) diseñado para atraer la simpatía pública. Después de que Norman se encuentra incapacitado por la Reunión de los Cinco, el Duende se queda solo y comienza a degenerar debido a que ya no tiene acceso a la fórmula requerida para mantenerlo estable. El Duende persigue a la esposa de Harry Osborn, Liz Allan, en un intento desesperado por encontrar una cura para su condición, pero Spider-Man lo expulsa. Durante un segundo intento de capturar a Liz, el Duende se desenmascara frente a Spider-Man (arrastrando los ojos en una variedad de rostros, el más prominente es Harry, después de hacerlo) y se funde en un montón de goo mientras reclama a Norman volvería</p>
                         </div>
                     </div>
-                    <div className='buttonNavContainer'>
+                    <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

@@ -64,7 +64,7 @@ return (
                         <p>En el videojuego: 'Marvel's Spider-Man', Sr. Negativo también posee la capacidad de proyectar potentes descargas eléctricas de energía negativa de sus manos.</p>
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

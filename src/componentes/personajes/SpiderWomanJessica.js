@@ -56,8 +56,8 @@ export const SpiderWomanJessica = ({
                             <p>No podía abandonar la sensación de libertad que le producía ser Spiderwoman, de modo que trató de evitar que el conocimiento de la existencia de la heroína se propagase. Finalmente, sin embargo, en asociación con el criminólogo Scott McDowell, se dio a conocer públicamente como cazadora de recompensas.</p>                               
                         </p>
                     </div>
-                <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/SpidermanSuperior"><button className='buttonNavigation'><FaArrowLeft/> Spiderman Superior</button></a>

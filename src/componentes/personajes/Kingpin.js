@@ -61,7 +61,7 @@ return (
                         <p>Habitualmente usa una armadura Kevlar debajo de la ropa. Fisk a veces lleva un bastón que oculta un arma de rayo láser capaz de disparar una ráfaga de fuerza suficiente para vaporizar un arma de fuego (o la cabeza de una persona) a corta distancia; se lo conoce como su "bastón obliterador". Usa típicamente un bastón exornado de diamantes que esconde una cámara de gas para dormir muy comprimido, eficaz si se pulveriza a corta distancia directamente en la cara de su víctima. Debido a su riqueza y a la industria intelectual, Kingpin podría utilizar parafernalia mucho más avanzada, pero prefiere dejarla como último recurso. Como Fisk se convirtió en el enemigo de Spider-Man menos de Daredevil, se convirtió en algo más parecido a un naturalista mafioso que un cerebro criminal de cómic, y dependía menos de la ciencia ficción como armamento. Durante la serie de 1994, dependía de sus armas de fuego, que por ciertos motivos fueron censuradas, mostrándolo erróneamente.</p>
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

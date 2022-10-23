@@ -54,7 +54,7 @@ return (
                         <p>Antes de su regeneración, Miles Warren es un genio en los campos de bioquímica, genética y clonación, y es un talentoso gimnasta y artista marcial. Más tarde, el Chacal unió sus genes con la genética de un chacal, con la fuerza, la velocidad y la agilidad amplificadas a niveles sobrehumanos. El Chacal no se ve afectado por la purga mental mundial de la identidad de Spider-Man.</p>
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

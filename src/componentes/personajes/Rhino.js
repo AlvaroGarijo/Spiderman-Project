@@ -56,7 +56,7 @@ return (
                         <p>El segundo Rhino lleva una armadura de alta tecnología y empuña un hacha de guerra con sus hojas en forma de cuerno de rinoceronte.</p> 
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

@@ -11,7 +11,7 @@ export const SpiderGwen = ({
     bornArea = 'Nueva York',
     cause = 'Mordida por la araña radiactiva',
     powers = 'Sexto sentido de peligro, fuerza sobrehumana, velocidad, agilidad, resistencia y durabilidad, factor de curación, sentido arácnido, piel adherente.',
-    first_apperance= ' aparición	Borde del Spider-Verse #2 (2014)',
+    first_apperance= ' Aparición al Borde del Spider-Verse #2 (2014)',
     adds = 'Siendo la hija del capitán de policía, George Stacy, que se representa como teniendo habilidades de detección y el pensamiento analítico. Ella es inexperta en la lucha y sólo aprendió en la lucha de las películas de kung fu. Ella también está representado como experta en la batería.',
     creators= 'Jason Latour y Robbi Rodríguez',
     alias = 'white Widow, Ghost Spider'
@@ -57,8 +57,8 @@ export const SpiderGwen = ({
                             <p>Las consecuencias de la historia tratan sobre los efectos de la pérdida de poder de Gwen y su necesidad de isótopos para recuperar su poder.</p>                               
                         </p>
                     </div>
-                    <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                    <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/MilesMorales"><button className='buttonNavigation'><FaArrowLeft/> Miles Morales</button></a>

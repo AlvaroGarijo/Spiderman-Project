@@ -92,15 +92,13 @@
 }
 
 .buttonNavContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 20px;
 }
 
 .buttonNavigationSpiders {
     height: 50px;
-    width: 350px;
+    width: 330px;
+    margin-left: 30px;
     background-color: #FFC700;
     border: 2px solid black;
     border-radius: 4px;
@@ -113,6 +111,7 @@
 }
 
 .buttonNavigation {
+
     margin: 10px;
     padding: 5px 15px;
     color: #FDCC06;
@@ -158,6 +157,10 @@
         padding:10px;
         font-size: 14px;
     }
+
+    .buttonNavigation{
+        width: 160px;
+    }
     .buttonNavigationSpiders{
         width: 250px;
         margin-left: 20px;
@@ -197,6 +200,7 @@
         height: 35px;
         font-size: 14px;
         margin-top: 10px;
+        margin-left: 0;
     }
     .buttonNavigation{
         width: 120px;

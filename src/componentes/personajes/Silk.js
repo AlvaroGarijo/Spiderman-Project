@@ -60,8 +60,8 @@ export const Silk = ({
                             <p>Cuando Spider-Man y Electro están siendo afectados por la fuerza electromagnética de la máquina, Silk los saca de su rango de alcance y luego se envuelve junto a ellos en un capullo hecho de telaraña que los protege de la enorme explosión. Luego del incidente, Cindy se reúne con Nataile Long y es contratada como reportera interna en Fact Channel, trabajo que Moon acepta para encontrar a su familia con los recursos informativos que posee el estudio.</p>
                         </p>
                     </div>
-                <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/ScarletSpider"><button className='buttonNavigation'><FaArrowLeft/> Scarlet Spider</button></a>

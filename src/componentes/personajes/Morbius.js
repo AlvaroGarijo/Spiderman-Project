@@ -57,7 +57,7 @@ return (
                         <p>Morbius posee un factor de curación acelerado y puede recuperarse de lesiones leves a moderadas a un ritmo superior al de los humanos comunes. Aunque no es tan eficiente como los poderes curativos que posee Lobezno, Morbius ha demostrado ser capaz de curarse de múltiples heridas de bala en menos de una hora. Las lesiones más graves, como fracturas de huesos o quemaduras graves, pueden tardar varios días en curarse, pero una vez se demostró que tardaba a penas unos minutos, a pesar de que lo dejó como una criatura casi sin sentido, que debe alimentarse para reponer la energía que requiere el proceso de sanación. No puede regenerar las extremidades u órganos perdidos.</p>
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

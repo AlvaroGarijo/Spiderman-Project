@@ -67,7 +67,7 @@ return (
                         <p>Debido a un defecto en la ceremonia que lo resucitó, Kraven recibió "la falta de vida... la maldición eterna", como descubrió cuando su hija lo apuñaló en el corazón. Según Kraven, ahora solo puede morir por mano de Spider-Man. Sin embargo, esta maldición aparentemente se rompió cuando Kaine mató temporalmente a Kraven al detener su corazón y luego reiniciarlo con el mismo movimiento.</p> 
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

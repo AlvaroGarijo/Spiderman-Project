@@ -55,8 +55,8 @@ export const SpidermanJ = ({
                             <p>El manga fue traducido al inglés en Spider-Man Family , comenzando en el número 1, volumen 2, tankōbon de tamaño inglés , llamados " Digests " por Marvel Comics. El primer volumen se llamó "Caballeros japoneses" y el segundo se llamó "Daze japonés".</p>                               
                         </p>
                     </div>
-                <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
 

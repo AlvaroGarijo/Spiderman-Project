@@ -53,8 +53,8 @@ export const SpiderHam = ({
                             <p>Spider-Ham aparece en la película animada Spider-Man: Into the Spider-Verse , con la voz de John Mulaney .</p>                             
                         </p>
                     </div>
-                    <div className='buttonNavContainer'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                    <div className='buttonNavContainer d-block d-sm-none'>
+                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                 </div>
                 <div className='navegationPerson'> 
                     <a href="/personaje/SpidergirlMayday"><button className='buttonNavigation'><FaArrowLeft/> Spider Girl (Mayday)</button></a>

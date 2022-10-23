@@ -56,7 +56,7 @@ return (
                         <p>Como el Hobgoblin, llevaba un correo a prueba de balas con una túnica, capa y capucha superpuestas. Un sistema computadorizado cibernéticamente provoca que los atacantes de dedos varíen aleatoriamente sus vectores de ataque cuando se entrenan en un objetivo en particular. Utiliza un Duende Planeador, un vehículo impulsado por un turbo ventilador en miniatura, con control cibernético. Puede alcanzar altas velocidades y es extremadamente maniobrable. Utiliza Jack O'Lanterns, que son contusiones e incendiarias, bombas de humo y humo con forma de espectro, cuchillas para lanzar cuchillas con forma de murciélago, y guantes tejidos con filamentos conductores de energía microcircuitados que canalizan descargas de electricidad por impulsos. Llevaba una bandolera para llevar su armamento pequeño y portátil.</p> 
                     </div>
                 </div>
-                <div className='buttonNavContainer'>
+                <div className='buttonNavContainer d-block d-sm-none'>
                     <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
                 </div>
                 <div className='navegationPerson'> 

@@ -58,11 +58,14 @@ export const MilesMorales = ({
                                     <p>Morales ha sustituido a Parker como Spider-Man solo en Ultimate Marvel, un universo paralelo que re-imagina a los personajes del universo Marvel principal, Peter Parker sigue vivo y todavía es Spider-Man en el "universo 616". En 2012, Morales apareció en la miniserie Spider-Men, en la que se encontró con el Spider-Man de la Universo Original.</p>                               
                                 </p>
                             </div>
-                            <div className='buttonNavContainer'>
-                                <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                            <div className='buttonNavContainer d-block d-sm-none'>
+                                <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
                             </div>
                         <div className='navegationPerson'> 
-                            <a href="/personaje/spiderPunk"><button className='buttonNavigation'><FaArrowLeft/> Spider Punk</button></a>
+                            <a href="/personaje/spiderPunk">
+                                <button className='buttonNavigation'>
+                                    <FaArrowLeft/> Spider Punk
+                                    </button></a>
                             <br/>
                             <a href="/personaje/spiderGwen"><button className='buttonNavigation'>Spider Gwen <FaArrowRight/></button></a>
                         </div>
