@@ -46,15 +46,17 @@
     border: 1px solid #F7BB44;
     border-radius: 3px;
     color: #FFC700;
+    line-height: 30px;
 }
 
 .navbarButton:hover {
-    color: #FFC700;
+    color: #000000;
     background-color: #FFC700;
 }
 
-.nav-link {
+a .nav-link {
     color: #FFC700;
+    text-decoration: none;
 }
 
 .nav-link:focus,
@@ -62,10 +64,23 @@
 .nav-link:hover {
     color: #000000;
 }
+.textDecor{
+    text-decoration: none;
+}
 
+.navbarButtonSearch{
+    color: #000000;
+}
 .navPersonaje {
     background-color: #FFC700;
-    color: #080808;
+    color: #080808 !important;
+}
+
+.navPersonaje:focus,
+.navPersonaje:focus-visible,
+.navPersonaje:hover{
+    color: #FFC700 !important;
+    background-color: #080808 !important;
 }
 
 
@@ -144,7 +159,7 @@
         position: absolute;
     }
 
-    a.nav-link {
+    button.nav-link {
         font-size: 16px;
     }
 

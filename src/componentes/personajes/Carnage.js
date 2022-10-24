@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const Carnage = ({
     id = 'Carnage',
@@ -35,7 +36,7 @@ return (
                 </ul>
             </div>
             <div className='buttonNavContainer d-none d-sm-block'>
-                <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <Link to="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></Link>
             </div>
 
         </div>
@@ -70,12 +71,12 @@ return (
                     </div>
                 </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                    <Link to="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></Link>
                 </div>
                 <div className='navegationPerson'> 
-                    <a href="/personaje/Venom"><button className='buttonNavigation'><FaArrowLeft/> Venom</button></a>
+                <Link to="/personaje/Venom"><button className='buttonNavigation'><FaArrowLeft/> Venom</button></Link>
                     <br/>
-                    <a href="/personaje/Mysterio"><button className='buttonNavigation'>Mysterio <FaArrowRight/></button></a>
+                <Link to="/personaje/Mysterio"><button className='buttonNavigation'>Mysterio <FaArrowRight/> </button></Link>
                 </div>
             </div>
         </div>

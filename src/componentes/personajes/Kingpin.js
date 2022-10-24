@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const Kingpin = ({
     id = 'Kingpin',
@@ -35,7 +36,7 @@ return (
                 </ul>
             </div>
             <div className='buttonNavContainer d-none d-sm-block'>
-                <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                <Link to="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></Link>
             </div>
 
         </div>
@@ -62,12 +63,12 @@ return (
                     </div>
                 </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                    <Link to="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></Link>
                 </div>
                 <div className='navegationPerson'> 
-                    <a href="/personaje/HobGoblin"><button className='buttonNavigation'><FaArrowLeft/> Hobgoblin</button></a>
-                    <br/>
-                    <a href="/personaje/Kraven"><button className='buttonNavigation'>Kraven <FaArrowRight/></button></a>
+                    <Link to="/personaje/HobGoblin"><button className='buttonNavigation'><FaArrowLeft/> HobGoblin</button></Link>
+                        <br/>
+                    <Link to="/personaje/Kraven"><button className='buttonNavigation'>Kraven <FaArrowRight/> </button></Link>
                 </div>
             </div>
         </div>

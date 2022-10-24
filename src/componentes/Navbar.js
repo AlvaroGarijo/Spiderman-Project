@@ -1,6 +1,6 @@
-import React from 'react'
 import './styles/Navbar.css'
 import navbarLogo from '../imagenes/navbarLogo.png'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
 
@@ -9,20 +9,21 @@ export const Navbar = () => {
       <>
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a href='/'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>
+              <Link to="/" ><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></Link> 
+              {/* <a href='/'><img className='logoNavbar' src={ navbarLogo } alt='LogoSpiderman' /></a>  */}
               <div className="collapse navbar-collapse" id="navbarToggleExternalContent">
                   <ul className="navbar-nav">
                     <li className="nav-item navbarButton">
-                      <a className="nav-link active" aria-current="page" href="/spiderman">Spider-Man</a>
+                      <Link className='textDecor' to="/spiderman" ><span className='nav-link'>Spider-Man</span></Link>
                     </li>
                     <li className="nav-item navbarButton">
-                      <a className="nav-link" href="/comics">Cómics</a>
+                    <Link className='textDecor' to="/comics"><span className='nav-link'>Cómics</span></Link>
                     </li>
                     <li className="nav-item navbarButton">
-                      <a className="nav-link" href="/villanos">Villanos</a>
+                    <Link className='textDecor' to="/villanos"><span className='nav-link'>Villanos</span></Link>
                     </li>
                     <li className="nav-item navbarButton">
-                      <a className="nav-link" href="/spiders">Spiders</a>
+                    <Link className='textDecor' to="/spiders"><span className='nav-link'>Spiders</span></Link>
                     </li>
                     {/* <li className="nav-item dropdown navbarButton">
                       <a className="nav-link dropdown-toggle"  id="dropdownMenuButton" href="/villanos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -89,14 +90,14 @@ export const Navbar = () => {
                           </ul> 
                       </li>*/}
                       <li className="nav-item navbarButton navbarButtonSearch">
-                        <a className="nav-link navPersonaje" href="/buscarPersonaje">Buscar Personajes</a>
+                      <Link className='textDecor' to="/buscarPersonaje"><span className='nav-link navPersonaje'>Buscar Personajes</span></Link>
                       </li>
                   </ul>
                 </div>
-                  <div class="navbar-dark">
-                    <div class="container-fluid">
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                  <div className="navbar-dark">
+                    <div className="container-fluid">
+                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                       </button>
                     </div>
                   </div>

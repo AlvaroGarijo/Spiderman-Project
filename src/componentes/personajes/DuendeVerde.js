@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const DuendeVerde = ({
         id = 'DuendeVerde',
@@ -35,7 +36,7 @@ export const DuendeVerde = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                   <Link to="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></Link>
                 </div>
 
             </div>
@@ -59,11 +60,12 @@ export const DuendeVerde = ({
                         </div>
                     </div>
                     <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></a>
+                   <Link to="/villanos"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Villanos</button></Link>
                 </div>
                 <div className='navegationPerson'> 
-                    <a href="/personaje/Morlun"><button className='buttonNavigation'><FaArrowLeft/> Morlun</button></a>
-                    <a href="/personaje/Electro"><button className='buttonNavigation'>Electro <FaArrowRight/></button></a>
+                    <Link to="/personaje/Morlun"><button className='buttonNavigation'><FaArrowLeft/> Morlun</button></Link>
+                        <br/>
+                    <Link to="/personaje/Electro"><button className='buttonNavigation'>Electro <FaArrowRight/> </button></Link>
                 </div>
             </div> 
             </div>
