@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const SpiderWomanMattie = ({
     id = 'SpiderWomanMattie',
@@ -35,7 +36,7 @@ export const SpiderWomanMattie = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                    <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 
             </div>
@@ -54,12 +55,13 @@ export const SpiderWomanMattie = ({
                         </p>
                     </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                    <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 <div className='navegationPerson'> 
-                    <a href="/personaje/SpiderWomanJessica"><button className='buttonNavigation'><FaArrowLeft/> Spider Woman (Jessica)</button></a>
-                    <br/>
-                    <a href="/personaje/SpidergirlMayday"><button className='buttonNavigation'>Spider Girl (Mayday) <FaArrowRight/></button></a>
+                    <Link to="/personaje/SpiderWomanJessica"><button className='buttonNavigation'><FaArrowLeft/> Spider Woman (Jessica)</button></Link>
+                            <br/>
+                    <Link to="/personaje/SpiderGirlMayday"><button className='buttonNavigation'>Spider Girl (Mayday) <FaArrowRight/></button></Link> 
+
                 </div>
         </div>
         </div>

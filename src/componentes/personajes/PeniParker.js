@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const PeniParker = ({
     id = 'peniParker',
@@ -35,7 +36,7 @@ export const PeniParker = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 
             </div>
@@ -55,12 +56,12 @@ export const PeniParker = ({
                         </p>
                     </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
-                <div className='navegationPerson'> 
-                    <a href="/personaje/spiderUK"><button className='buttonNavigation'><FaArrowLeft/> Spider UK</button></a>
-                    <br/>
-                    <a href="/personaje/spiderPunk"><button className='buttonNavigation'>Spider Punk <FaArrowRight/></button></a>
+                <div className='navegationPerson'>
+                    <Link to="/personaje/spiderUK"><button className='buttonNavigation'><FaArrowLeft/>  Spiderman UK</button></Link>
+                            <br/>
+                    <Link to="/personaje/spiderPunk"><button className='buttonNavigation'>Spider Punk <FaArrowRight/></button></Link>  
                 </div>
         </div>
         </div>

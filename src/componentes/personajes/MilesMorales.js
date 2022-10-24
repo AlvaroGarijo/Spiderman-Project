@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 export const MilesMorales = ({
@@ -38,7 +39,7 @@ export const MilesMorales = ({
                             </ul>
                         </div>
                         <div className='buttonNavContainer d-none d-sm-block'>
-                            <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                            <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                         </div>
                         
                     </div>
@@ -59,15 +60,12 @@ export const MilesMorales = ({
                                 </p>
                             </div>
                             <div className='buttonNavContainer d-block d-sm-none'>
-                                <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                                <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                             </div>
                         <div className='navegationPerson'> 
-                            <a href="/personaje/spiderPunk">
-                                <button className='buttonNavigation'>
-                                    <FaArrowLeft/> Spider Punk
-                                    </button></a>
+                            <Link to="/personaje/spiderPunk"><button className='buttonNavigation'><FaArrowLeft/> Spider Punk</button></Link>
                             <br/>
-                            <a href="/personaje/spiderGwen"><button className='buttonNavigation'>Spider Gwen <FaArrowRight/></button></a>
+                            <Link to="/personaje/spiderGwen"><button className='buttonNavigation'>Spider Gwen <FaArrowRight/></button></Link>
                         </div>
                    </div>
                    </div>

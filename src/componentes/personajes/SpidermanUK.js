@@ -3,9 +3,10 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const SpidermanUK = ({
-    id = 'spiderUK.',
+    id = 'spiderUK',
     realName = 'William "Billy" Braddock.',
     personaje = 'Spider-UK',
     bornArea = 'Tierra-833.',
@@ -35,7 +36,7 @@ export const SpidermanUK = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 
             </div>
@@ -52,16 +53,16 @@ export const SpidermanUK = ({
                             <p>Cuando Morlun y su padre Solus atacan la Tierra-13, Spider-UK llama a Spider-Man y le dice que la Zona Segura está perdida. Kwaku Anansi de Earth-7082 es un tótem araña que es reclutado por Spider-UK. Antes de poder unirse, Anansi necesita engañar a un semidiós Mister Mighty después de robarle sus ovejas y luego escapar de Shungo, el Dios de la Tormenta. En Earth-TRN521, Spider-UK recluta al Spider-Man mexicano llamado Arácnido.</p>
                             <p>Spider-UK se convirtió en el único sobreviviente de la Tierra-833 después de que la realidad de su hogar fuera destruida durante la historia de Time Runs Out y eligió permanecer en la realidad de los herederos derrotados junto con Anya Corazon.</p>
                             <p>Eventualmente se unieron a Spider-Woman of Earth-65, Spider-Ham, Spider-Man Noir y Spider-Man of India sin que ninguno de ellos recordara su encuentro anterior durante el Spider-Verse original.</p>
-                            <p>Después de que Gwen Stacy se reúna con los otros héroes basados ​​en arañas después de su visita a Oscorp , son interrumpidos por la llegada de Sinister Six (que consiste en Doctor Octopus , Electro ,Kraven the Hunter , Sandman , Scorpion y Vulture ). Los Seis Siniestros derrotan a los Spider-Men y se los llevan al alcalde Norman Osborn , quien dice que quiere ayudarlos. Esto hace que Spider-UK y los otros Spider-Men permanezcan alrededor de Oscorp por un tiempo. Spider-UK y los otros Spider-Men se unen a Spider-Woman of Earth-65 y Arachnia's Spider-Man para derrotar a Norman Osborn y los Sinister Six.</p>                               
+                            <p>Después de que Gwen Stacy se reúna con los otros héroes basados en arañas después de su visita a Oscorp , son interrumpidos por la llegada de Sinister Six (que consiste en Doctor Octopus , Electro ,Kraven the Hunter , Sandman , Scorpion y Vulture ). Los Seis Siniestros derrotan a los Spider-Men y se los llevan al alcalde Norman Osborn , quien dice que quiere ayudarlos. Esto hace que Spider-UK y los otros Spider-Men permanezcan alrededor de Oscorp por un tiempo. Spider-UK y los otros Spider-Men se unen a Spider-Woman of Earth-65 y Arachnia's Spider-Man para derrotar a Norman Osborn y los Sinister Six.</p>                               
                         </p>
                     </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 <div className='navegationPerson'> 
-                    <a href="/personaje/spidermanNoir"><button className='buttonNavigation'><FaArrowLeft/> Spiderman Noir</button></a>
-                    <br/>
-                    <a href="/personaje/peniParker"><button className='buttonNavigation'>Peni Parker <FaArrowRight/></button></a>
+                    <Link to="/personaje/spidermanNoir"><button className='buttonNavigation'><FaArrowLeft/>  Spiderman Noir</button></Link>
+                            <br/>
+                    <Link to="/personaje/peniParker"><button className='buttonNavigation'>Peni Parker <FaArrowRight/></button></Link> 
                 </div>
         </div>
         </div>

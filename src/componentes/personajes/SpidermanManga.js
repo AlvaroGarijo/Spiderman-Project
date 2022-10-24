@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const SpidermanManga = ({
     id = 'spidermanManga',
@@ -35,7 +36,7 @@ export const SpidermanManga = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 
             </div>
@@ -56,12 +57,12 @@ export const SpidermanManga = ({
                         </p>
                     </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/Spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
-                <div className='navegationPerson'> 
-                    <a href="/personaje/spidermanPavitr"><button className='buttonNavigation'><FaArrowLeft/> Spiderman (Pavitr)</button></a>
-                    <br/>
-                    <a href="/personaje/spidermanJ"><button className='buttonNavigation'>Spiderman J <FaArrowRight/></button></a>
+                <div className='navegationPerson'>
+                    <Link to="/personaje/spidermanPavitr"><button className='buttonNavigation'><FaArrowLeft/>  Spiderman (Pavitr)</button></Link>
+                            <br/>
+                    <Link to="/personaje/spidermanJ"><button className='buttonNavigation'>Spiderman J <FaArrowRight/></button></Link>  
                 </div>
         </div>
         </div>

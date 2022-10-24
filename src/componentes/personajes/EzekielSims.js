@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const EzekielSims = ({
     id = 'Ezekiel_Sims',
@@ -35,7 +36,7 @@ export const EzekielSims = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 
             </div>
@@ -59,12 +60,12 @@ export const EzekielSims = ({
                         </p>
                     </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                   </div>  
-                <div className='navegationPerson'> 
-                    <a href="/personaje/spiderGwen"><button className='buttonNavigation'><FaArrowLeft/> Spider Gwen</button></a>
-                    <br/>
-                    <a href="/personaje/MadameWeb"><button className='buttonNavigation'>Madame Web<FaArrowRight/></button></a>
+                <div className='navegationPerson'>
+                        <Link to="/personaje/spiderGwen"><button className='buttonNavigation'><FaArrowLeft/>  Spider Gwen</button></Link>
+                            <br/>
+                        <Link to="/personaje/MadameWeb"><button className='buttonNavigation'>Madame Web <FaArrowRight/></button></Link> 
                 </div>
         </div>
         </div>

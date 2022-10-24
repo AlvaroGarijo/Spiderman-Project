@@ -3,6 +3,7 @@ import '../personajes/personajesStyle/personajes.css';
 import { GiSpiderWeb } from 'react-icons/gi';
 import { FaArrowLeft } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const MiguelOhara = ({
     id = 'MiguelOhara',
@@ -35,7 +36,7 @@ export const MiguelOhara = ({
                     </ul>
                 </div>
                 <div className='buttonNavContainer d-none d-sm-block'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 
             </div>
@@ -58,12 +59,12 @@ export const MiguelOhara = ({
                         </p>
                     </div>
                 <div className='buttonNavContainer d-block d-sm-none'>
-                    <a href="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></a>
+                   <Link to="/spiders"><button className='buttonNavigationSpiders'> <GiSpiderWeb/> Ir a Spiders</button></Link>
                 </div>
                 <div className='navegationPerson'> 
-                    <a href="/personaje/SpiderGirl"><button className='buttonNavigation'><FaArrowLeft/> Spider Girl</button></a>
-                    <br/>
-                    <a href="/personaje/SpidermanSuperior"><button className='buttonNavigation'>Spiderman Superior <FaArrowRight/></button></a>
+                    <Link to="/personaje/SpiderGirl"><button className='buttonNavigation'><FaArrowLeft/>  Spider Girl</button></Link>
+                            <br/>
+                    <Link to="/personaje/SpidermanSuperior"><button className='buttonNavigation'>Spiderman Superior <FaArrowRight/></button></Link>
                 </div>
         </div>
         </div>
